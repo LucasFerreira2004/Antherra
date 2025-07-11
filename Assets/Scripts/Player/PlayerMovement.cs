@@ -33,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
     void OnMove(InputValue input)
     {
         movementInputValue = input.Get<Vector2>();
+        movementInputValue.Normalize();
     }
 
     //getters and setters
