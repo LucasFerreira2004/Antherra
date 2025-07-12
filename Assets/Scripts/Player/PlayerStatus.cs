@@ -6,9 +6,9 @@ public class PlayerStatus : MonoBehaviour
     [SerializeField] private int maxHealth;
     [SerializeField] private int currentHealth;
     [SerializeField] private float bulletDamage;
-    [SerializeField] private float bulletFireRate;
-    [SerializeField] private float bulletSpeed;
-
+    [SerializeField] private float bulletFireRate = 2;
+    [SerializeField] private float bulletSpeed = 10;
+    [SerializeField] private float bulletRange = 1;
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
@@ -48,7 +48,7 @@ public class PlayerStatus : MonoBehaviour
         set => currentHealth = Mathf.Clamp(value, 0, MaxHealth);
     }
 
-    public float Damage
+    public float BulletDamage
     {
         get => bulletDamage;
         set => bulletDamage = Mathf.Max(0, value);
@@ -59,10 +59,15 @@ public class PlayerStatus : MonoBehaviour
         get => bulletFireRate;
         set => bulletFireRate = Mathf.Max(0.1f, value); // mínimo sensato para evitar divisão por 0
     }
-    
+
     public float BulletSpeed
     {
         get => bulletSpeed;
         set => bulletSpeed = Mathf.Max(0.1f, value);
+    }
+    public float BulletRange
+    {
+        get => bulletRange;
+        set => bulletRange = Mathf.Max(0.1f, value);
     }
 }
