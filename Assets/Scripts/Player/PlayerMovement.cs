@@ -39,8 +39,6 @@ public class PlayerMovement : MonoBehaviour
     {
         movementInputValue = input.Get<Vector2>();
         movementInputValue.Normalize();
-
-        Debug.Log("Input recebido: " + movementInputValue);
     }
 
     private void Animate()
