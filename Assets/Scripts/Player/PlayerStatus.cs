@@ -15,16 +15,7 @@ public class PlayerStatus : MonoBehaviour
     [SerializeField] private float bulletFireRate = 2;
     [SerializeField] private float bulletSpeed = 10;
     [SerializeField] private float bulletRange = 1;
-    public void Start()
-    {
-        speed = 8;
-        maxHealth = 8;
-        currentHealth = 8;
-        bulletDamage = 2;
-        bulletFireRate = 2;
-        bulletSpeed = 10;
-        bulletRange = 1;
-    }
+
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
