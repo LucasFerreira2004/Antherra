@@ -1,17 +1,25 @@
+using System;
 using UnityEngine;
 
 public class PlayerStatus : MonoBehaviour
 {
+    public static event Action OnPlayerDamaged;
+    public static event Action OnPlayerDeath;
+    public static event Action OnPlayerHealed;
+    public static event Action OnPlayerHealthIncresed;
+
     [SerializeField] private float speed = 8;
-    [SerializeField] private int maxHealth;
-    [SerializeField] private int currentHealth;
-    [SerializeField] private float bulletDamage;
-    [SerializeField] private float bulletFireRate;
-    [SerializeField] private float bulletSpeed;
+    [SerializeField] private int maxHealth = 8;
+    [SerializeField] private int currentHealth = 8;
+    [SerializeField] private float bulletDamage = 2;
+    [SerializeField] private float bulletFireRate = 2;
+    [SerializeField] private float bulletSpeed = 10;
+    [SerializeField] private float bulletRange = 1;
 
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
+        OnPlayerDamaged?.Invoke();
         if (currentHealth <= 0)
         {
             Die();
@@ -20,7 +28,11 @@ public class PlayerStatus : MonoBehaviour
 
     public void Heal(int amount)
     {
-        currentHealth += amount;
+        int totalHealthAfterHeal = currentHealth + amount;
+        if (totalHealthAfterHeal > maxHealth)
+            currentHealth = maxHealth;
+        else
+            currentHealth += amount;
     }
 
     private void Die()
@@ -48,7 +60,7 @@ public class PlayerStatus : MonoBehaviour
         set => currentHealth = Mathf.Clamp(value, 0, MaxHealth);
     }
 
-    public float Damage
+    public float BulletDamage
     {
         get => bulletDamage;
         set => bulletDamage = Mathf.Max(0, value);
@@ -59,10 +71,15 @@ public class PlayerStatus : MonoBehaviour
         get => bulletFireRate;
         set => bulletFireRate = Mathf.Max(0.1f, value); // mínimo sensato para evitar divisão por 0
     }
-    
+
     public float BulletSpeed
     {
         get => bulletSpeed;
         set => bulletSpeed = Mathf.Max(0.1f, value);
+    }
+    public float BulletRange
+    {
+        get => bulletRange;
+        set => bulletRange = Mathf.Max(0.1f, value);
     }
 }

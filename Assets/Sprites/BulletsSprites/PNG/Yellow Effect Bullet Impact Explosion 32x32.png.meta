@@ -5269,10 +5269,10 @@ TextureImporter:
       name: Yellow Effect Bullet simple
       rect:
         serializedVersion: 2
-        x: 522
-        y: 42
-        width: 12
-        height: 12
+        x: 523
+        y: 43
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5547,6 +5547,28 @@ TextureImporter:
       bones: []
       spriteID: a03645e37b02bc8a0800000000000000
       internalID: -6283892883668573430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yellow Effect Bullet simple explosion
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 39
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9531d89a12e7df18c5b22fe99b7891
+      internalID: -591577270159198793
       vertices: []
       indices: 
       edges: []
@@ -5858,7 +5880,6 @@ TextureImporter:
       Yellow Effect Bullet Impact Explosion 32x32_37: 8396629977404701405
       Yellow Effect Bullet Impact Explosion 32x32_38: 985306711269420569
       Yellow Effect Bullet Impact Explosion 32x32_39: -4326567210656065864
-      Yellow Effect Bullet Impact Explosion 32x32_4: -591577270159198793
       Yellow Effect Bullet Impact Explosion 32x32_40: 6369964371803779431
       Yellow Effect Bullet Impact Explosion 32x32_41: 3698378470078596825
       Yellow Effect Bullet Impact Explosion 32x32_42: -1169321853292522418
@@ -5925,6 +5946,7 @@ TextureImporter:
       Yellow Effect Bullet Impact Explosion 32x32_98: 5175735819806238386
       Yellow Effect Bullet Impact Explosion 32x32_99: -1788212203419322161
       Yellow Effect Bullet simple: -3481547837662992296
+      Yellow Effect Bullet simple explosion: -591577270159198793
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
