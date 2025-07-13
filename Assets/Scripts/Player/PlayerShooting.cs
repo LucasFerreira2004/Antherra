@@ -54,5 +54,6 @@ public class PlayerShooting : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.linearVelocity = shootDirection * status.BulletSpeed;
+        bullet.GetComponent<BulletScript>().Init(status.BulletRange, status.BulletDamage);
     }
 }
