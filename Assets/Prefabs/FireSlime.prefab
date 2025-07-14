@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 6170825469626380221}
   - component: {fileID: 2284527037097665236}
   - component: {fileID: -5633286517877112914}
-  - component: {fileID: 2399778447702563405}
-  - component: {fileID: 2727415174245271866}
+  - component: {fileID: -2421930926640035410}
+  - component: {fileID: -8208204845330872321}
   m_Layer: 0
-  m_Name: WaterSlime
+  m_Name: FireSlime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7294240746080377788, guid: 53aa2c70b6e286400943abc0b53b4257, type: 3}
+  m_Sprite: {fileID: 3726720421939613768, guid: 57363e38629921b2eb8ae789dec01c5b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,7 +100,7 @@ Animator:
   m_GameObject: {fileID: 4178150116624015751}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0c8761c98bc689cb6a05748d19eb21ea, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9e93ec06bdb8e407281664021cf5f71f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -112,22 +112,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2399778447702563405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4178150116624015751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f214c312735053093ba235cdffdb08c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  moveDirection: {x: 1, y: 0}
-  switchDirectionTime: 2
---- !u!114 &2727415174245271866
+--- !u!114 &-2421930926640035410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,3 +127,18 @@ MonoBehaviour:
   attackCooldown: 3
   stopBeforeAttack: 0.3
   delayAfterAttack: 0.5
+--- !u!114 &-8208204845330872321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4178150116624015751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f214c312735053093ba235cdffdb08c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  moveDirection: {x: 1, y: 0}
+  switchDirectionTime: 2

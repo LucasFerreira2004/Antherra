@@ -9,14 +9,17 @@ public class SlimeMovement : MonoBehaviour
     private Animator animator;
     private float timer;
     private bool canMove = true;
+    private Vector2 lastDirection = Vector2.right;
 
-    private Vector2 lastDirection = Vector2.right; // nova variável
+    private SlimeAttack slimeAttack;
+    private bool isChangingDirection = false;
 
     public void SetCanMove(bool value) => canMove = value;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        slimeAttack = GetComponent<SlimeAttack>();
     }
 
     void Update()
@@ -30,7 +33,6 @@ public class SlimeMovement : MonoBehaviour
 
         transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
 
-        // Atualiza a última direção válida
         if (moveDirection != Vector2.zero)
         {
             lastDirection = moveDirection;
@@ -40,10 +42,25 @@ public class SlimeMovement : MonoBehaviour
         animator.SetFloat("MoveY", moveDirection.y);
 
         timer += Time.deltaTime;
-        if (timer >= switchDirectionTime)
+
+        if (!isChangingDirection && timer >= switchDirectionTime)
         {
-            moveDirection *= -1;
             timer = 0f;
+            StartCoroutine(ChangeDirectionWithAttack());
         }
+    }
+
+    private System.Collections.IEnumerator ChangeDirectionWithAttack()
+    {
+        isChangingDirection = true;
+        SetCanMove(false);
+
+        if (slimeAttack != null)
+            yield return slimeAttack.AttackSequence(); // Aguarda o ataque terminar
+
+        moveDirection *= -1;
+
+        SetCanMove(true);
+        isChangingDirection = false;
     }
 }

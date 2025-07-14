@@ -19,29 +19,26 @@ public class SlimeAttack : MonoBehaviour
 
     void Update()
     {
-        if (isAttacking) return;
+        // if (isAttacking) return;
 
-        timer += Time.deltaTime;
+        // timer += Time.deltaTime;
 
-        if (timer >= attackCooldown)
-        {
-            StartCoroutine(AttackSequence());
-            timer = 0f;
-        }
+        // if (timer >= attackCooldown)
+        // {
+        //     StartCoroutine(AttackSequence());
+        //     timer = 0f;
+        // }
     }
 
-    private System.Collections.IEnumerator AttackSequence()
+    public System.Collections.IEnumerator AttackSequence()
     {
         isAttacking = true;
 
-        // Para antes de atacar
         movement?.SetCanMove(false);
         yield return new WaitForSeconds(stopBeforeAttack);
 
-        // Toca animação de ataque
         animator?.SetTrigger("Attack");
 
-        // Espera o delay após o ataque antes de voltar a andar
         yield return new WaitForSeconds(delayAfterAttack);
 
         movement?.SetCanMove(true);
