@@ -8,19 +8,13 @@ public class PlayerStatus : MonoBehaviour
     public static event Action OnPlayerHealed;
     public static event Action OnPlayerHealthIncresed;
 
-    [SerializeField] private float speed = 8;
-    [SerializeField] private int maxHealth = 8;
-    [SerializeField] private int currentHealth = 8;
-    [SerializeField] private float bulletDamage = 2;
-    [SerializeField] private float bulletFireRate = 2;
-    [SerializeField] private float bulletSpeed = 10;
-    [SerializeField] private float bulletRange = 1;
+    [SerializeField] private BaseStatusStrategy baseStatusStrategy;
 
     public void TakeDamage(int amount)
     {
-        currentHealth -= amount;
+        baseStatusStrategy.CurrentHealth -= amount;
         OnPlayerDamaged?.Invoke();
-        if (currentHealth <= 0)
+        if (baseStatusStrategy.CurrentHealth <= 0)
         {
             Die();
         }
@@ -28,58 +22,61 @@ public class PlayerStatus : MonoBehaviour
 
     public void Heal(int amount)
     {
-        int totalHealthAfterHeal = currentHealth + amount;
-        if (totalHealthAfterHeal > maxHealth)
-            currentHealth = maxHealth;
+        int totalHealthAfterHeal = baseStatusStrategy.CurrentHealth + amount;
+        if (totalHealthAfterHeal > baseStatusStrategy.MaxHealth)
+            baseStatusStrategy.CurrentHealth = baseStatusStrategy.MaxHealth;
         else
-            currentHealth += amount;
+            baseStatusStrategy.CurrentHealth += amount;
+
+        OnPlayerHealed?.Invoke();
     }
 
     private void Die()
     {
         Debug.Log("O jogador morreu.");
-        // eventos, animações, etc.
+        OnPlayerDeath?.Invoke();
     }
 
-    //getters e setters
+    // Getters e setters delegando ao baseStatusStrategy
     public float Speed
     {
-        get => speed;
-        set => speed = Mathf.Max(0, value); // nunca negativo
+        get => baseStatusStrategy.Speed;
+        set => baseStatusStrategy.Speed = Mathf.Max(0, value);
     }
 
     public int MaxHealth
     {
-        get => maxHealth;
-        set => maxHealth = Mathf.Max(1, value); // mínimo 1
+        get => baseStatusStrategy.MaxHealth;
+        set => baseStatusStrategy.MaxHealth = Mathf.Max(1, value);
     }
 
     public int CurrentHealth
     {
-        get => currentHealth;
-        set => currentHealth = Mathf.Clamp(value, 0, MaxHealth);
+        get => baseStatusStrategy.CurrentHealth;
+        set => baseStatusStrategy.CurrentHealth = Mathf.Clamp(value, 0, MaxHealth);
     }
 
     public float BulletDamage
     {
-        get => bulletDamage;
-        set => bulletDamage = Mathf.Max(0, value);
+        get => baseStatusStrategy.BulletDamage;
+        set => baseStatusStrategy.BulletDamage = Mathf.Max(0, value);
     }
 
     public float FireRate
     {
-        get => bulletFireRate;
-        set => bulletFireRate = Mathf.Max(0.1f, value); // mínimo sensato para evitar divisão por 0
+        get => baseStatusStrategy.BulletFireRate;
+        set => baseStatusStrategy.BulletFireRate = Mathf.Max(0.1f, value);
     }
 
     public float BulletSpeed
     {
-        get => bulletSpeed;
-        set => bulletSpeed = Mathf.Max(0.1f, value);
+        get => baseStatusStrategy.BulletSpeed;
+        set => baseStatusStrategy.BulletSpeed = Mathf.Max(0.1f, value);
     }
+
     public float BulletRange
     {
-        get => bulletRange;
-        set => bulletRange = Mathf.Max(0.1f, value);
+        get => baseStatusStrategy.BulletRange;
+        set => baseStatusStrategy.BulletRange = Mathf.Max(0.1f, value);
     }
 }
