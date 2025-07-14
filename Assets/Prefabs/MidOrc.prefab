@@ -131,8 +131,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 216d3f5dd9460754e8d7d2285ccc9e91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
-  detectionRadius: 5
+  moveSpeed: 2
+  detectionRadius: 4
   smoothTime: 0.1
 --- !u!95 &1152523973546934821
 Animator:
@@ -214,4 +214,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfa228d72526e0d8f853238e09a23863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 1

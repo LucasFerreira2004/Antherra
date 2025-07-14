@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class OrcAttack : MonoBehaviour
 {
-    public float damage = 5f;
+    public float damage = 1f;
 
     private Animator animator;
     private OrcMovement movement;
@@ -25,7 +25,11 @@ public class OrcAttack : MonoBehaviour
 
         animator?.SetTrigger("Attack");
 
-        // Aqui você pode aplicar o dano ao player se quiser
+        PlayerStatus playerStatus = collision.GetComponent<PlayerStatus>();
+        if (playerStatus != null)
+        {
+            playerStatus.TakeDamage(Mathf.RoundToInt(damage));
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
