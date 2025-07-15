@@ -197,6 +197,18 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 346729848}
+    - target: {fileID: 3574960180409436230, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3574960180409436230, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3574960180409436230, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6219646412613573617, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
       propertyPath: m_Name
       value: PlayerPrefab

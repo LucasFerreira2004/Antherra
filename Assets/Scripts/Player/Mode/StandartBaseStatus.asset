@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: StandartBaseStatus
   m_EditorClassIdentifier: 
   speed: 8
-  maxHealth: 6
-  currentHealth: 5
   bulletDamage: 2
   bulletFireRate: 3
   bulletSpeed: 10
   bulletRange: 5
+  characterSpriteColor: {r: 0.95686275, g: 0.6666667, b: 0.21960784, a: 1}

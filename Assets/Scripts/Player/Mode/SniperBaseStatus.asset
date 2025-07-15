@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: SniperBaseStatus
   m_EditorClassIdentifier: 
   speed: 8
-  maxHealth: 6
-  currentHealth: 6
   bulletDamage: 2
   bulletFireRate: 1
   bulletSpeed: 20
   bulletRange: 12
+  characterSpriteColor: {r: 0, g: 0.41859254, b: 0.56557393, a: 1}
