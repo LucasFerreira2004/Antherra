@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 804520886169052000}
   - component: {fileID: 1570817353709861448}
   - component: {fileID: 6687344122887632598}
+  - component: {fileID: 7679395357654442115}
   - component: {fileID: 571736130042948404}
   - component: {fileID: 4900843259440054675}
   - component: {fileID: 1667360318438923597}
@@ -133,7 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd6dea3b514e14a092deb2da7a2d2ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 4900843259440054675}
   smoothnessTime: 0.05
 --- !u!114 &6687344122887632598
 MonoBehaviour:
@@ -165,6 +166,20 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &7679395357654442115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6219646412613573617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e4775abe4417dba85ad5403bc2ebc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 6
+  currentHealth: 0
 --- !u!114 &571736130042948404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,13 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0863be3f918582b90f577d24107617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
-  maxHealth: 6
-  currentHealth: 6
-  bulletDamage: 2
-  bulletFireRate: 2
-  bulletSpeed: 4
-  bulletRange: 5
+  playerModes: 0000000001000000
+  baseStatusFactory: {fileID: 11400000, guid: b7b015db2cb8578c4b0678bf9ade1628, type: 2}
 --- !u!95 &4900843259440054675
 Animator:
   serializedVersion: 7
