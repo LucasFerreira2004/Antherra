@@ -12,12 +12,14 @@ public class PlayerStatus : MonoBehaviour
     public void Awake()
     {
         baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[0]);
+        GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
     }
 
     public void OnChangeMode()
     {
         playModeIndex = (playModeIndex + 1) % playerModes.Count;
         baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[playModeIndex]);
+        GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
     }
 
     // Delegações de status
