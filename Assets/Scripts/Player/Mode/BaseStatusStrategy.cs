@@ -1,0 +1,11 @@
+using UnityEngine;
+
+public abstract class BaseStatusStrategy : ScriptableObject
+{
+    public abstract float Speed { get; set; }
+    public abstract float BulletDamage { get; set; }
+    public abstract float BulletFireRate { get; set; }
+    public abstract float BulletSpeed { get; set; }
+    public abstract float BulletRange { get; set; }
+    public abstract Color CharacterSpriteColor { get; set; }
+}
