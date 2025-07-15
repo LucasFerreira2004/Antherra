@@ -10,6 +10,16 @@ public class HeartUIManager : MonoBehaviour
     [SerializeField] private GameObject heartPrefab;
     List<HealtHeart> hearts = new List<HealtHeart>(); //pq e uma lista de scripts e nao de game object?
 
+
+    void Start()
+    {
+        DrawHearts();        
+    }
+
+    void Update()
+    {
+        DrawHearts();
+    }
     private void OnEnable()
     {
         PlayerStatus.OnPlayerDamaged += DrawHearts;
@@ -20,10 +30,6 @@ public class HeartUIManager : MonoBehaviour
         PlayerStatus.OnPlayerDamaged -= DrawHearts;
     }
 
-    void Start()
-    {
-        DrawHearts();        
-    }
 
     public void DrawHearts()
     {
@@ -67,11 +73,4 @@ public class HeartUIManager : MonoBehaviour
         }
         hearts = new List<HealtHeart>();
     }
-
-
-    void Update()
-    {
-
-    }
-
 }

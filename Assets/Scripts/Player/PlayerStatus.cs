@@ -8,8 +8,19 @@ public class PlayerStatus : MonoBehaviour
     public static event Action OnPlayerHealed;
     public static event Action OnPlayerHealthIncresed;
 
-    [SerializeField] private BaseStatusStrategy baseStatusStrategy;
+    //private BaseStatusFactory baseStatusFactory;
+    private BaseStatusStrategy baseStatusStrategy;
+    [SerializeField] private PlayerMode playerMode;
+    [SerializeField] private BaseStatusFactory baseStatusFactory;
+    public void Awake()
+    {
+        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerMode);
+    }
 
+    public void Update()
+    {
+        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerMode); //removerDoUpdate
+    }
     public void TakeDamage(int amount)
     {
         baseStatusStrategy.CurrentHealth -= amount;
@@ -78,5 +89,10 @@ public class PlayerStatus : MonoBehaviour
     {
         get => baseStatusStrategy.BulletRange;
         set => baseStatusStrategy.BulletRange = Mathf.Max(0.1f, value);
+    }
+
+    public PlayerMode PlayerMode
+    {
+        get => playerMode;
     }
 }

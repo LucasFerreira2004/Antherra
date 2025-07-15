@@ -1,15 +1,15 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "playerModes/standart")]
-public  class StandardBaseStatus : BaseStatusStrategy
+[CreateAssetMenu(menuName = "playerModes/sniper")]
+public class SniperBaseStatus : BaseStatusStrategy
 {
     [SerializeField] private float speed = 8;
     [SerializeField] private int maxHealth = 8;
     [SerializeField] private int currentHealth = 8;
     [SerializeField] private float bulletDamage = 2;
-    [SerializeField] private float bulletFireRate = 3;
-    [SerializeField] private float bulletSpeed = 10;
-    [SerializeField] private float bulletRange = 5;
+    [SerializeField] private float bulletFireRate = 1;
+    [SerializeField] private float bulletSpeed = 20;
+    [SerializeField] private float bulletRange = 10;
 
     public override float Speed
     {
