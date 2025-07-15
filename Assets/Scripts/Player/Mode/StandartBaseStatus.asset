@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: StandartBaseStatus
   m_EditorClassIdentifier: 
   speed: 8
-  maxHealth: 8
-  currentHealth: 8
+  maxHealth: 6
+  currentHealth: 5
   bulletDamage: 2
   bulletFireRate: 3
   bulletSpeed: 10

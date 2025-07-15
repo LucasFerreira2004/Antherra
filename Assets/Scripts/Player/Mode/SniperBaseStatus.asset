@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   maxHealth: 6
-  currentHealth: 8
+  currentHealth: 6
   bulletDamage: 2
   bulletFireRate: 1
   bulletSpeed: 20
