@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a74172a4f874c27389747836bd083f45, type: 3}
+  m_Name: BaseStatusFactory
+  m_EditorClassIdentifier: 
+  ModesToStatus:
+  - mode: 0
+    statusStrategy: {fileID: 11400000, guid: 11c3a3295963d20ffa2693186334c788, type: 2}
+  - mode: 1
+    statusStrategy: {fileID: 11400000, guid: fb738100a49c15aa1804500c0db264d6, type: 2}

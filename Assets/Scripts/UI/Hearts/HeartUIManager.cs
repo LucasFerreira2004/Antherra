@@ -6,24 +6,30 @@ using UnityEngine.UI;
 // se refere ao containner de hears
 public class HeartUIManager : MonoBehaviour
 {
-    [SerializeField] private PlayerStatus status; //pq na unity eu tive que colocar o prefab de player e não o arquivo de script?
+    [SerializeField] private PlayerHealthStatus healthStatus; //pq na unity eu tive que colocar o prefab de player e não o arquivo de script?
     [SerializeField] private GameObject heartPrefab;
     List<HealtHeart> hearts = new List<HealtHeart>(); //pq e uma lista de scripts e nao de game object?
 
-    private void OnEnable()
-    {
-        PlayerStatus.OnPlayerDamaged += DrawHearts;
-    }
-
-    private void OnDesable()
-    {
-        PlayerStatus.OnPlayerDamaged -= DrawHearts;
-    }
 
     void Start()
     {
         DrawHearts();        
     }
+
+    void Update()
+    {
+        DrawHearts();
+    }
+    private void OnEnable()
+    {
+        PlayerHealthStatus.OnPlayerDamaged += DrawHearts;
+    }
+
+    private void OnDesable()
+    {
+        PlayerHealthStatus.OnPlayerDamaged -= DrawHearts;
+    }
+
 
     public void DrawHearts()
     {
@@ -34,7 +40,7 @@ public class HeartUIManager : MonoBehaviour
 
     private void CreateInitialEmptyHearts()
     {
-        int maxHealth = status.MaxHealth;
+        int maxHealth = healthStatus.MaxHealth;
         float maxHealthRemainder = maxHealth % 2;
         int heartsToMake = (int)(maxHealth / 2 + maxHealthRemainder);
         for (int i = 0; i < heartsToMake; i++)
@@ -43,7 +49,7 @@ public class HeartUIManager : MonoBehaviour
 
     private void CreateHealthHearts()
     {
-        int currentHealth = status.CurrentHealth;
+        int currentHealth = healthStatus.CurrentHealth;
         for (int i = 0; i < hearts.Count; i++)
         {
             int heartStatusRemainder = Mathf.Clamp(currentHealth - (i * 2), 0, 2);
@@ -67,11 +73,4 @@ public class HeartUIManager : MonoBehaviour
         }
         hearts = new List<HealtHeart>();
     }
-
-
-    void Update()
-    {
-
-    }
-
 }

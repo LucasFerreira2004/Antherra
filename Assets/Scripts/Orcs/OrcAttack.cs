@@ -28,7 +28,6 @@ public class OrcAttack : MonoBehaviour
         PlayerStatus playerStatus = collision.GetComponent<PlayerStatus>();
         if (playerStatus != null)
         {
-            playerStatus.TakeDamage(Mathf.RoundToInt(damage));
         }
     }
 
