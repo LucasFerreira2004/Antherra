@@ -186,6 +186,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: playerMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
       propertyPath: bulletSpeed
       value: 4
       objectReference: {fileID: 0}
@@ -200,6 +204,18 @@ PrefabInstance:
     - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
       propertyPath: bulletFireRate
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: baseStatusFactory
+      value: 
+      objectReference: {fileID: 11400000, guid: b7b015db2cb8578c4b0678bf9ade1628, type: 2}
+    - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: playerModes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: 'playerModes.Array.data[1]'
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 804520886169052000, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
       propertyPath: m_Constraints
@@ -503,7 +519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2495778348512703519, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 159.2182
+      value: 80.2342
       objectReference: {fileID: 0}
     - target: {fileID: 2495778348512703519, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
       propertyPath: m_SizeDelta.y

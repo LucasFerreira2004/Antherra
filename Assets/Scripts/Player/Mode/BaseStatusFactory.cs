@@ -15,6 +15,7 @@ public class BaseStatusFactory : ScriptableObject
 
     private void OnEnable()
     {
+        Debug.Log("factory foi criada ---------------------------");
         ModesToStatusMap = new Dictionary<PlayerMode, BaseStatusStrategy>();
         foreach (var map in ModesToStatus)
             ModesToStatusMap[map.mode] = map.statusStrategy;

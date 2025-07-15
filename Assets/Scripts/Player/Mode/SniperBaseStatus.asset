@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SniperBaseStatus
   m_EditorClassIdentifier: 
   speed: 8
-  maxHealth: 8
+  maxHealth: 6
   currentHealth: 8
   bulletDamage: 2
   bulletFireRate: 1
   bulletSpeed: 20
-  bulletRange: 10
+  bulletRange: 12

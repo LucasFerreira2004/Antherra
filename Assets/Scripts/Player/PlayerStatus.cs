@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerStatus : MonoBehaviour
@@ -9,18 +10,22 @@ public class PlayerStatus : MonoBehaviour
     public static event Action OnPlayerHealthIncresed;
 
     //private BaseStatusFactory baseStatusFactory;
+    private static int playModeIndex = 0;
     private BaseStatusStrategy baseStatusStrategy;
-    [SerializeField] private PlayerMode playerMode;
+    [SerializeField] private List<PlayerMode> playerModes;
     [SerializeField] private BaseStatusFactory baseStatusFactory;
     public void Awake()
     {
-        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerMode);
+        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[0]);
     }
 
-    public void Update()
+    public void OnChangeMode()
     {
-        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerMode); //removerDoUpdate
+        Debug.Log("onChangeMode chamado");
+        playModeIndex = (playModeIndex + 1) % playerModes.Count;
+        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[playModeIndex]);
     }
+
     public void TakeDamage(int amount)
     {
         baseStatusStrategy.CurrentHealth -= amount;
@@ -91,8 +96,8 @@ public class PlayerStatus : MonoBehaviour
         set => baseStatusStrategy.BulletRange = Mathf.Max(0.1f, value);
     }
 
-    public PlayerMode PlayerMode
+    public List<PlayerMode> PlayerMode
     {
-        get => playerMode;
+        get => playerModes;
     }
 }
