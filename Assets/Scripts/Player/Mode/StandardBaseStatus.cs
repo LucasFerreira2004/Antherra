@@ -1,15 +1,14 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "playerModes/standart")]
-public  class StandardBaseStatus : BaseStatusStrategy
+public class StandardBaseStatus : BaseStatusStrategy
 {
     [SerializeField] private float speed = 8;
-    [SerializeField] private int maxHealth = 8;
-    [SerializeField] private int currentHealth = 8;
     [SerializeField] private float bulletDamage = 2;
     [SerializeField] private float bulletFireRate = 3;
     [SerializeField] private float bulletSpeed = 10;
     [SerializeField] private float bulletRange = 5;
+    [SerializeField] private Color characterSpriteColor = Color.white;
 
     public override float Speed
     {
@@ -17,17 +16,6 @@ public  class StandardBaseStatus : BaseStatusStrategy
         set => speed = Mathf.Max(0, value);
     }
 
-    public override int MaxHealth
-    {
-        get => maxHealth;
-        set => maxHealth = Mathf.Max(1, value);
-    }
-
-    public override int CurrentHealth
-    {
-        get => currentHealth;
-        set => currentHealth = Mathf.Clamp(value, 0, MaxHealth);
-    }
 
     public override float BulletDamage
     {
@@ -51,5 +39,11 @@ public  class StandardBaseStatus : BaseStatusStrategy
     {
         get => bulletRange;
         set => bulletRange = Mathf.Max(0.1f, value);
+    }
+    
+     public override Color CharacterSpriteColor
+    {
+        get => characterSpriteColor;
+        set => characterSpriteColor = value;
     }
 }
