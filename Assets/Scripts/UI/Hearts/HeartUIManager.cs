@@ -13,7 +13,7 @@ public class HeartUIManager : MonoBehaviour
 
     void Start()
     {
-        DrawHearts();        
+        DrawHearts();
     }
 
     void Update()
@@ -40,6 +40,7 @@ public class HeartUIManager : MonoBehaviour
 
     private void CreateInitialEmptyHearts()
     {
+        if (healthStatus == null) return;
         int maxHealth = healthStatus.MaxHealth;
         float maxHealthRemainder = maxHealth % 2;
         int heartsToMake = (int)(maxHealth / 2 + maxHealthRemainder);
@@ -49,6 +50,7 @@ public class HeartUIManager : MonoBehaviour
 
     private void CreateHealthHearts()
     {
+        if (healthStatus == null) return;
         int currentHealth = healthStatus.CurrentHealth;
         for (int i = 0; i < hearts.Count; i++)
         {

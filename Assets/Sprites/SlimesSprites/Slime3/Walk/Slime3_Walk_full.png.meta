@@ -190,7 +190,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -204,7 +204,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -261,7 +261,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -279,33 +279,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 84
-        y: 231
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35399320127858ca0800000000000000
-      internalID: -6015253151442431149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_2
-      rect:
-        serializedVersion: 2
-        x: 87
         y: 213
-        width: 19
-        height: 26
+        width: 22
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,7 +297,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_3
+      name: Slime3_Walk_full_2
       rect:
         serializedVersion: 2
         x: 149
@@ -327,7 +305,7 @@ TextureImporter:
         width: 22
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -347,9 +325,9 @@ TextureImporter:
         x: 214
         y: 213
         width: 22
-        height: 20
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -363,72 +341,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_5
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 234
-        width: 18
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fd950d972accf6b0800000000000000
-      internalID: -5261107993188655626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_6
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 230
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cec2823637f6104c0800000000000000
-      internalID: -4323051625923466004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_7
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 233
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f6c9d15b0aa70360800000000000000
-      internalID: 7135859100186429168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_8
       rect:
         serializedVersion: 2
@@ -437,7 +349,7 @@ TextureImporter:
         width: 28
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -459,7 +371,7 @@ TextureImporter:
         width: 29
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -481,7 +393,7 @@ TextureImporter:
         width: 24
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,15 +407,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_11
+      name: Slime3_Walk_full_7
       rect:
         serializedVersion: 2
         x: 276
         y: 213
         width: 25
-        height: 18
+        height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -525,7 +437,7 @@ TextureImporter:
         width: 22
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -544,10 +456,10 @@ TextureImporter:
         serializedVersion: 2
         x: 87
         y: 149
-        width: 19
-        height: 26
+        width: 22
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,28 +473,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_14
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 167
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f516778d1910749e0800000000000000
-      internalID: -1637338213612297889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_15
       rect:
         serializedVersion: 2
@@ -591,7 +481,7 @@ TextureImporter:
         width: 22
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,37 +495,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_16
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 166
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01327f7d11725e190800000000000000
-      internalID: -7933892210952035568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_17
       rect:
         serializedVersion: 2
         x: 213
         y: 149
         width: 23
-        height: 20
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,50 +517,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_18
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 170
-        width: 18
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a0115144f5b499d0800000000000000
-      internalID: -2768387810253533023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_19
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 169
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 09e7c1ba9403c8640800000000000000
-      internalID: 5083491172355964560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_20
       rect:
         serializedVersion: 2
@@ -701,7 +525,7 @@ TextureImporter:
         width: 28
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -723,7 +547,7 @@ TextureImporter:
         width: 29
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -745,7 +569,7 @@ TextureImporter:
         width: 24
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -765,9 +589,9 @@ TextureImporter:
         x: 276
         y: 149
         width: 25
-        height: 18
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,37 +605,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_24
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 103
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a9c5b500bf192640800000000000000
-      internalID: 5055606897570597289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_25
       rect:
         serializedVersion: 2
         x: 85
         y: 85
-        width: 19
-        height: 22
+        width: 26
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -825,28 +627,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_26
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 107
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7dcded49a9deaf5f0800000000000000
-      internalID: -722003542061163305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_27
       rect:
         serializedVersion: 2
@@ -855,7 +635,7 @@ TextureImporter:
         width: 30
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -874,10 +654,10 @@ TextureImporter:
         serializedVersion: 2
         x: 209
         y: 85
-        width: 23
-        height: 22
+        width: 31
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -891,94 +671,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_29
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 105
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb4464ce662fce920800000000000000
-      internalID: 3021055973923374267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_30
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 104
-        width: 7
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d6b6397b80e55470800000000000000
-      internalID: 8382853171058751193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_31
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 106
-        width: 7
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c42eb31ab006c1f0800000000000000
-      internalID: -1025131065985063736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_32
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 94
-        width: 8
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8432f27190c31570800000000000000
-      internalID: 8436298257926337678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_33
       rect:
         serializedVersion: 2
@@ -987,7 +679,7 @@ TextureImporter:
         width: 24
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1006,10 +698,10 @@ TextureImporter:
         serializedVersion: 2
         x: 23
         y: 85
-        width: 21
-        height: 19
+        width: 22
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1029,9 +721,9 @@ TextureImporter:
         x: 269
         y: 85
         width: 28
-        height: 17
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1051,9 +743,9 @@ TextureImporter:
         x: 336
         y: 85
         width: 27
-        height: 13
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1073,9 +765,9 @@ TextureImporter:
         x: 404
         y: 85
         width: 25
-        height: 10
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1089,59 +781,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_38
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 39
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13f243cd42959b840800000000000000
-      internalID: 5240317656270384945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_39
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 43
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 155bc2e6e6f351f60800000000000000
-      internalID: 8004373656248300881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_40
       rect:
         serializedVersion: 2
-        x: 88
+        x: 81
         y: 21
-        width: 19
-        height: 22
+        width: 26
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1163,7 +811,7 @@ TextureImporter:
         width: 30
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1177,37 +825,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_42
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 41
-        width: 18
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6b788a64a98190c0800000000000000
-      internalID: -4570720807549371541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_43
       rect:
         serializedVersion: 2
-        x: 216
+        x: 208
         y: 21
-        width: 23
-        height: 22
+        width: 31
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1221,72 +847,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime3_Walk_full_44
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 40
-        width: 7
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35e5513df4bcf7960800000000000000
-      internalID: 7602018239728934483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_45
-      rect:
-        serializedVersion: 2
-        x: 343
-        y: 42
-        width: 7
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96777150d01caa140800000000000000
-      internalID: 4731806620170286953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime3_Walk_full_46
-      rect:
-        serializedVersion: 2
-        x: 406
-        y: 30
-        width: 8
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4934d9f5fd5932d0800000000000000
-      internalID: -3298501941032371892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Slime3_Walk_full_47
       rect:
         serializedVersion: 2
@@ -1295,7 +855,7 @@ TextureImporter:
         width: 24
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1312,12 +872,12 @@ TextureImporter:
       name: Slime3_Walk_full_48
       rect:
         serializedVersion: 2
-        x: 21
+        x: 20
         y: 21
-        width: 21
-        height: 19
+        width: 22
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1337,9 +897,9 @@ TextureImporter:
         x: 279
         y: 21
         width: 28
-        height: 17
+        height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1359,9 +919,9 @@ TextureImporter:
         x: 341
         y: 21
         width: 27
-        height: 13
+        height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1381,9 +941,9 @@ TextureImporter:
         x: 403
         y: 21
         width: 25
-        height: 10
+        height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1400,7 +960,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2c2be8bac21f56369a408738464ad112
     internalID: 0
     vertices: []
     indices: 
@@ -1411,9 +971,8 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Slime3_Walk_full_0: 9156703053449703701
-      Slime3_Walk_full_1: -6015253151442431149
+      Slime3_Walk_full_1: 6797803624201677096
       Slime3_Walk_full_10: -4967153963466138967
-      Slime3_Walk_full_11: -1503179306798822727
       Slime3_Walk_full_12: 5902964125296524535
       Slime3_Walk_full_13: 6532094321285788152
       Slime3_Walk_full_14: -1637338213612297889
@@ -1422,7 +981,7 @@ TextureImporter:
       Slime3_Walk_full_17: -4612403092579569218
       Slime3_Walk_full_18: -2768387810253533023
       Slime3_Walk_full_19: 5083491172355964560
-      Slime3_Walk_full_2: 6797803624201677096
+      Slime3_Walk_full_2: -1080120494225793199
       Slime3_Walk_full_20: 5373351011805372059
       Slime3_Walk_full_21: -3543582665821802280
       Slime3_Walk_full_22: -5938556912042284873
@@ -1433,7 +992,6 @@ TextureImporter:
       Slime3_Walk_full_27: -5407387296793893962
       Slime3_Walk_full_28: 470102544542096853
       Slime3_Walk_full_29: 3021055973923374267
-      Slime3_Walk_full_3: -1080120494225793199
       Slime3_Walk_full_30: 8382853171058751193
       Slime3_Walk_full_31: -1025131065985063736
       Slime3_Walk_full_32: 8436298257926337678
@@ -1458,8 +1016,7 @@ TextureImporter:
       Slime3_Walk_full_5: -5261107993188655626
       Slime3_Walk_full_50: 8112132764941611330
       Slime3_Walk_full_51: 7472652175788050835
-      Slime3_Walk_full_6: -4323051625923466004
-      Slime3_Walk_full_7: 7135859100186429168
+      Slime3_Walk_full_7: -1503179306798822727
       Slime3_Walk_full_8: -4051811738481366243
       Slime3_Walk_full_9: -6742905848876319515
   mipmapLimitGroupName: 
