@@ -7,7 +7,7 @@ public class WaterSlimeMovement : SlimeMovementStrategy
     private float timer = 0f;
     private Vector2 direction = Vector2.right;
 
-    public override void Move(SlimeContext context)
+    public override void Move(SlimeScript context)
     {
         if (context.State != SlimeState.Moving) return;
 

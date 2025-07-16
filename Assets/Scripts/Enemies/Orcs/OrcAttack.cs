@@ -1,42 +1,26 @@
 using UnityEngine;
 
-public class OrcAttack : MonoBehaviour
+[CreateAssetMenu(menuName = "Orc/Attack")]
+public class OrcAttack : ScriptableObject, IOrcAttack
 {
-    public float damage = 1f;
+    [Header("Configurações do ataque")]
+    [SerializeField] private float damage = 1f;
 
-    private Animator animator;
-    private OrcMovement movement;
-
-    private bool isAttacking = false;
-
-    void Start()
+    public void Attack(OrcScript context)
     {
-        animator = GetComponent<Animator>();
-        movement = GetComponent<OrcMovement>();
+        // Poderia conter lógica automática, mas hoje o ataque é controlado via trigger
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void HandleTriggerEnter(OrcScript context, Collider2D collision)
     {
-        if (isAttacking || !collision.CompareTag("Player"))
-            return;
+        if (context.State != OrcState.Attacking) return;
 
-        isAttacking = true;
-        movement.SetCanMove(false);
+        context.Animator?.SetTrigger("Attack");
 
-        animator?.SetTrigger("Attack");
-
-        PlayerStatus playerStatus = collision.GetComponent<PlayerStatus>();
-        if (playerStatus != null)
+        var target = collision.GetComponent<PlayerStatus>();
+        if (target != null)
         {
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            isAttacking = false;
-            movement.SetCanMove(true);
+            // target.TakeDamage(damage); // Supondo que você tenha esse método
         }
     }
 }

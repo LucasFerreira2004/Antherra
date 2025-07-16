@@ -8,7 +8,7 @@ public class FireSlimeAttack : SlimeAttackStrategy
     public float bulletDamage = 1f;
     public float bulletRange = 5f;
 
-    public override void Attack(SlimeContext context)
+    public override void Attack(SlimeScript context)
     {
         if (context.Player == null) return;
         if (!context.State.Equals(SlimeState.Attacking)) return;

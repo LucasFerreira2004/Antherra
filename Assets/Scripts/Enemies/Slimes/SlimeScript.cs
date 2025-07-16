@@ -7,7 +7,7 @@ public enum SlimeState
     Waiting
 }
 
-public class SlimeContext : MonoBehaviour, ITakeDamage
+public class SlimeScript : MonoBehaviour, ITakeDamage
 {
     [Header("Strategies")]
     public SlimeMovementStrategy movementStrategy;

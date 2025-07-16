@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 936891276886947043}
   - component: {fileID: 4950167751981622728}
   - component: {fileID: 7670137834636663097}
-  - component: {fileID: 2564219619250703031}
   - component: {fileID: 1152523973546934821}
   - component: {fileID: 1944346062730253995}
-  - component: {fileID: 4521919076741503654}
+  - component: {fileID: 6838114638585827641}
   m_Layer: 0
   m_Name: MidOrc
-  m_TagString: Orc
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,21 +118,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &2564219619250703031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156192525996036739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 216d3f5dd9460754e8d7d2285ccc9e91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  detectionRadius: 4
-  smoothTime: 0.1
 --- !u!95 &1152523973546934821
 Animator:
   serializedVersion: 7
@@ -202,7 +186,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2, y: 1.2}
   m_EdgeRadius: 0
---- !u!114 &4521919076741503654
+--- !u!114 &6838114638585827641
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,7 +195,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1156192525996036739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfa228d72526e0d8f853238e09a23863, type: 3}
+  m_Script: {fileID: 11500000, guid: 77287d84bbf93d48981a4548df45a883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  movementSO: {fileID: 11400000, guid: f34a22b788e357dba8d980f17eed91ed, type: 2}
+  attackSO: {fileID: 11400000, guid: 52d18e74caf3649f3b8b808df348c308, type: 2}
+  animator: {fileID: 1152523973546934821}
+  rigidBody: {fileID: 7670137834636663097}
+  player: {fileID: 8391630477536354153, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+  maxHealth: 10
+  currentHealth: 0
+  MoveDirection: {x: 0, y: 0}
+  LastDirection: {x: 0, y: -1}
