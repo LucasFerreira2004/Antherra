@@ -5,7 +5,7 @@ public class WaterSlimeAttack : SlimeAttackStrategy
 {
     public float attackCooldown = 3f;
     public float bulletSpeed = 2f;
-    public float bulletDamage = 1f;
+    public int bulletDamage = 1;
     public float bulletRange = 4f;
 
     public override void Attack(SlimeScript context)
