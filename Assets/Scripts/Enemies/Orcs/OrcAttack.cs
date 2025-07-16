@@ -4,7 +4,7 @@ using UnityEngine;
 public class OrcAttack : ScriptableObject, IOrcAttack
 {
     [Header("Configurações do ataque")]
-    [SerializeField] private float damage = 1f;
+    [SerializeField] private int damage = 1;
 
     public void Attack(OrcScript context)
     {
@@ -17,10 +17,8 @@ public class OrcAttack : ScriptableObject, IOrcAttack
 
         context.Animator?.SetTrigger("Attack");
 
-        var target = collision.GetComponent<PlayerStatus>();
-        if (target != null)
-        {
-            // target.TakeDamage(damage); // Supondo que você tenha esse método
-        }
+        var target = collision.GetComponent<PlayerHealthStatus>();
+        Debug.Log("-=-=-=-=tentou dar dano");
+        target?.TakeDamage(damage); // Supondo que você tenha esse método
     }
 }

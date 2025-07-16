@@ -18,9 +18,10 @@ public class PlayerHealthStatus : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
+        Debug.Log("PlayerTomou dano");
         currentHealth -= amount;
         OnPlayerDamaged?.Invoke();
-
+        
         if (currentHealth <= 0)
         {
             currentHealth = 0;

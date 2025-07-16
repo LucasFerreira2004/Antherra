@@ -1790,7 +1790,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Yellow Effect Bullet Impact Explosion 32x32_62
+      name: simple1 yelow
       rect:
         serializedVersion: 2
         x: 232
@@ -5573,6 +5573,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: simple1 yellow explode1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 421
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225b700e94d6f4b989d9dccad4d9def4
+      internalID: -365146418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple1 yelow explode2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 418
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f9e92980d8b52768ffab2b96b1e919
+      internalID: 229095940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -5904,7 +5948,6 @@ TextureImporter:
       Yellow Effect Bullet Impact Explosion 32x32_6: -4750894246610721619
       Yellow Effect Bullet Impact Explosion 32x32_60: 2891728994163510016
       Yellow Effect Bullet Impact Explosion 32x32_61: -1650085686431473510
-      Yellow Effect Bullet Impact Explosion 32x32_62: 300172542152627303
       Yellow Effect Bullet Impact Explosion 32x32_63: 5042633631564266321
       Yellow Effect Bullet Impact Explosion 32x32_64: -1552575685934011683
       Yellow Effect Bullet Impact Explosion 32x32_65: 5130734083962174527
@@ -5947,6 +5990,9 @@ TextureImporter:
       Yellow Effect Bullet Impact Explosion 32x32_99: -1788212203419322161
       Yellow Effect Bullet simple: -3481547837662992296
       Yellow Effect Bullet simple explosion: -591577270159198793
+      simple1 yellow explode1: -365146418
+      simple1 yelow: 300172542152627303
+      simple1 yelow explode2: 229095940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

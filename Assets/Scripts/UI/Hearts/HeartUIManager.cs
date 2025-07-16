@@ -13,26 +13,28 @@ public class HeartUIManager : MonoBehaviour
 
     void Start()
     {
+        //healthStatus = GetComponent<PlayerHealthStatus>();
         DrawHearts();
     }
 
-    void Update()
-    {
-        DrawHearts();
-    }
     private void OnEnable()
     {
         PlayerHealthStatus.OnPlayerDamaged += DrawHearts;
+        PlayerHealthStatus.OnPlayerHealed += DrawHearts;
+        PlayerHealthStatus.OnPlayerHealthIncreased += DrawHearts;
     }
 
-    private void OnDesable()
+    private void OnDisable()
     {
         PlayerHealthStatus.OnPlayerDamaged -= DrawHearts;
+        PlayerHealthStatus.OnPlayerHealed -= DrawHearts;
+        PlayerHealthStatus.OnPlayerHealthIncreased -= DrawHearts;
     }
 
 
     public void DrawHearts()
     {
+        Debug.Log("drawhearts foi chamado!");
         ClearHearts();
         CreateInitialEmptyHearts();
         CreateHealthHearts();
@@ -52,6 +54,7 @@ public class HeartUIManager : MonoBehaviour
     {
         if (healthStatus == null) return;
         int currentHealth = healthStatus.CurrentHealth;
+        Debug.Log("===currentHealth chamado: " + healthStatus.CurrentHealth);
         for (int i = 0; i < hearts.Count; i++)
         {
             int heartStatusRemainder = Mathf.Clamp(currentHealth - (i * 2), 0, 2);

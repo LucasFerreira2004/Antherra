@@ -7,12 +7,13 @@ public interface ITakeDamage
 
 public class BulletScript : MonoBehaviour
 {
+    [SerializeField] private Animator bulletAnimator; 
     private bool initialized = false;
     private float range;
     private float damage;
-
     private Vector2 startPosition;
     private GameObject owner;
+    private bool isExploding = false;
 
     public void Init(float range, float damage, GameObject owner)
     {
@@ -21,6 +22,26 @@ public class BulletScript : MonoBehaviour
         initialized = true;
         startPosition = transform.position;
         this.owner = owner;
+        bulletAnimator = GetComponent<Animator>();
+    }
+
+     private void StartExplosion()
+    {
+        if (isExploding) return;
+        isExploding = true;
+        Debug.Log("===================vai setar o trigger");
+        bulletAnimator.SetBool("IsExploding", true);
+        Debug.Log("trigger setado ====================");
+        StartCoroutine(DestroyAfterAnimation());
+    }
+
+    private System.Collections.IEnumerator DestroyAfterAnimation()
+    {
+        float animationLength =  bulletAnimator.GetCurrentAnimatorStateInfo(1).length;
+                Debug.Log("esperando");
+
+        yield return new WaitForSeconds(animationLength);
+        Destroy(gameObject);
     }
     void Start()
     {
@@ -32,17 +53,20 @@ public class BulletScript : MonoBehaviour
         if (!initialized)
         {
             Debug.LogError("Bullet was not initialized! Use Init(range, damage) after instantiation.");
+            StartExplosion();
             Destroy(gameObject);
             return;
         }
         if (Vector2.Distance(startPosition, transform.position) >= range)
         {
+            StartExplosion();
             Destroy(gameObject);
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (isExploding) return;
         if (other.gameObject == owner) return;
 
         if (other.CompareTag("Enemy") || other.CompareTag("Player"))
