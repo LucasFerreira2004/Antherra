@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -7112597501980369856}
   m_Layer: 0
   m_Name: CommonOrc
-  m_TagString: Orc
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,5 +203,7 @@ MonoBehaviour:
   animator: {fileID: 1152523973546934821}
   rigidBody: {fileID: 7670137834636663097}
   player: {fileID: 8391630477536354153, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+  maxHealth: 10
+  currentHealth: 0
   MoveDirection: {x: 0, y: 0}
   LastDirection: {x: 0, y: -1}
