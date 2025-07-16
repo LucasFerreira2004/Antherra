@@ -6,9 +6,9 @@ using UnityEngine.UI;
 // se refere ao containner de hears
 public class HeartUIManager : MonoBehaviour
 {
-    [SerializeField] private PlayerHealthStatus healthStatus; //pq na unity eu tive que colocar o prefab de player e não o arquivo de script?
+    [SerializeField] private PlayerHealthStatus healthStatus;
     [SerializeField] private GameObject heartPrefab;
-    List<HealtHeart> hearts = new List<HealtHeart>(); //pq e uma lista de scripts e nao de game object?
+    List<HealtHeart> hearts = new List<HealtHeart>();
 
 
     void Start()
@@ -16,11 +16,6 @@ public class HeartUIManager : MonoBehaviour
         DrawHearts();
     }
 
-
-    void Update()
-    {
-        DrawHearts();
-    }
     private void OnEnable()
     {
         if (healthStatus != null)
@@ -82,7 +77,7 @@ public class HeartUIManager : MonoBehaviour
 
     public void ClearHearts()
     {
-        foreach (Transform t in transform) //ver como isso funciona
+        foreach (Transform t in transform)
         {
             Destroy(t.gameObject);
         }

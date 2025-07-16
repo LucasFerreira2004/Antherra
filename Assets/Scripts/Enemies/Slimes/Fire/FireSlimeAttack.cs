@@ -5,7 +5,7 @@ public class FireSlimeAttack : SlimeAttackStrategy
 {
 
     public float bulletSpeed = 2f;
-    public float bulletDamage = 1f;
+    public int bulletDamage = 1;
     public float bulletRange = 5f;
 
     public override void Attack(SlimeScript context)

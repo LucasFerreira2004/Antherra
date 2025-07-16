@@ -4,7 +4,7 @@ using UnityEngine;
 public class SniperBaseStatus : BaseStatusStrategy
 {
     [SerializeField] private float speed = 8;
-    [SerializeField] private float bulletDamage = 2;
+    [SerializeField] private int bulletDamage = 2;
     [SerializeField] private float bulletFireRate = 1;
     [SerializeField] private float bulletSpeed = 20;
     [SerializeField] private float bulletRange = 10;
@@ -16,7 +16,7 @@ public class SniperBaseStatus : BaseStatusStrategy
         set => speed = Mathf.Max(0, value);
     }
 
-    public override float BulletDamage
+    public override int BulletDamage
     {
         get => bulletDamage;
         set => bulletDamage = Mathf.Max(0, value);

@@ -52,9 +52,9 @@ public class PlayerHealthStatus : MonoBehaviour
     public int MaxHealth
     {
         get => maxHealth;
-        set => maxHealth = value; 
+        set => maxHealth = value;
     }
-    
+
 
     public int CurrentHealth
     {

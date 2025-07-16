@@ -29,10 +29,10 @@ public class PlayerStatus : MonoBehaviour
         set => baseStatusStrategy.Speed = Mathf.Max(0, value);
     }
 
-    public float BulletDamage
+    public int BulletDamage
     {
         get => baseStatusStrategy.BulletDamage;
-        set => baseStatusStrategy.BulletDamage = Mathf.Max(0, value);
+        set => baseStatusStrategy.BulletDamage = value;
     }
 
     public float FireRate

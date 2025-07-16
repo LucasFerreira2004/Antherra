@@ -10,12 +10,13 @@ public class BulletScript : MonoBehaviour
     [SerializeField] private Animator bulletAnimator; 
     private bool initialized = false;
     private float range;
-    private float damage;
+    private int damage;
+
     private Vector2 startPosition;
     private GameObject owner;
     private bool isExploding = false;
 
-    public void Init(float range, float damage, GameObject owner)
+    public void Init(float range, int damage, GameObject owner)
     {
         this.range = range;
         this.damage = damage;
@@ -37,7 +38,7 @@ public class BulletScript : MonoBehaviour
 
     private System.Collections.IEnumerator DestroyAfterAnimation()
     {
-        float animationLength =  bulletAnimator.GetCurrentAnimatorStateInfo(1).length;
+        float animationLength =  bulletAnimator.GetCurrentAnimatorStateInfo(0).length;
                 Debug.Log("esperando");
 
         yield return new WaitForSeconds(animationLength);
@@ -71,9 +72,21 @@ public class BulletScript : MonoBehaviour
 
         if (other.CompareTag("Enemy") || other.CompareTag("Player"))
         {
+            if (other.tag == owner.tag) return;
+
             // Aqui você pode aplicar o dano ao inimigo
             // Exemplo:
-            other.GetComponent<ITakeDamage>().TakeDamage(damage);
+            if (other.CompareTag("Enemy"))
+            {
+                other.GetComponent<ITakeDamage>()?.TakeDamage(damage);
+
+            }
+            else
+            {
+                other.GetComponent<PlayerHealthStatus>()?.TakeDamage(damage);
+            }
+
+
 
             Destroy(gameObject);
         }
@@ -86,10 +99,10 @@ public class BulletScript : MonoBehaviour
         set => range = Mathf.Max(0.1f, value);
     }
 
-    public float Damage
+    public int Damage
     {
         get => damage;
-        set => damage = Mathf.Max(0.1f, value);
+        set => damage = value;
     }
 }
 
