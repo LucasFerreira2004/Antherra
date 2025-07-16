@@ -4,7 +4,7 @@ using UnityEngine;
 public class FireSlimeMovement : SlimeMovementStrategy
 {
     private Vector2 direction = Vector2.right;
-    public override void Move(SlimeContext context)
+    public override void Move(SlimeScript context)
     {
         Vector2 direction = (context.Player.position - context.Transform.position).normalized;
 
