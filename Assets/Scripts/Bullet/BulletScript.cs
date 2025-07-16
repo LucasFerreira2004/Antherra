@@ -1,5 +1,10 @@
 using UnityEngine;
 
+public interface ITakeDamage
+{
+    public void TakeDamage(float damage);
+}
+
 public class BulletScript : MonoBehaviour
 {
     private bool initialized = false;
@@ -7,13 +12,15 @@ public class BulletScript : MonoBehaviour
     private float damage;
 
     private Vector2 startPosition;
+    private GameObject owner;
 
-    public void Init(float range, float damage)
+    public void Init(float range, float damage, GameObject owner)
     {
         this.range = range;
         this.damage = damage;
         initialized = true;
         startPosition = transform.position;
+        this.owner = owner;
     }
     void Start()
     {
@@ -25,7 +32,7 @@ public class BulletScript : MonoBehaviour
         if (!initialized)
         {
             Debug.LogError("Bullet was not initialized! Use Init(range, damage) after instantiation.");
-            Destroy(gameObject); 
+            Destroy(gameObject);
             return;
         }
         if (Vector2.Distance(startPosition, transform.position) >= range)
@@ -36,11 +43,13 @@ public class BulletScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Enemy"))
+        if (other.gameObject == owner) return;
+
+        if (other.CompareTag("Enemy") || other.CompareTag("Player"))
         {
             // Aqui você pode aplicar o dano ao inimigo
             // Exemplo:
-            // other.GetComponent<Enemy>().TakeDamage(damage);
+            other.GetComponent<ITakeDamage>().TakeDamage(damage);
 
             Destroy(gameObject);
         }
