@@ -13,31 +13,39 @@ public class HeartUIManager : MonoBehaviour
 
     void Start()
     {
-        //healthStatus = GetComponent<PlayerHealthStatus>();
         DrawHearts();
     }
 
+
+    void Update()
+    {
+        DrawHearts();
+    }
     private void OnEnable()
     {
-        PlayerHealthStatus.OnPlayerDamaged += DrawHearts;
-        PlayerHealthStatus.OnPlayerHealed += DrawHearts;
-        PlayerHealthStatus.OnPlayerHealthIncreased += DrawHearts;
+        if (healthStatus != null)
+        {
+            healthStatus.OnPlayerDamaged += DrawHearts;
+            healthStatus.OnPlayerHealed += DrawHearts;
+            healthStatus.OnPlayerHealthIncreased += DrawHearts;
+        }
     }
-
     private void OnDisable()
     {
-        PlayerHealthStatus.OnPlayerDamaged -= DrawHearts;
-        PlayerHealthStatus.OnPlayerHealed -= DrawHearts;
-        PlayerHealthStatus.OnPlayerHealthIncreased -= DrawHearts;
+        if (healthStatus != null)
+        {
+            healthStatus.OnPlayerDamaged -= DrawHearts;
+            healthStatus.OnPlayerHealed -= DrawHearts;
+            healthStatus.OnPlayerHealthIncreased -= DrawHearts;
+        }
     }
-
 
     public void DrawHearts()
     {
-        Debug.Log("drawhearts foi chamado!");
         ClearHearts();
         CreateInitialEmptyHearts();
         CreateHealthHearts();
+        Debug.Log("DrawHearts terminou execução");
     }
 
     private void CreateInitialEmptyHearts()
@@ -54,9 +62,11 @@ public class HeartUIManager : MonoBehaviour
     {
         if (healthStatus == null) return;
         int currentHealth = healthStatus.CurrentHealth;
-        Debug.Log("===currentHealth chamado: " + healthStatus.CurrentHealth);
+        Debug.Log("UI ---> currentHealth em HeartUIManager: " + currentHealth);
+
         for (int i = 0; i < hearts.Count; i++)
         {
+            Debug.Log("S2");
             int heartStatusRemainder = Mathf.Clamp(currentHealth - (i * 2), 0, 2);
             hearts[i].setHeartImage((HeartStatus)heartStatusRemainder);
         }

@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class PlayerHealthStatus : MonoBehaviour
 {
-    public static event Action OnPlayerDamaged;
-    public static event Action OnPlayerDeath;
-    public static event Action OnPlayerHealed;
-    public static event Action OnPlayerHealthIncreased;
+    public event Action OnPlayerDamaged;
+    public event Action OnPlayerDeath;
+    public event Action OnPlayerHealed;
+    public event Action OnPlayerHealthIncreased;
 
     [SerializeField] private int maxHealth = 5;
     [SerializeField] private int currentHealth;
@@ -18,10 +18,11 @@ public class PlayerHealthStatus : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        Debug.Log("PlayerTomou dano");
         currentHealth -= amount;
+        Debug.Log("STATUS --> currentHealth em playerHealthStatus: " + currentHealth);
+        Debug.Log("OnPlayerDamege invocado");
         OnPlayerDamaged?.Invoke();
-        
+
         if (currentHealth <= 0)
         {
             currentHealth = 0;

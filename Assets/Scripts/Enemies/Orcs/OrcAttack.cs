@@ -18,7 +18,6 @@ public class OrcAttack : ScriptableObject, IOrcAttack
         context.Animator?.SetTrigger("Attack");
 
         var target = collision.GetComponent<PlayerHealthStatus>();
-        Debug.Log("-=-=-=-=tentou dar dano");
         target?.TakeDamage(damage); // Supondo que você tenha esse método
     }
 }
