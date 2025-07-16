@@ -4,7 +4,7 @@ using UnityEngine;
 public class StandardBaseStatus : BaseStatusStrategy
 {
     [SerializeField] private float speed = 8;
-    [SerializeField] private float bulletDamage = 2;
+    [SerializeField] private int bulletDamage = 2;
     [SerializeField] private float bulletFireRate = 3;
     [SerializeField] private float bulletSpeed = 10;
     [SerializeField] private float bulletRange = 5;
@@ -17,7 +17,7 @@ public class StandardBaseStatus : BaseStatusStrategy
     }
 
 
-    public override float BulletDamage
+    public override int BulletDamage
     {
         get => bulletDamage;
         set => bulletDamage = Mathf.Max(0, value);
@@ -40,8 +40,8 @@ public class StandardBaseStatus : BaseStatusStrategy
         get => bulletRange;
         set => bulletRange = Mathf.Max(0.1f, value);
     }
-    
-     public override Color CharacterSpriteColor
+
+    public override Color CharacterSpriteColor
     {
         get => characterSpriteColor;
         set => characterSpriteColor = value;
