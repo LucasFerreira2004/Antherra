@@ -232,6 +232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CommonOrc
       objectReference: {fileID: 0}
+    - target: {fileID: 1156192525996036739, guid: fe6d04c3d059a7098aec58d4011d1138, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -417,13 +421,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3296224998580601482, guid: 4a494838cace6ed639281994590043ca, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -3296224998580601482, guid: 4a494838cace6ed639281994590043ca, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 936891276886947043, guid: 4a494838cace6ed639281994590043ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.29819125
+      value: -0.178
       objectReference: {fileID: 0}
     - target: {fileID: 936891276886947043, guid: 4a494838cace6ed639281994590043ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.267662
+      value: -4.461
       objectReference: {fileID: 0}
     - target: {fileID: 936891276886947043, guid: 4a494838cace6ed639281994590043ca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -638,11 +650,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6170825469626380221, guid: 837c8399696f47559af2e98ffead7111, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.035663
+      value: 3.52
       objectReference: {fileID: 0}
     - target: {fileID: 6170825469626380221, guid: 837c8399696f47559af2e98ffead7111, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.5490117
+      value: -1.15
       objectReference: {fileID: 0}
     - target: {fileID: 6170825469626380221, guid: 837c8399696f47559af2e98ffead7111, type: 3}
       propertyPath: m_LocalPosition.z
