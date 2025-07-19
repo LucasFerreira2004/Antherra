@@ -91,3 +91,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a91c897a25d946fcfab86f67b3b53b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomExitBlockPrefab: {fileID: 6806363069543096444, guid: e7e104f5178fef8c094e17bb613fda50, type: 3}
