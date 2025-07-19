@@ -12,7 +12,7 @@ public class RoomManager : MonoBehaviour
     public void ActivateRoom()
     {
         SpawnEnemies();
-        EnableDoors(false);
+        EnableEntrances(false);
     }
 
     private void SpawnEnemies()
@@ -33,15 +33,18 @@ public class RoomManager : MonoBehaviour
         activeEnemies.Remove(enemy);
         if (activeEnemies.Count == 0)
         {
-            EnableDoors(true);
+            EnableEntrances(true);
         }
     }
 
-    private void EnableDoors(bool open)
+    private void EnableEntrances(bool open)
     {
-        foreach (var door in GetComponentsInChildren<RoomTransition>())
+        foreach (var component in GetComponentsInChildren<MonoBehaviour>(true)) // 'true' inclui objetos inativos
         {
-            door.SetOpen(open);
+            if (component is IRoomEntrance entrance)
+            {
+                entrance.SetOpen(open);
+            }
         }
     }
 }
