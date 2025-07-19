@@ -21,7 +21,6 @@ public class RoomEntrance : MonoBehaviour, IRoomEntrance
         if (!collision.CompareTag("Player")) return;
         currentRoom = GetComponentInParent<RoomManager>();
         currentRoom.ActivateRoom();
-        CreateBlock();
         GetComponent<Collider2D>().enabled = false;
     }
 
@@ -41,13 +40,13 @@ public class RoomEntrance : MonoBehaviour, IRoomEntrance
         switch (entranceDirection)
         {
             case EntranceDirection.TOP:
-                return transform.position + new Vector3(0, 1.5f, 0);
+                return transform.position + new Vector3(0, 2, 0);
             case EntranceDirection.BOTTOM:
-                return transform.position + new Vector3(0, -1.5f, 0);
+                return transform.position + new Vector3(0, -2, 0);
             case EntranceDirection.LEFT:
-                return transform.position + new Vector3(-1.5f, 0, 0);
+                return transform.position + new Vector3(-2, 0, 0);
             case EntranceDirection.RIGHT:
-                return transform.position + new Vector3(1.5f, 0, 0);
+                return transform.position + new Vector3(2, 0, 0);
         }
         Debug.LogError("Incompatible EntranceDirection type");
         return transform.position;
@@ -58,6 +57,11 @@ public class RoomEntrance : MonoBehaviour, IRoomEntrance
         {
             Destroy(roomExitBlock);
             Destroy(this.gameObject);
+        }
+        if (roomExitBlock == null)
+        {
+            GetComponent<Collider2D>().enabled = false;
+            CreateBlock();
         }
     }
 }
