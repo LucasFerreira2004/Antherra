@@ -1,50 +1,58 @@
-    using System.Collections.Generic;
-    using UnityEngine;
+using System.Collections.Generic;
+using UnityEngine;
 
-    public class RoomManager : MonoBehaviour
+public class RoomManager : MonoBehaviour
+{
+    [SerializeField] private List<Transform> enemySpawnPoints;
+    [SerializeField] private List<GameObject> enemyPrefabs;
+
+    private List<GameObject> activeEnemies = new List<GameObject>();
+    private bool playerInside = false;
+
+    public void ActivateRoom()
     {
-        [SerializeField] private Transform[] enemySpawnPoints;
-        [SerializeField] private List<GameObject> enemyPrefabs;
+        bool enemySpawsNullOrEmpty = (enemySpawnPoints == null || enemySpawnPoints.Count == 0);
+        bool enemyPrefabsNullOrEmpty = (enemyPrefabs == null || enemyPrefabs.Count == 0);
 
-        private List<GameObject> activeEnemies = new List<GameObject>();
-        private bool playerInside = false;
-
-        public void ActivateRoom()
+        if (enemySpawsNullOrEmpty || enemyPrefabsNullOrEmpty)
         {
-            SpawnEnemies();
-            EnableEntrances(false);
+            EnableEntrances(true);
+            return;
         }
+        SpawnEnemies();
+        EnableEntrances(false);
+    }
 
-        private void SpawnEnemies()
+    private void SpawnEnemies()
+    {
+        foreach (Transform spawnPoint in enemySpawnPoints)
         {
-            foreach (Transform spawnPoint in enemySpawnPoints)
-            {
-                int randomIndex = Random.Range(0, enemyPrefabs.Count);
-                GameObject enemy = Instantiate(enemyPrefabs[randomIndex], spawnPoint.position, Quaternion.identity);
-                IEnemyTakeDamage genericEnemy = enemy.GetComponent<IEnemyTakeDamage>();
-                genericEnemy.OnEnemyDeath += CheckRoomClear;
-                activeEnemies.Add(enemy);
-            }
+            int randomIndex = Random.Range(0, enemyPrefabs.Count);
+            GameObject enemy = Instantiate(enemyPrefabs[randomIndex], spawnPoint.position, Quaternion.identity);
+            IEnemyTakeDamage genericEnemy = enemy.GetComponent<IEnemyTakeDamage>();
+            genericEnemy.OnEnemyDeath += CheckRoomClear;
+            activeEnemies.Add(enemy);
         }
+    }
 
 
-        private void CheckRoomClear(GameObject enemy)
+    private void CheckRoomClear(GameObject enemy)
+    {
+        activeEnemies.Remove(enemy);
+        if (activeEnemies.Count == 0)
         {
-            activeEnemies.Remove(enemy);
-            if (activeEnemies.Count == 0)
-            {
-                EnableEntrances(true);
-            }
+            EnableEntrances(true);
         }
+    }
 
-        private void EnableEntrances(bool open)
+    private void EnableEntrances(bool open)
+    {
+        foreach (var component in GetComponentsInChildren<MonoBehaviour>(true)) // 'true' inclui objetos inativos
         {
-            foreach (var component in GetComponentsInChildren<MonoBehaviour>(true)) // 'true' inclui objetos inativos
+            if (component is IRoomEntrance entrance)
             {
-                if (component is IRoomEntrance entrance)
-                {
-                    entrance.SetOpen(open);
-                }
+                entrance.SetOpen(open);
             }
         }
     }
+}

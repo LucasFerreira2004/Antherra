@@ -55,10 +55,11 @@ public class RoomEntrance : MonoBehaviour, IRoomEntrance
     {
         if (open)
         {
-            Destroy(roomExitBlock);
+            if (roomExitBlock != null)
+                Destroy(roomExitBlock);
             Destroy(this.gameObject);
         }
-        if (roomExitBlock == null)
+        else if (roomExitBlock == null)
         {
             GetComponent<Collider2D>().enabled = false;
             CreateBlock();
