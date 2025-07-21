@@ -7,8 +7,6 @@ public class RoomManager : MonoBehaviour
     [SerializeField] private List<GameObject> enemyPrefabs;
 
     private List<GameObject> activeEnemies = new List<GameObject>();
-    private bool playerInside = false;
-
     public void ActivateRoom()
     {
         bool enemySpawsNullOrEmpty = (enemySpawnPoints == null || enemySpawnPoints.Count == 0);
