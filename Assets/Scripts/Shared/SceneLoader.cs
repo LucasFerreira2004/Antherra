@@ -8,6 +8,10 @@ public static class SceneLoader {
         SceneManager.LoadScene(sceneName);
     }
 
+    public static void LoadNewGame()
+    {
+        SceneManager.LoadScene(2);
+    }
     public static void LoadNextLevel()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;

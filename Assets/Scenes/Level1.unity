@@ -12031,6 +12031,18 @@ PrefabInstance:
       propertyPath: healthStatus
       value: 
       objectReference: {fileID: 2102976483}
+    - target: {fileID: 5643817229815780429, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
+      propertyPath: m_Spacing.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643817229815780429, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
+      propertyPath: m_CellSize.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643817229815780429, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
+      propertyPath: m_CellSize.y
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8558195113708807365, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
       propertyPath: m_Name
       value: HeartsContainerPrefab
@@ -12269,6 +12281,51 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e493d1430deb713c6aec6b513088553d, type: 3}
+--- !u!1 &1450110069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1450110071}
+  - component: {fileID: 1450110070}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1450110070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450110069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d3de82da8bb1f8d8ad730a6e2815bda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealthData: {fileID: 11400000, guid: f9c075dfbb01bdfc5b51cb29f96e9fd7, type: 2}
+--- !u!4 &1450110071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450110069}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.7217548, y: -1.6292441, z: 0.359164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1626641423
 GameObject:
   m_ObjectHideFlags: 0
@@ -31474,3 +31531,4 @@ SceneRoots:
   - {fileID: 346729847}
   - {fileID: 3426955856802040590}
   - {fileID: 1792309395}
+  - {fileID: 1450110071}

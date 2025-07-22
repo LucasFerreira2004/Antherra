@@ -81,33 +81,33 @@ public sealed class PlayerStatus : MonoBehaviour
 
     public void Heal(int amount)
     {
-        healthData.CurrentHealth = Mathf.Min(healthData.CurrentHealth + amount, healthData.MaxHealth);
+        healthData.CurrentHealth = Mathf.Min(healthData.CurrentHealth + amount, healthData.CurrentMaxHealth);
         OnPlayerHealed?.Invoke();
     }
 
     public void IncreaseMaxHealth(int amount)
     {
-        healthData.MaxHealth += amount;
-        healthData.CurrentHealth = healthData.MaxHealth;
+        healthData.CurrentMaxHealth += amount;
+        healthData.CurrentHealth = healthData.CurrentMaxHealth;
         OnPlayerHealthIncreased?.Invoke();
     }
 
     private void Die()
     {
-        Debug.Log("O jogador morreu.");
+        SceneLoader.LoadGameOver();
         OnPlayerDeath?.Invoke();
     }
 
     public int MaxHealth
     {
-        get => healthData.MaxHealth;
-        set => healthData.MaxHealth = value;
+        get => healthData.CurrentMaxHealth;
+        set => healthData.CurrentMaxHealth = value;
     }
 
     public int CurrentHealth
     {
         get => healthData.CurrentHealth;
-        set => healthData.CurrentHealth = Mathf.Clamp(value, 0, healthData.MaxHealth);
+        set => healthData.CurrentHealth = Mathf.Clamp(value, 0, healthData.CurrentMaxHealth);
     }
 
     public List<PlayerMode> PlayerMode => playerModes;
