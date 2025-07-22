@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class BaseStatusStrategy : ScriptableObject
+public abstract class IBaseStatusStrategy : ScriptableObject
 {
     public abstract float Speed { get; set; }
     public abstract int BulletDamage { get; set; }

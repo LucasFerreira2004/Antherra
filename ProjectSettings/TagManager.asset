@@ -7,15 +7,15 @@ TagManager:
   - Orc
   - Slime
   - Enemy
+  - PlayerSpawnPoint
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
   - Cenario
-  - Enemies
   - Water
   - UI
-  - 
+  - UI
   - 
   - 
   - 
