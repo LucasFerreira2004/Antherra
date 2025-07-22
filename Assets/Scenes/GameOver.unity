@@ -338,9 +338,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 995839086}
-        m_TargetAssemblyTypeName: DeathMenuManager, Assembly-CSharp
-        m_MethodName: TryAgain
+      - m_Target: {fileID: 8296267547349843761, guid: d988dd612b9b18e52b5261140b5beac1, type: 3}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 1828185676}
   - component: {fileID: 1828185675}
   m_Layer: 5
-  m_Name: Button Play (1)
+  m_Name: Button MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -966,8 +966,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 995839086}
-        m_TargetAssemblyTypeName: DeathMenuManager, Assembly-CSharp
+      - m_Target: {fileID: 8296267547349843761, guid: d988dd612b9b18e52b5261140b5beac1, type: 3}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
