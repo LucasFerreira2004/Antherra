@@ -60,7 +60,7 @@ public class BulletScript : MonoBehaviour
             }
             else
             {
-                other.GetComponent<PlayerHealthStatus>()?.TakeDamage(damage);
+                other.GetComponent<PlayerStatus>()?.TakeDamage(damage);
             }
 
 

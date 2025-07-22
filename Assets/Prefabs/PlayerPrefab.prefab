@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 804520886169052000}
   - component: {fileID: 1570817353709861448}
   - component: {fileID: 6687344122887632598}
-  - component: {fileID: 7679395357654442115}
   - component: {fileID: 571736130042948404}
   - component: {fileID: 4900843259440054675}
   - component: {fileID: 1667360318438923597}
@@ -166,20 +165,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &7679395357654442115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6219646412613573617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75e4775abe4417dba85ad5403bc2ebc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 10
-  currentHealth: 12
 --- !u!114 &571736130042948404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerModes: 0000000001000000
   baseStatusFactory: {fileID: 11400000, guid: b7b015db2cb8578c4b0678bf9ade1628, type: 2}
+  maxHealth: 6
+  currentHealth: 6
 --- !u!95 &4900843259440054675
 Animator:
   serializedVersion: 7
@@ -250,7 +237,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.53910863}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -260,7 +247,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.875, y: 1.5}
+  m_Size: {x: 0.875, y: 0.4217827}
   m_EdgeRadius: 0
 --- !u!114 &6403829511633770352
 MonoBehaviour:
