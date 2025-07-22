@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Player/Status Data")]
+[CreateAssetMenu(menuName = "PlayerStatus/HealthData")]
 public class PlayerHealthData : ScriptableObject
 {
      [Header("Standard values")]

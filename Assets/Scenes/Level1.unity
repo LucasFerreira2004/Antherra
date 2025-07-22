@@ -1202,6 +1202,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: modifiedStatus
+      value: 
+      objectReference: {fileID: 11400000, guid: 240615860bef23c7ca9de861003f0f9b, type: 2}
     - target: {fileID: 6219646412613573617, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
       propertyPath: m_Name
       value: PlayerPrefab
@@ -12311,6 +12315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealthData: {fileID: 11400000, guid: f9c075dfbb01bdfc5b51cb29f96e9fd7, type: 2}
+  playerModifiedStatus: {fileID: 11400000, guid: 240615860bef23c7ca9de861003f0f9b, type: 2}
 --- !u!4 &1450110071
 Transform:
   m_ObjectHideFlags: 0
@@ -31350,11 +31355,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3569575439333859982, guid: e90dba7a2e62d3afaae23e4756330d21, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.6
+      value: -0.53
       objectReference: {fileID: 0}
     - target: {fileID: 3569575439333859982, guid: e90dba7a2e62d3afaae23e4756330d21, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.62
+      value: 17.8
       objectReference: {fileID: 0}
     - target: {fileID: 3569575439333859982, guid: e90dba7a2e62d3afaae23e4756330d21, type: 3}
       propertyPath: m_LocalPosition.z

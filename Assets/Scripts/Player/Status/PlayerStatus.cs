@@ -15,6 +15,9 @@ public sealed class PlayerStatus : MonoBehaviour
     [Header("Health Settings")]
     [SerializeField] private PlayerHealthData healthData;
 
+    [Header("Modifiers")]
+    [SerializeField] private PlayerModifiedStatus modifiedStatus;
+
     public static event Action OnPlayerDamaged;
     public static event Action OnPlayerDeath;
     public static event Action OnPlayerHealed;
@@ -38,31 +41,31 @@ public sealed class PlayerStatus : MonoBehaviour
     // Delegações de status base
     public float Speed
     {
-        get => baseStatusStrategy.Speed;
+        get => baseStatusStrategy.Speed * modifiedStatus.Speed;
         set => baseStatusStrategy.Speed = Mathf.Max(0, value);
     }
 
     public int BulletDamage
     {
-        get => baseStatusStrategy.BulletDamage;
+        get => baseStatusStrategy.BulletDamage + modifiedStatus.BulletDamage;
         set => baseStatusStrategy.BulletDamage = value;
     }
 
     public float FireRate
     {
-        get => baseStatusStrategy.BulletFireRate;
+        get => baseStatusStrategy.BulletFireRate + modifiedStatus.BulletFireRate;
         set => baseStatusStrategy.BulletFireRate = Mathf.Max(0.1f, value);
     }
 
     public float BulletSpeed
     {
-        get => baseStatusStrategy.BulletSpeed;
+        get => baseStatusStrategy.BulletSpeed * modifiedStatus.BulletSpeed;
         set => baseStatusStrategy.BulletSpeed = Mathf.Max(0.1f, value);
     }
 
     public float BulletRange
     {
-        get => baseStatusStrategy.BulletRange;
+        get => baseStatusStrategy.BulletRange + modifiedStatus.BulletRange;
         set => baseStatusStrategy.BulletRange = Mathf.Max(0.1f, value);
     }
 
