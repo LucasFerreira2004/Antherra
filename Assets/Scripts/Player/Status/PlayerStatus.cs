@@ -4,42 +4,26 @@ using UnityEngine;
 
 public sealed class PlayerStatus : MonoBehaviour
 {
-    public static PlayerStatus Instance { get; private set; }
-
     private static int playModeIndex = 0;
-    private BaseStatusStrategy baseStatusStrategy;
+    public static Transform PlayerTransform { get; set; }
+    private IBaseStatusStrategy baseStatusStrategy;
 
     [Header("Player Mode")]
     [SerializeField] private List<PlayerMode> playerModes;
     [SerializeField] private BaseStatusFactory baseStatusFactory;
 
     [Header("Health Settings")]
-    private int maxHealth;
-    private int currentHealth;
+    [SerializeField] private PlayerHealthData healthData;
 
     public static event Action OnPlayerDamaged;
     public static event Action OnPlayerDeath;
     public static event Action OnPlayerHealed;
     public static event Action OnPlayerHealthIncreased;
 
+
     private void Awake()
     {
-        // Singleton setup
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        Debug.Log("01");
-
-        Instance = this;
-        maxHealth = 6;
-        currentHealth = maxHealth;
-        Debug.Log("02");
-
-        DontDestroyOnLoad(gameObject);
-        Debug.Log("03");
-
+        PlayerTransform = transform;
         baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[0]);
         GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
     }
@@ -85,26 +69,26 @@ public sealed class PlayerStatus : MonoBehaviour
     // Vida do jogador
     public void TakeDamage(int amount)
     {
-        currentHealth -= amount;
+        healthData.CurrentHealth -= amount;
         OnPlayerDamaged?.Invoke();
 
-        if (currentHealth <= 0)
+        if (healthData.CurrentHealth <= 0)
         {
-            currentHealth = 0;
+            healthData.CurrentHealth = 0;
             Die();
         }
     }
 
     public void Heal(int amount)
     {
-        currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
+        healthData.CurrentHealth = Mathf.Min(healthData.CurrentHealth + amount, healthData.MaxHealth);
         OnPlayerHealed?.Invoke();
     }
 
     public void IncreaseMaxHealth(int amount)
     {
-        maxHealth += amount;
-        currentHealth = maxHealth;
+        healthData.MaxHealth += amount;
+        healthData.CurrentHealth = healthData.MaxHealth;
         OnPlayerHealthIncreased?.Invoke();
     }
 
@@ -116,14 +100,14 @@ public sealed class PlayerStatus : MonoBehaviour
 
     public int MaxHealth
     {
-        get => maxHealth;
-        set => maxHealth = value;
+        get => healthData.MaxHealth;
+        set => healthData.MaxHealth = value;
     }
 
     public int CurrentHealth
     {
-        get => currentHealth;
-        set => currentHealth = Mathf.Clamp(value, 0, maxHealth);
+        get => healthData.CurrentHealth;
+        set => healthData.CurrentHealth = Mathf.Clamp(value, 0, healthData.MaxHealth);
     }
 
     public List<PlayerMode> PlayerMode => playerModes;

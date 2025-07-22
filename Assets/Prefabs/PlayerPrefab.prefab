@@ -177,10 +177,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0863be3f918582b90f577d24107617, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerModes: 0000000001000000
+  playerModes: 00000000
   baseStatusFactory: {fileID: 11400000, guid: b7b015db2cb8578c4b0678bf9ade1628, type: 2}
-  maxHealth: 6
-  currentHealth: 6
+  healthData: {fileID: 11400000, guid: f9c075dfbb01bdfc5b51cb29f96e9fd7, type: 2}
 --- !u!95 &4900843259440054675
 Animator:
   serializedVersion: 7

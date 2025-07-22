@@ -6,21 +6,21 @@ public class BaseStatusFactory : ScriptableObject
     [System.Serializable] private struct ModeToStatus
     {
         public PlayerMode mode;
-        public BaseStatusStrategy statusStrategy;
+        public IBaseStatusStrategy statusStrategy;
     }
 
     [SerializeField] private ModeToStatus[] ModesToStatus;
 
-    private Dictionary<PlayerMode, BaseStatusStrategy> ModesToStatusMap;
+    private Dictionary<PlayerMode, IBaseStatusStrategy> ModesToStatusMap;
 
     private void OnEnable()
     {
-        ModesToStatusMap = new Dictionary<PlayerMode, BaseStatusStrategy>();
+        ModesToStatusMap = new Dictionary<PlayerMode, IBaseStatusStrategy>();
         foreach (var map in ModesToStatus)
             ModesToStatusMap[map.mode] = map.statusStrategy;
     }
 
-    public BaseStatusStrategy GetBaseStatus(PlayerMode mode)
+    public IBaseStatusStrategy GetBaseStatus(PlayerMode mode)
     {
         if (ModesToStatusMap.TryGetValue(mode, out var status))
             return status;

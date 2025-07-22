@@ -60,7 +60,7 @@ public class BulletScript : MonoBehaviour
             }
             else if (other.CompareTag("Player"))
             {
-                PlayerStatus.Instance.TakeDamage(damage); // Acessa o singleton diretamente
+                other.GetComponent<PlayerStatus>().TakeDamage(damage); 
             }
 
             Destroy(gameObject);

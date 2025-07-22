@@ -1,8 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public static class SceneLoader
-{
+public static class SceneLoader {
     public static void LoadScene(string sceneName)
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -35,13 +34,12 @@ public static class SceneLoader
 
     private static void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log("chamou");
         // Busca o ponto de spawn na cena nova
         GameObject spawnPoint = GameObject.FindWithTag("PlayerSpawnPoint");
-        if (spawnPoint != null && PlayerStatus.Instance != null)
+        if (spawnPoint != null && PlayerStatus.PlayerTransform != null)
         {
             Debug.Log("entrou");
-            PlayerStatus.Instance.gameObject.transform.position = spawnPoint.transform.position;
+            PlayerStatus.PlayerTransform.position = spawnPoint.transform.position;
         }
 
         SceneManager.sceneLoaded -= OnSceneLoaded;
