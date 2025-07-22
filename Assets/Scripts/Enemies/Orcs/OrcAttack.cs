@@ -6,18 +6,25 @@ public class OrcAttack : ScriptableObject, IOrcAttack
     [Header("Configurações do ataque")]
     [SerializeField] private int damage = 1;
 
-    public void Attack(OrcScript context)
+    private PlayerHealthStatus lastTarget;
+
+    public void ApplyDamage()
     {
-        // Poderia conter lógica automática, mas hoje o ataque é controlado via trigger
+        lastTarget?.TakeDamage(damage);
+    }
+
+    public void SetLastTarget(PlayerHealthStatus target)
+    {
+        lastTarget = target;
     }
 
     public void HandleTriggerEnter(OrcScript context, Collider2D collision)
     {
         if (context.State != OrcState.Attacking) return;
 
-        context.Animator?.SetTrigger("Attack");
-
         var target = collision.GetComponent<PlayerHealthStatus>();
-        target?.TakeDamage(damage); // Supondo que você tenha esse método
+
+        lastTarget = target;
+        context?.Animator.SetTrigger("Attack");
     }
 }

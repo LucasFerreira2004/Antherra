@@ -94,7 +94,8 @@ public class OrcScript : MonoBehaviour, IEnemyTakeDamage
     {
         if (collision.CompareTag("Player"))
         {
-            SetState(OrcState.Moving); // Voltará a andar se o player ainda estiver no raio
+            SetState(OrcState.Moving);
+            attack?.SetLastTarget(null);
         }
     }
 
@@ -122,5 +123,10 @@ public class OrcScript : MonoBehaviour, IEnemyTakeDamage
     {
         OnEnemyDeath?.Invoke(gameObject);
         Destroy(gameObject);
+    }
+
+    public void ApplyDamage()
+    {
+        attack?.ApplyDamage();
     }
 }

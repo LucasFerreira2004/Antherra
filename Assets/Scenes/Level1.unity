@@ -1194,11 +1194,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 19105637333545446, guid: e493d1430deb713c6aec6b513088553d, type: 3}
   m_PrefabInstance: {fileID: 1411562243}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &230825538 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8558195113708807365, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
-  m_PrefabInstance: {fileID: 1186843960}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &346729847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1450,30 +1445,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2495778348512703519, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
   m_PrefabInstance: {fileID: 1186843960}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &792534239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 230825538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 32, y: 32}
-  m_Spacing: {x: 20, y: 0}
-  m_Constraint: 0
-  m_ConstraintCount: 2
 --- !u!1 &816889361
 GameObject:
   m_ObjectHideFlags: 0
@@ -12013,22 +11984,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2138697850}
     m_Modifications:
-    - target: {fileID: 2101352074507153720, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2101352074507153720, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
-      propertyPath: m_Spacing
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2101352074507153720, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
-      propertyPath: m_ChildAlignment
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2101352074507153720, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
-      propertyPath: m_ChildControlWidth
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2495778348512703519, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -12117,14 +12072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeartsContainerPrefab
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2101352074507153720, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8558195113708807365, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 792534239}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdf9c4e863253f1a6871a6f7881e1314, type: 3}
 --- !u!1 &1186974298
 GameObject:
