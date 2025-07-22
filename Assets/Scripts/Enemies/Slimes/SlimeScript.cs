@@ -7,8 +7,10 @@ public enum SlimeState
     Waiting
 }
 
-public class SlimeScript : MonoBehaviour, ITakeDamage
+public class SlimeScript : MonoBehaviour, IEnemyTakeDamage
 {
+    public event System.Action<GameObject> OnEnemyDeath;
+
     [Header("Strategies")]
     public SlimeMovementStrategy movementStrategy;
     public SlimeAttackStrategy attackStrategy;
@@ -77,6 +79,7 @@ public class SlimeScript : MonoBehaviour, ITakeDamage
 
     public void Die()
     {
+        OnEnemyDeath?.Invoke(gameObject);
         Destroy(gameObject);
     }
 }
