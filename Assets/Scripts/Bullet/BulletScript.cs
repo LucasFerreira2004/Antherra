@@ -58,12 +58,10 @@ public class BulletScript : MonoBehaviour
                 other.GetComponent<IEnemyTakeDamage>()?.TakeDamage(damage);
 
             }
-            else
+            else if (other.CompareTag("Player"))
             {
-                other.GetComponent<PlayerStatus>()?.TakeDamage(damage);
+                PlayerStatus.Instance.TakeDamage(damage); // Acessa o singleton diretamente
             }
-
-
 
             Destroy(gameObject);
         }

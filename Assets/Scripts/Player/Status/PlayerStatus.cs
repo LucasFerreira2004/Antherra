@@ -2,9 +2,10 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStatus : MonoBehaviour
+public sealed class PlayerStatus : MonoBehaviour
 {
-    public static PlayerStatus instance;
+    public static PlayerStatus Instance { get; private set; }
+
     private static int playModeIndex = 0;
     private BaseStatusStrategy baseStatusStrategy;
 
@@ -13,8 +14,8 @@ public class PlayerStatus : MonoBehaviour
     [SerializeField] private BaseStatusFactory baseStatusFactory;
 
     [Header("Health Settings")]
-    [SerializeField] private int maxHealth = 5;
-    [SerializeField] private int currentHealth;
+    private int maxHealth;
+    private int currentHealth;
 
     public static event Action OnPlayerDamaged;
     public static event Action OnPlayerDeath;
@@ -23,10 +24,24 @@ public class PlayerStatus : MonoBehaviour
 
     private void Awake()
     {
+        // Singleton setup
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Debug.Log("01");
+
+        Instance = this;
+        maxHealth = 6;
+        currentHealth = maxHealth;
+        Debug.Log("02");
+
+        DontDestroyOnLoad(gameObject);
+        Debug.Log("03");
+
         baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[0]);
         GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
-
-        currentHealth = maxHealth;
     }
 
     public void OnChangeMode()

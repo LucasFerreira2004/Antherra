@@ -13,7 +13,7 @@ public class PlayerShooting : MonoBehaviour
     private float nextFireTime = 0f;
     void Start()
     {
-        status = GetComponent<PlayerStatus>();
+        status = PlayerStatus.Instance;
     }
 
     void Update()
