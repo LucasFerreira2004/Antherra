@@ -7,8 +7,10 @@ public enum OrcState
     Moving,
 }
 
-public class OrcScript : MonoBehaviour, ITakeDamage
+public class OrcScript : MonoBehaviour, IEnemyTakeDamage
 {
+    public event System.Action<GameObject> OnEnemyDeath;
+
     [Header("Actions")]
     [SerializeField] private ScriptableObject movementSO;
     [SerializeField] private ScriptableObject attackSO;
@@ -119,6 +121,7 @@ public class OrcScript : MonoBehaviour, ITakeDamage
 
     public void Die()
     {
+        OnEnemyDeath?.Invoke(gameObject);
         Destroy(gameObject);
     }
 

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 // se refere ao containner de hears
 public class HeartUIManager : MonoBehaviour
 {
-    [SerializeField] private PlayerHealthStatus healthStatus;
+    [SerializeField] private PlayerStatus healthStatus;
     [SerializeField] private GameObject heartPrefab;
     List<HealtHeart> hearts = new List<HealtHeart>();
 
@@ -18,12 +18,12 @@ public class HeartUIManager : MonoBehaviour
 
     private void OnEnable()
     {
-        PlayerHealthStatus.OnPlayerDamaged += DrawHearts;
+        PlayerStatus.OnPlayerDamaged += DrawHearts;
     }
 
     private void OnDisable()
     {
-        PlayerHealthStatus.OnPlayerDamaged -= DrawHearts;
+        PlayerStatus.OnPlayerDamaged -= DrawHearts;
     }
 
 
