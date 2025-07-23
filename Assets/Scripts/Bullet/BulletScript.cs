@@ -43,31 +43,31 @@ public class BulletScript : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject == owner) return;
 
         // Destroi ao colidir com parede
-        if (other.CompareTag("Wall") && gameObject.tag != other.tag)
+        if (other.gameObject.CompareTag("Wall") && gameObject.tag != other.gameObject.tag)
         {
             Destroy(gameObject);
             return;
         }
 
-        if (other.CompareTag("Enemy") || other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Enemy") || other.gameObject.CompareTag("Player"))
         {
-            if (other.tag == owner.tag) return;
+            if (other.gameObject.tag == owner.tag) return;
 
             // Aqui você pode aplicar o dano ao inimigo
             // Exemplo:
-            if (other.CompareTag("Enemy"))
+            if (other.gameObject.CompareTag("Enemy"))
             {
-                other.GetComponent<IEnemyTakeDamage>()?.TakeDamage(damage);
+                other.gameObject.GetComponent<IEnemyTakeDamage>()?.TakeDamage(damage);
 
             }
-            else if (other.CompareTag("Player"))
+            else if (other.gameObject.CompareTag("Player"))
             {
-                other.GetComponent<PlayerStatus>().TakeDamage(damage);
+                other.gameObject.GetComponent<PlayerStatus>().TakeDamage(damage);
             }
 
             Destroy(gameObject);

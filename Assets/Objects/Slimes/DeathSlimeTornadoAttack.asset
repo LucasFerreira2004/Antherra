@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96f66c3f4f959b29f9a11b7fb324b8be, type: 3}
   m_Name: DeathSlimeTornadoAttack
   m_EditorClassIdentifier: 
-  tornadoPrefab: {fileID: 0}
+  tornadoPrefab: {fileID: 4185671821515940733, guid: cd0991f0e787262e7bc0d227260f5f06, type: 3}
   tornadoSpacing: 1
   tornadoCount: 3
   tornadoLifetime: 4

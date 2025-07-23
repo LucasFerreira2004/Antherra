@@ -137,5 +137,12 @@ public sealed class PlayerStatus : MonoBehaviour
         set => healthData.CurrentHealth = Mathf.Clamp(value, 0, healthData.CurrentMaxHealth);
     }
 
+    public void OnChangeMode()
+    {
+        playModeIndex = (playModeIndex + 1) % playerModes.Count;
+        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[playModeIndex]);
+        GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
+    }
+
     public List<PlayerMode> PlayerMode => playerModes;
 }
