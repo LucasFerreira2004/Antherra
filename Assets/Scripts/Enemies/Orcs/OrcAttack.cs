@@ -6,14 +6,14 @@ public class OrcAttack : ScriptableObject, IOrcAttack
     [Header("Configurações do ataque")]
     [SerializeField] private int damage = 1;
 
-    private PlayerHealthStatus lastTarget;
+    private PlayerStatus lastTarget;
 
     public void ApplyDamage()
     {
         lastTarget?.TakeDamage(damage);
     }
 
-    public void SetLastTarget(PlayerHealthStatus target)
+    public void SetLastTarget(PlayerStatus target)
     {
         lastTarget = target;
     }
@@ -22,7 +22,7 @@ public class OrcAttack : ScriptableObject, IOrcAttack
     {
         if (context.State != OrcState.Attacking) return;
 
-        var target = collision.GetComponent<PlayerHealthStatus>();
+        var target = collision.GetComponent<PlayerStatus>();
 
         lastTarget = target;
         context?.Animator.SetTrigger("Attack");

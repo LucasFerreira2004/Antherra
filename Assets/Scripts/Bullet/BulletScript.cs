@@ -1,9 +1,11 @@
 using UnityEngine;
 
-public interface ITakeDamage
+public interface IEnemyTakeDamage
 {
     public void TakeDamage(float damage);
+    event System.Action<GameObject> OnEnemyDeath;
 }
+
 
 public class BulletScript : MonoBehaviour
 {
@@ -53,15 +55,13 @@ public class BulletScript : MonoBehaviour
             // Exemplo:
             if (other.CompareTag("Enemy"))
             {
-                other.GetComponent<ITakeDamage>()?.TakeDamage(damage);
+                other.GetComponent<IEnemyTakeDamage>()?.TakeDamage(damage);
 
             }
-            else
+            else if (other.CompareTag("Player"))
             {
-                other.GetComponent<PlayerHealthStatus>()?.TakeDamage(damage);
+                other.GetComponent<PlayerStatus>().TakeDamage(damage); 
             }
-
-
 
             Destroy(gameObject);
         }
