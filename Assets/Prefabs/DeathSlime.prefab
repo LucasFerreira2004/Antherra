@@ -133,7 +133,7 @@ MonoBehaviour:
   fireballPrefab: {fileID: 4185671821515940733, guid: fbac448e6b6d8042ca1b2fd1a60a2fbe, type: 3}
   firePoint: {fileID: 5962924926477251970}
   selfTransform: {fileID: 0}
-  attackCooldown: 30
+  attackCooldown: 3
   moveSpeed: 2
   maxHealth: 4
   currentHealth: 10
