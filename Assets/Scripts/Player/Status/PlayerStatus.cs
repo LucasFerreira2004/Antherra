@@ -13,7 +13,7 @@ public sealed class PlayerStatus : MonoBehaviour
     private enum PlayerState { Normal, Invincible }
     private PlayerState currentState = PlayerState.Normal;
     private float invincibleTimer = 0f;
-    private const float invincibleDuration = 2f;
+    public const float invincibleDuration = 2f;
 
     [Header("Player Mode")]
     [SerializeField] private List<PlayerMode> playerModes;
