@@ -144,6 +144,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathSlime
       objectReference: {fileID: 0}
+    - target: {fileID: 5962924926477251970, guid: 80ec8c15138fd1c91bc552ac8028877d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962924926477251970, guid: 80ec8c15138fd1c91bc552ac8028877d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.54
+      objectReference: {fileID: 0}
     - target: {fileID: 6170825469626380221, guid: 80ec8c15138fd1c91bc552ac8028877d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.31531
@@ -329,6 +337,14 @@ PrefabInstance:
     - target: {fileID: 1156192525996036739, guid: 9c15fbe600dea88db9f1a88c31607f06, type: 3}
       propertyPath: m_Name
       value: Vampire
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315728564210261458, guid: 9c15fbe600dea88db9f1a88c31607f06, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3315728564210261458, guid: 9c15fbe600dea88db9f1a88c31607f06, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
