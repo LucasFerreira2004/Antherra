@@ -36,6 +36,7 @@ public class VampireScript : MonoBehaviour, IEnemyTakeDamage
 
     public Vector2 MoveDirection;
     public Vector2 LastDirection = Vector2.down;
+    public bool IsBlocked { get; set; }
 
     private float currentHealth;
     private float attackTimer = 0f;
@@ -54,8 +55,11 @@ public class VampireScript : MonoBehaviour, IEnemyTakeDamage
 
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // Define estado com base na distância
-        if (distance >= movementStrategy.GetIdealDistance() || distance <= movementStrategy.GetMinAttackDistance())
+        bool isOutOfIdealRange = distance >= movementStrategy.GetIdealDistance();
+        bool isTooClose = distance <= movementStrategy.GetMinAttackDistance();
+        bool shouldMove = isOutOfIdealRange || isTooClose;
+
+        if (shouldMove && !IsBlocked)
         {
             SetState(VampireState.Moving);
         }
@@ -64,7 +68,6 @@ public class VampireScript : MonoBehaviour, IEnemyTakeDamage
             SetState(VampireState.Attacking);
         }
 
-        // Executa ações baseadas no estado
         switch (State)
         {
             case VampireState.Waiting:
@@ -97,6 +100,7 @@ public class VampireScript : MonoBehaviour, IEnemyTakeDamage
         if (State == newState) return;
         State = newState;
     }
+
 
     private void Stop()
     {
