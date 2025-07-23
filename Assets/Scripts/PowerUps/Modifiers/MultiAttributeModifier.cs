@@ -8,7 +8,9 @@ public class MultiAttributeModifier : IPowerUpEffectSO
     [SerializeField] private float fireRateMultiplier = 1f;
     [SerializeField] private float bulletSpeedMultiplier = 1f;
     [SerializeField] private float bulletRangeIncrease = 0f;
-    [SerializeField] private int MaxHealthIncrese = 1;
+    [SerializeField] private int MaxHealthIncrese = 0;
+    [SerializeField] private int HealthIncrese = 0;
+
 
     public override void Apply(PlayerStatus player)
 
@@ -19,5 +21,6 @@ public class MultiAttributeModifier : IPowerUpEffectSO
         player.ModifiedStatus.BulletSpeed *= bulletSpeedMultiplier;
         player.ModifiedStatus.BulletRange += bulletRangeIncrease;
         player.IncreaseMaxHealth(MaxHealthIncrese);
+        player.Heal(HealthIncrese);
     }
 }

@@ -86,14 +86,15 @@ public sealed class PlayerStatus : MonoBehaviour
 
     public void Heal(int amount)
     {
+        if (amount == 0) return;
         healthData.CurrentHealth = Mathf.Min(healthData.CurrentHealth + amount, healthData.CurrentMaxHealth);
         OnPlayerHealed?.Invoke();
     }
 
     public void IncreaseMaxHealth(int amount)
     {
+        if (amount == 0) return; 
         healthData.CurrentMaxHealth += amount;
-        healthData.CurrentHealth = healthData.CurrentMaxHealth;
         OnPlayerHealthIncreased?.Invoke();
     }
 
