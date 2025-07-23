@@ -6696,7 +6696,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Effect Bullet Impact Explosion 32x32_251
+      name: purple-bullet-sprite-4
       rect:
         serializedVersion: 2
         x: 356
@@ -6718,7 +6718,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Effect Bullet Impact Explosion 32x32_252
+      name: purple-bullet-sprite-3
       rect:
         serializedVersion: 2
         x: 383
@@ -6740,7 +6740,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Effect Bullet Impact Explosion 32x32_253
+      name: purple-bullet-sprite-2
       rect:
         serializedVersion: 2
         x: 416
@@ -6762,7 +6762,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple Effect Bullet Impact Explosion 32x32_254
+      name: purple-bullet-sprite-1
       rect:
         serializedVersion: 2
         x: 449
@@ -9343,10 +9343,6 @@ TextureImporter:
       Purple Effect Bullet Impact Explosion 32x32_249: -2594375879920533984
       Purple Effect Bullet Impact Explosion 32x32_25: -669267621749454217
       Purple Effect Bullet Impact Explosion 32x32_250: 1359864004779027083
-      Purple Effect Bullet Impact Explosion 32x32_251: 3367682176185563117
-      Purple Effect Bullet Impact Explosion 32x32_252: -8412957235699635204
-      Purple Effect Bullet Impact Explosion 32x32_253: 6925022698850555530
-      Purple Effect Bullet Impact Explosion 32x32_254: 3383517573834829733
       Purple Effect Bullet Impact Explosion 32x32_255: 7014628728274706722
       Purple Effect Bullet Impact Explosion 32x32_256: -8121019749986035229
       Purple Effect Bullet Impact Explosion 32x32_257: 7991425459401672786
