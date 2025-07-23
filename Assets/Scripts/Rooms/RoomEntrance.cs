@@ -15,11 +15,11 @@ public class RoomEntrance : MonoBehaviour, IRoomEntrance
     [SerializeField] private EntranceDirection entranceDirection;
 
     private GameObject roomExitBlock;
-    private RoomManager currentRoom;
+    private IRoomManager currentRoom;
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (!collision.CompareTag("Player")) return;
-        currentRoom = GetComponentInParent<RoomManager>();
+        currentRoom = GetComponentInParent<IRoomManager>();
         currentRoom.ActivateRoom();
         GetComponent<Collider2D>().enabled = false;
     }

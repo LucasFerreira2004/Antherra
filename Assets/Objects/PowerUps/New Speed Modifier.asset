@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f26e151f2490d06f68b3a383ecdb2113, type: 3}
   m_Name: New Speed Modifier
   m_EditorClassIdentifier: 
+  powerUpName: Speed Boots
+  powerUpDescription: Speed(+100%)
+  icon: {fileID: 0}
   speedMultiplier: 2

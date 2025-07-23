@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ec223b626117f95ada1522ac701904, type: 3}
   m_Name: New Current Health Modifier
   m_EditorClassIdentifier: 
+  powerUpName: Health Pot
+  powerUpDescription: Hearts + 1
+  icon: {fileID: 0}
   HealthIncrese: 2

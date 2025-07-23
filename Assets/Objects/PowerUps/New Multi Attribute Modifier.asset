@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c203aef8de2cc41609555546fa8d4ef2, type: 3}
   m_Name: New Multi Attribute Modifier
   m_EditorClassIdentifier: 
+  powerUpName: Bullet Sacrifice
+  powerUpDescription: Hearts (-1) FireRate(+50%)
+  icon: {fileID: 0}
   speedMultiplier: 1
   bulletDamageIncrease: 0
   fireRateMultiplier: 1.5
