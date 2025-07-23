@@ -47,6 +47,13 @@ public class BulletScript : MonoBehaviour
     {
         if (other.gameObject == owner) return;
 
+        // Destroi ao colidir com parede
+        if (other.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         if (other.CompareTag("Enemy") || other.CompareTag("Player"))
         {
             if (other.tag == owner.tag) return;
@@ -60,7 +67,7 @@ public class BulletScript : MonoBehaviour
             }
             else if (other.CompareTag("Player"))
             {
-                other.GetComponent<PlayerStatus>().TakeDamage(damage); 
+                other.GetComponent<PlayerStatus>().TakeDamage(damage);
             }
 
             Destroy(gameObject);
