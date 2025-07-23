@@ -6,7 +6,14 @@ public sealed class PlayerStatus : MonoBehaviour
 {
     private static int playModeIndex = 0;
     public static Transform PlayerTransform { get; set; }
+
     private IBaseStatusStrategy baseStatusStrategy;
+    private SpriteRenderer spriteRenderer;
+
+    private enum PlayerState { Normal, Invincible }
+    private PlayerState currentState = PlayerState.Normal;
+    private float invincibleTimer = 0f;
+    private const float invincibleDuration = 2f;
 
     [Header("Player Mode")]
     [SerializeField] private List<PlayerMode> playerModes;
@@ -20,22 +27,74 @@ public sealed class PlayerStatus : MonoBehaviour
     public static event Action OnPlayerHealed;
     public static event Action OnPlayerHealthIncreased;
 
-
     private void Awake()
     {
         PlayerTransform = transform;
+        spriteRenderer = GetComponent<SpriteRenderer>();
         baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[0]);
-        GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
+        spriteRenderer.color = baseStatusStrategy.CharacterSpriteColor;
     }
 
-    public void OnChangeMode()
+    private void Update()
     {
-        playModeIndex = (playModeIndex + 1) % playerModes.Count;
-        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[playModeIndex]);
-        GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
+        if (currentState == PlayerState.Invincible)
+        {
+            invincibleTimer -= Time.deltaTime;
+
+            // Pulsa a opacidade com um efeito senoidal
+            float alpha = 0.5f + Mathf.Sin(Time.time * 20f) * 0.25f; // entre 0.25 e 0.75
+            Color c = spriteRenderer.color;
+            c.a = alpha;
+            spriteRenderer.color = c;
+
+            if (invincibleTimer <= 0f)
+            {
+                currentState = PlayerState.Normal;
+                Color resetColor = spriteRenderer.color;
+                resetColor.a = 1f;
+                spriteRenderer.color = resetColor;
+            }
+        }
     }
 
-    // Delegações de status base
+    public void TakeDamage(int amount)
+    {
+        if (currentState == PlayerState.Invincible) return;
+
+        healthData.CurrentHealth -= amount;
+        OnPlayerDamaged?.Invoke();
+
+        if (healthData.CurrentHealth <= 0)
+        {
+            healthData.CurrentHealth = 0;
+            Die();
+            return;
+        }
+
+        // Ativa invencibilidade por 2 segundos
+        currentState = PlayerState.Invincible;
+        invincibleTimer = invincibleDuration;
+    }
+
+    public void Heal(int amount)
+    {
+        healthData.CurrentHealth = Mathf.Min(healthData.CurrentHealth + amount, healthData.CurrentMaxHealth);
+        OnPlayerHealed?.Invoke();
+    }
+
+    public void IncreaseMaxHealth(int amount)
+    {
+        healthData.CurrentMaxHealth += amount;
+        healthData.CurrentHealth = healthData.CurrentMaxHealth;
+        OnPlayerHealthIncreased?.Invoke();
+    }
+
+    private void Die()
+    {
+        SceneLoader.LoadGameOver();
+        OnPlayerDeath?.Invoke();
+    }
+
     public float Speed
     {
         get => baseStatusStrategy.Speed;
@@ -64,38 +123,6 @@ public sealed class PlayerStatus : MonoBehaviour
     {
         get => baseStatusStrategy.BulletRange;
         set => baseStatusStrategy.BulletRange = Mathf.Max(0.1f, value);
-    }
-
-    // Vida do jogador
-    public void TakeDamage(int amount)
-    {
-        healthData.CurrentHealth -= amount;
-        OnPlayerDamaged?.Invoke();
-
-        if (healthData.CurrentHealth <= 0)
-        {
-            healthData.CurrentHealth = 0;
-            Die();
-        }
-    }
-
-    public void Heal(int amount)
-    {
-        healthData.CurrentHealth = Mathf.Min(healthData.CurrentHealth + amount, healthData.CurrentMaxHealth);
-        OnPlayerHealed?.Invoke();
-    }
-
-    public void IncreaseMaxHealth(int amount)
-    {
-        healthData.CurrentMaxHealth += amount;
-        healthData.CurrentHealth = healthData.CurrentMaxHealth;
-        OnPlayerHealthIncreased?.Invoke();
-    }
-
-    private void Die()
-    {
-        SceneLoader.LoadGameOver();
-        OnPlayerDeath?.Invoke();
     }
 
     public int MaxHealth
