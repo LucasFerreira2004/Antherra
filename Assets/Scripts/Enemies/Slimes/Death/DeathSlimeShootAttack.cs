@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Slime/Attack/DeathSlime")]
-public class DeathSlimeAttack : SlimeAttackStrategy
+[CreateAssetMenu(menuName = "Slime/Attack/DeathSlime/Shoot")]
+public class DeathSlimeShootAttack : SlimeAttackStrategy
 {
     public float bulletSpeed = 2f;
     public int bulletDamage = 1;

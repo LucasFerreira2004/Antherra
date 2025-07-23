@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 6170825469626380221}
   - component: {fileID: 2284527037097665236}
   - component: {fileID: -5633286517877112914}
-  - component: {fileID: 1277788305908874133}
   - component: {fileID: -3729534174336365091}
   - component: {fileID: -7073244757436354886}
+  - component: {fileID: 3837958486961598883}
   m_Layer: 3
   m_Name: DeathSlime
   m_TagString: Enemy
@@ -114,29 +114,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1277788305908874133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4178150116624015751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 818fa2f56ad3c131fa879c51f6cf1db6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementStrategy: {fileID: 11400000, guid: d7923bcdffc4fa8e7927ee18f3ffe3b8, type: 2}
-  attackStrategy: {fileID: 11400000, guid: b76f2bc476e84ce0a8f5950714e30cc5, type: 2}
-  animator: {fileID: -5633286517877112914}
-  player: {fileID: 8391630477536354153, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
-  fireballPrefab: {fileID: 4185671821515940733, guid: c2dfeca713f2ea870b01e95358ba9da8, type: 3}
-  firePoint: {fileID: 5962924926477251970}
-  selfTransform: {fileID: 0}
-  attackCooldown: 3
-  moveSpeed: 2
-  maxHealth: 4
-  currentHealth: 10
 --- !u!58 &-3729534174336365091
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -209,6 +186,32 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.05, y: -0.06}
   m_Radius: 0.3
+--- !u!114 &3837958486961598883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4178150116624015751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730801c7b5b88a22198786269057e189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementStrategy: {fileID: 11400000, guid: d7923bcdffc4fa8e7927ee18f3ffe3b8, type: 2}
+  attackStrategy: {fileID: 11400000, guid: b76f2bc476e84ce0a8f5950714e30cc5, type: 2}
+  animator: {fileID: -5633286517877112914}
+  player: {fileID: 8391630477536354153, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+  fireballPrefab: {fileID: 4185671821515940733, guid: c2dfeca713f2ea870b01e95358ba9da8, type: 3}
+  firePoint: {fileID: 5962924926477251970}
+  selfTransform: {fileID: 0}
+  attackCooldown: 2
+  moveSpeed: 2
+  maxHealth: 10
+  currentHealth: 0
+  attackModes:
+  - {fileID: 11400000, guid: b76f2bc476e84ce0a8f5950714e30cc5, type: 2}
+  - {fileID: 11400000, guid: c5f596973e6326bfdbffcefc87d7a23b, type: 2}
 --- !u!1 &4477087299359172582
 GameObject:
   m_ObjectHideFlags: 0

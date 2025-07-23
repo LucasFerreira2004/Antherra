@@ -48,7 +48,7 @@ public class BulletScript : MonoBehaviour
         if (other.gameObject == owner) return;
 
         // Destroi ao colidir com parede
-        if (other.CompareTag("Wall"))
+        if (other.CompareTag("Wall") && gameObject.tag != other.tag)
         {
             Destroy(gameObject);
             return;
