@@ -23,7 +23,6 @@ public sealed class PlayerStatus : MonoBehaviour
     public static event Action OnPlayerHealed;
     public static event Action OnPlayerHealthIncreased;
 
-
     private void Awake()
     {
         PlayerTransform = transform;
@@ -39,6 +38,9 @@ public sealed class PlayerStatus : MonoBehaviour
     }
 
     // Delegações de status base
+    public PlayerModifiedStatus ModifiedStatus{
+        get => modifiedStatus;
+    }
     public float Speed
     {
         get => baseStatusStrategy.Speed * modifiedStatus.Speed;
@@ -48,7 +50,7 @@ public sealed class PlayerStatus : MonoBehaviour
     public int BulletDamage
     {
         get => baseStatusStrategy.BulletDamage + modifiedStatus.BulletDamage;
-        set => baseStatusStrategy.BulletDamage = value;
+        set => modifiedStatus.BulletDamage = value;
     }
 
     public float FireRate
@@ -69,7 +71,7 @@ public sealed class PlayerStatus : MonoBehaviour
         set => baseStatusStrategy.BulletRange = Mathf.Max(0.1f, value);
     }
 
-    // Vida do jogador
+    // tirar atributos de vida de playerStatus e deixar apenas em PlayerHealthData
     public void TakeDamage(int amount)
     {
         healthData.CurrentHealth -= amount;
