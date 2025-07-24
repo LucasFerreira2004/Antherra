@@ -10,10 +10,10 @@ public class PlayerShooting : MonoBehaviour
     private bool fireSingle;
     private PlayerStatus status;
     private Vector2 shootDirection = Vector2.right;
-     private float nextFireTime = 0f;
+    private float nextFireTime = 0f;
     void Start()
     {
-        status = GetComponent<PlayerStatus>();
+        status = status = GetComponent<PlayerStatus>();
     }
 
     void Update()
@@ -26,14 +26,14 @@ public class PlayerShooting : MonoBehaviour
                 nextFireTime = Time.time + 1f / status.FireRate;  // ex: 1/2 = 2 shoots per second
                 fireSingle = false;
             }
-            
+
         }
     }
 
     void OnAttackDirection(InputValue inputValue)
     {
         Vector2 inputDir = inputValue.Get<Vector2>();
-        Debug.Log("direção do input de tiro" + inputDir);
+
         if (inputDir != Vector2.zero)
         {
             shootDirection = inputDir.normalized;
@@ -54,5 +54,6 @@ public class PlayerShooting : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.linearVelocity = shootDirection * status.BulletSpeed;
+        bullet.GetComponent<BulletScript>().Init(status.BulletRange, status.BulletDamage, gameObject);
     }
 }
