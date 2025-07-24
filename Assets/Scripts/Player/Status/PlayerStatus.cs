@@ -38,13 +38,19 @@ public sealed class PlayerStatus : MonoBehaviour
     }
 
     // Delegações de status base
-    public PlayerModifiedStatus ModifiedStatus{
+    public PlayerModifiedStatus ModifiedStatus
+    {
         get => modifiedStatus;
     }
     public float Speed
     {
         get => baseStatusStrategy.Speed * modifiedStatus.Speed;
         set => baseStatusStrategy.Speed = Mathf.Max(0, value);
+    }
+
+    public int BulletNumber
+    {
+        get => baseStatusStrategy.BulletNumber;
     }
 
     public int BulletDamage

@@ -1,14 +1,14 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "playerModes/standart")]
-public class StandardBaseStatus : IBaseStatusStrategy
+[CreateAssetMenu(menuName = "playerModes/shotgun")]
+public class ShotgunBaseStatus : IBaseStatusStrategy
 {
     [SerializeField] private float speed = 8;
-    [SerializeField] private int bulletDamage = 2;
-    [SerializeField] private float bulletFireRate = 3;
-    [SerializeField] private float bulletSpeed = 10;
-    [SerializeField] private float bulletRange = 5;
-    [SerializeField] private int bulletNumber = 1;
+    [SerializeField] private int bulletDamage = 1;
+    [SerializeField] private float bulletFireRate = 1.5f;
+    [SerializeField] private float bulletSpeed = 8;
+    [SerializeField] private float bulletRange = 3;
+    [SerializeField] private int bulletNumber = 5;
     [SerializeField] private Color characterSpriteColor = Color.white;
 
     public override float Speed

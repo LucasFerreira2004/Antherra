@@ -171,6 +171,7 @@ MonoBehaviour:
   - {fileID: 1925542433}
   - {fileID: 614665971}
   - {fileID: 1269835522}
+  - {fileID: 95579501}
   enemyPrefabs:
   - {fileID: 1156192525996036739, guid: fe6d04c3d059a7098aec58d4011d1138, type: 3}
 --- !u!1 &63315537
@@ -1299,6 +1300,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 19105637333545446, guid: e493d1430deb713c6aec6b513088553d, type: 3}
   m_PrefabInstance: {fileID: 1766153375620113245}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &95579500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 95579501}
+  m_Layer: 0
+  m_Name: EnemySpawPoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &95579501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95579500}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.7, y: -0.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 607691505}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &117736219 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 19105637333545446, guid: e493d1430deb713c6aec6b513088553d, type: 3}
@@ -16917,6 +16949,18 @@ PrefabInstance:
       propertyPath: modifiedStatus
       value: 
       objectReference: {fileID: 11400000, guid: 240615860bef23c7ca9de861003f0f9b, type: 2}
+    - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: playerModes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: 'playerModes.Array.data[1]'
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
+      propertyPath: 'playerModes.Array.data[2]'
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6219646412613573617, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
       propertyPath: m_Name
       value: PlayerPrefab
@@ -17102,6 +17146,7 @@ Transform:
   - {fileID: 1925542433}
   - {fileID: 614665971}
   - {fileID: 1269835522}
+  - {fileID: 95579501}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &614665970
@@ -57443,7 +57488,7 @@ Transform:
   m_GameObject: {fileID: 1925542432}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.43, y: 0, z: 0}
+  m_LocalPosition: {x: 10.66, y: 0.37, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
