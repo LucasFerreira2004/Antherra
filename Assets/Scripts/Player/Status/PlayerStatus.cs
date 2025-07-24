@@ -15,11 +15,13 @@ public sealed class PlayerStatus : MonoBehaviour
     [Header("Health Settings")]
     [SerializeField] private PlayerHealthData healthData;
 
+    [Header("Modifiers")]
+    [SerializeField] private PlayerModifiedStatus modifiedStatus;
+
     public static event Action OnPlayerDamaged;
     public static event Action OnPlayerDeath;
     public static event Action OnPlayerHealed;
     public static event Action OnPlayerHealthIncreased;
-
 
     private void Awake()
     {
@@ -36,37 +38,40 @@ public sealed class PlayerStatus : MonoBehaviour
     }
 
     // Delegações de status base
+    public PlayerModifiedStatus ModifiedStatus{
+        get => modifiedStatus;
+    }
     public float Speed
     {
-        get => baseStatusStrategy.Speed;
+        get => baseStatusStrategy.Speed * modifiedStatus.Speed;
         set => baseStatusStrategy.Speed = Mathf.Max(0, value);
     }
 
     public int BulletDamage
     {
-        get => baseStatusStrategy.BulletDamage;
-        set => baseStatusStrategy.BulletDamage = value;
+        get => baseStatusStrategy.BulletDamage + modifiedStatus.BulletDamage;
+        set => modifiedStatus.BulletDamage = value;
     }
 
     public float FireRate
     {
-        get => baseStatusStrategy.BulletFireRate;
+        get => baseStatusStrategy.BulletFireRate + modifiedStatus.BulletFireRate;
         set => baseStatusStrategy.BulletFireRate = Mathf.Max(0.1f, value);
     }
 
     public float BulletSpeed
     {
-        get => baseStatusStrategy.BulletSpeed;
+        get => baseStatusStrategy.BulletSpeed * modifiedStatus.BulletSpeed;
         set => baseStatusStrategy.BulletSpeed = Mathf.Max(0.1f, value);
     }
 
     public float BulletRange
     {
-        get => baseStatusStrategy.BulletRange;
+        get => baseStatusStrategy.BulletRange + modifiedStatus.BulletRange;
         set => baseStatusStrategy.BulletRange = Mathf.Max(0.1f, value);
     }
 
-    // Vida do jogador
+    // tirar atributos de vida de playerStatus e deixar apenas em PlayerHealthData
     public void TakeDamage(int amount)
     {
         healthData.CurrentHealth -= amount;
@@ -81,14 +86,15 @@ public sealed class PlayerStatus : MonoBehaviour
 
     public void Heal(int amount)
     {
+        if (amount == 0) return;
         healthData.CurrentHealth = Mathf.Min(healthData.CurrentHealth + amount, healthData.CurrentMaxHealth);
         OnPlayerHealed?.Invoke();
     }
 
     public void IncreaseMaxHealth(int amount)
     {
+        if (amount == 0) return; 
         healthData.CurrentMaxHealth += amount;
-        healthData.CurrentHealth = healthData.CurrentMaxHealth;
         OnPlayerHealthIncreased?.Invoke();
     }
 
