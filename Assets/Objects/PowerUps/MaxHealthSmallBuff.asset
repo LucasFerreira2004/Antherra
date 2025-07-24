@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0ccac2b79314de439f12e51ecb04ab6, type: 3}
+  m_Name: MaxHealthSmallBuff
+  m_EditorClassIdentifier: 
+  powerUpName: Tight Belt
+  powerUpDescription: Hearts (+1)
+  icon: {fileID: 1009049853055315898, guid: ac49ffe9a5f2543f582080237895818c, type: 3}
+  MaxHealthIncrese: 2

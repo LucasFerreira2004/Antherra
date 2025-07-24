@@ -10,6 +10,7 @@ public class PowerUpUIManager : MonoBehaviour
     private void Start()
     {
         powerUpData = GetComponent<PowerUpColisionManager>().PowerUpEffect;
+        GetComponent<SpriteRenderer>().sprite = powerUpData.Icon;
         Canvas canvas = GetComponentInChildren<Canvas>();
         TextMeshPro[] textArray = canvas.GetComponentsInChildren<TextMeshPro>();
         powerUpName = textArray[0].GetComponent<TextMeshPro>();
