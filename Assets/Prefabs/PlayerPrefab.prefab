@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 6687344122887632598}
   - component: {fileID: 571736130042948404}
   - component: {fileID: 4900843259440054675}
-  - component: {fileID: 1667360318438923597}
   - component: {fileID: 6403829511633770352}
+  - component: {fileID: 6172434208558571372}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Player
@@ -203,8 +203,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &1667360318438923597
-BoxCollider2D:
+--- !u!114 &6403829511633770352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6219646412613573617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e1070cd2d6497f4afe3f44b6d9dc26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 4185671821515940733, guid: fbac448e6b6d8042ca1b2fd1a60a2fbe, type: 3}
+--- !u!58 &6172434208558571372
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -237,28 +250,5 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.53910863}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 1.5}
-    newSize: {x: 1, y: 0.8828125}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.875, y: 0.4217827}
-  m_EdgeRadius: 0
---- !u!114 &6403829511633770352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6219646412613573617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7e1070cd2d6497f4afe3f44b6d9dc26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 4185671821515940733, guid: fbac448e6b6d8042ca1b2fd1a60a2fbe, type: 3}
+  m_Offset: {x: 0, y: -0.4}
+  m_Radius: 0.3
