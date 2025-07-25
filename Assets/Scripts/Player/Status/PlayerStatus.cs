@@ -103,6 +103,8 @@ public sealed class PlayerStatus : MonoBehaviour
     // tirar atributos de vida de playerStatus e deixar apenas em PlayerHealthData
     public void TakeDamage(int amount)
     {
+        if (currentState == PlayerState.Invincible) return;
+
         healthData.CurrentHealth -= amount;
         OnPlayerDamaged?.Invoke();
 
@@ -110,9 +112,9 @@ public sealed class PlayerStatus : MonoBehaviour
         {
             healthData.CurrentHealth = 0;
             Die();
+            return;
         }
 
-        // Ativa invencibilidade por 2 segundos
         currentState = PlayerState.Invincible;
         invincibleTimer = invincibleDuration;
     }
