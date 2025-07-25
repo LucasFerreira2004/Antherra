@@ -23,6 +23,7 @@ public class PlayerShooting : MonoBehaviour
             if (Time.time >= nextFireTime && shootDirection != Vector2.zero)
             {
                 FireBullet(status.BulletNumber);
+                Debug.Log("fireRate:" + status.FireRate);
                 nextFireTime = Time.time + 1f / status.FireRate;  // ex: 1/2 = 2 shoots per second
                 fireSingle = false;
             }
