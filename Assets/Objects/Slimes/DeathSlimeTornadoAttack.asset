@@ -15,4 +15,4 @@ MonoBehaviour:
   tornadoPrefab: {fileID: 4185671821515940733, guid: cd0991f0e787262e7bc0d227260f5f06, type: 3}
   tornadoSpacing: 1
   tornadoCount: 3
-  tornadoLifetime: 4
+  tornadoLifetime: 1

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 10
   bulletDamage: 1
-  bulletRange: 5
+  bulletRange: 10
   spreadAngle: 15
   centralBulletSpeedMultiplier: 1.4

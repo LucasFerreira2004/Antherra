@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - PlayerSpawnPoint
   - Wall
+  - Bullet
   layers:
   - Default
   - TransparentFX

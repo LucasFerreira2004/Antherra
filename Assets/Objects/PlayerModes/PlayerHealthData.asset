@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaxHealth: 12
   CurrentMaxHealth: 12
-  CurrentHealth: 7
+  CurrentHealth: 12

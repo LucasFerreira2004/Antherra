@@ -19,7 +19,7 @@ public class DeathSlimeTornadoAttack : SlimeAttackStrategy
         Vector2 perpendicular = new Vector2(-dirToPlayer.y, dirToPlayer.x).normalized;
 
         // Ponto central onde os tornados devem aparecer (alguns passos à frente do slime)
-        Vector2 center = (Vector2)context.FirePoint.position + dirToPlayer * 1.5f;
+        Vector2 center = (Vector2)context.FirePoint.position + dirToPlayer * 2f;
 
         int half = tornadoCount / 2;
 

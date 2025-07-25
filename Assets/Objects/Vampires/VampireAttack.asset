@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da1535c062379695dbfa4f186143f3a5, type: 3}
   m_Name: VampireAttack
   m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 4185671821515940733, guid: c2dfeca713f2ea870b01e95358ba9da8, type: 3}
+  projectileSpeed: 5
   damage: 1
