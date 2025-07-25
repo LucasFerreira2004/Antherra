@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21fea266dc4db9fc98adad0da664f3a, type: 3}
+  m_Name: BeltsSpawntemsList
+  m_EditorClassIdentifier: 
+  itemsPrefabs:
+  - {fileID: 1476446002168438390, guid: 7c40507374aac0c29951f7e885a236f4, type: 3}
+  - {fileID: 1476446002168438390, guid: 095097a11f0c34c27a9f57974293bf3a, type: 3}
+  - {fileID: 1476446002168438390, guid: 063baf20d8eb47fb7b0d11fc4cdfd06d, type: 3}
+  - {fileID: 1476446002168438390, guid: 755fb74c5ccb428339348812613fe586, type: 3}
+  otherLists: []

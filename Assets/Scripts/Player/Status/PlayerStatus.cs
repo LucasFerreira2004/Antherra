@@ -71,6 +71,11 @@ public sealed class PlayerStatus : MonoBehaviour
         set => baseStatusStrategy.Speed = Mathf.Max(0, value);
     }
 
+    public int BulletNumber
+    {
+        get => baseStatusStrategy.BulletNumber;
+    }
+
     public int BulletDamage
     {
         get => baseStatusStrategy.BulletDamage + modifiedStatus.BulletDamage;
@@ -79,7 +84,7 @@ public sealed class PlayerStatus : MonoBehaviour
 
     public float FireRate
     {
-        get => baseStatusStrategy.BulletFireRate + modifiedStatus.BulletFireRate;
+        get => baseStatusStrategy.BulletFireRate * modifiedStatus.BulletFireRate;
         set => baseStatusStrategy.BulletFireRate = Mathf.Max(0.1f, value);
     }
 

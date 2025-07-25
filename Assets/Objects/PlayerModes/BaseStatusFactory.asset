@@ -16,4 +16,6 @@ MonoBehaviour:
   - mode: 0
     statusStrategy: {fileID: 11400000, guid: 11c3a3295963d20ffa2693186334c788, type: 2}
   - mode: 1
+    statusStrategy: {fileID: 11400000, guid: e22321ac50bfac80e9cee55be64d706a, type: 2}
+  - mode: 2
     statusStrategy: {fileID: 11400000, guid: fb738100a49c15aa1804500c0db264d6, type: 2}

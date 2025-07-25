@@ -8,6 +8,7 @@ public class SniperBaseStatus : IBaseStatusStrategy
     [SerializeField] private float bulletFireRate = 1;
     [SerializeField] private float bulletSpeed = 20;
     [SerializeField] private float bulletRange = 10;
+    [SerializeField] private int bulletNumber = 1;
     [SerializeField] private Color characterSpriteColor = Color.white;
 
     public override float Speed
@@ -45,5 +46,9 @@ public class SniperBaseStatus : IBaseStatusStrategy
         get => characterSpriteColor;
         set => characterSpriteColor = value;
     }
-
+    public override int BulletNumber
+    {
+        get => bulletNumber;
+        set => bulletNumber = Mathf.Max(1, value);
+    }
 }
