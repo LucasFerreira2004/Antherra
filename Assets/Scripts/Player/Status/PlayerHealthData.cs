@@ -1,9 +1,9 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Player/Status Data")]
+[CreateAssetMenu(menuName = "PlayerStatus/HealthData")]
 public class PlayerHealthData : ScriptableObject
 {
-     [Header("Standard values")]
+    [Header("Standard values")]
     [SerializeField] private int defaultMaxHealth = 6;
 
     public int CurrentMaxHealth;
@@ -14,5 +14,4 @@ public class PlayerHealthData : ScriptableObject
         CurrentMaxHealth = defaultMaxHealth;
         CurrentHealth = CurrentMaxHealth;
     }
-
 }

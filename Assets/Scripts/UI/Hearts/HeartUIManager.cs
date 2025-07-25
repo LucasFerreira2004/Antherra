@@ -19,11 +19,16 @@ public class HeartUIManager : MonoBehaviour
     private void OnEnable()
     {
         PlayerStatus.OnPlayerDamaged += DrawHearts;
+        PlayerStatus.OnPlayerHealthIncreased += DrawHearts;
+        PlayerStatus.OnPlayerHealed += DrawHearts;
     }
 
     private void OnDisable()
     {
         PlayerStatus.OnPlayerDamaged -= DrawHearts;
+        PlayerStatus.OnPlayerHealthIncreased -= DrawHearts;
+        PlayerStatus.OnPlayerHealed -= DrawHearts;
+
     }
 
 
