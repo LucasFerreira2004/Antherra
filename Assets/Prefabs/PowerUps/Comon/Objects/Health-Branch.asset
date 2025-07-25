@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c203aef8de2cc41609555546fa8d4ef2, type: 3}
-  m_Name: Helaht-Patroclo
+  m_Name: Health-Branch
   m_EditorClassIdentifier: 
-  powerUpName: Patroclo's Necklance
-  powerUpDescription: Hearts (+1)
-  icon: {fileID: 3091584776675602801, guid: 1459b355d8a644897a13fb33af0578e4, type: 3}
+  powerUpName: Branch From Mecenas
+  powerUpDescription: Hearts (+1) Life +2()
+  icon: {fileID: 2952482376178455717, guid: 8d5aac11ff606813094d020d6e551444, type: 3}
   speedMultiplier: 1
   bulletDamageIncrease: 0
   fireRateMultiplier: 1
   bulletSpeedMultiplier: 1
   bulletRangeIncrease: 0
-  MaxHealthIncrese: 1
-  HealthIncrese: 1
+  MaxHealthIncrese: 2
+  HealthIncrese: 2

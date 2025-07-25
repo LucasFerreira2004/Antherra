@@ -13,4 +13,13 @@ MonoBehaviour:
   m_Name: ComunISpawntemsList
   m_EditorClassIdentifier: 
   itemsPrefabs:
-  - {fileID: 6523068403491375541, guid: 9bcb41b4b99bd5dcbacb7e4b1489f612, type: 3}
+  - {fileID: 1476446002168438390, guid: fab87b0f8137b74b684ebd89381cdea4, type: 3}
+  - {fileID: 1476446002168438390, guid: 82412ef2c73fcc1c0a72a5076f494c05, type: 3}
+  - {fileID: 1476446002168438390, guid: 14e7a5c110192d98ab5cf3f8de9cbc90, type: 3}
+  - {fileID: 1476446002168438390, guid: a65d58bea0447ea1f85a797d19e061b0, type: 3}
+  - {fileID: 1476446002168438390, guid: 4bcaa04c4750dcd08baddb0711b55cf6, type: 3}
+  - {fileID: 1476446002168438390, guid: 9b18e8429ec29e9de835844a52912ae3, type: 3}
+  - {fileID: 1476446002168438390, guid: 249e5279a5a5d077a98a9b3dc5b43525, type: 3}
+  - {fileID: 1476446002168438390, guid: ba764fd412d0892d1a4a70fc046d4d57, type: 3}
+  - {fileID: 1476446002168438390, guid: 8f3e2c7cb6baad544beeb80f5721b9de, type: 3}
+  otherLists: []
