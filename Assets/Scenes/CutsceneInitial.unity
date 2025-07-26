@@ -166,7 +166,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 264115629}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -48.85, y: -24.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -210,7 +210,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.96981126, g: 0.96981126, b: 0.96981126, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -261,7 +261,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -19.85, y: -7.4, z: -10}
-  m_LocalScale: {x: 1, y: 10, z: 1}
+  m_LocalScale: {x: 0, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -546,19 +546,19 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -2126131953596171495, guid: d9deedc3d29c77e45967ab94a9e8c208, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 798897874}
   - key: {fileID: -5539017467116705329, guid: d9deedc3d29c77e45967ab94a9e8c208, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1361798995}
   - key: {fileID: 4983859866947072153, guid: d9deedc3d29c77e45967ab94a9e8c208, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1694781471}
   - key: {fileID: 5834736427677225386, guid: d9deedc3d29c77e45967ab94a9e8c208, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 264115630}
   - key: {fileID: -4317135060088365527, guid: d9deedc3d29c77e45967ab94a9e8c208, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1223985688}
   - key: {fileID: -1775170289921433537, guid: d9deedc3d29c77e45967ab94a9e8c208, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1815552517}
   - key: {fileID: 995342890217202576, guid: d9deedc3d29c77e45967ab94a9e8c208, type: 2}
-    value: {fileID: 0}
+    value: {fileID: 1796302393}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &969777900
@@ -738,7 +738,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: -170}
+  m_AnchoredPosition: {x: 396, y: -150}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1237758294
@@ -763,7 +763,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.7509433, g: 0.44712654, b: 0, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8867924, g: 0.6681484, b: 0.3530437, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -903,7 +903,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1554,7 +1554,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Nosso protagonista Pel Ado desce o tanque e embarca numa aventura contra
-    criaturas bizarras que atormentavam a paz do seu campo e da sua horta
+    criaturas bizarras que atormentam a paz do seu campo e da sua horta
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3d596bdef0ef88e43953168c45bee0dd, type: 2}
   m_sharedMaterial: {fileID: -6421817163047664846, guid: 3d596bdef0ef88e43953168c45bee0dd, type: 2}
@@ -1563,7 +1563,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1690,17 +1690,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ir para menu
+  m_text: Skip
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0275d1aaf1379b04b8a8f7da8a4d635d, type: 2}
+  m_sharedMaterial: {fileID: 7669236855701788400, guid: 0275d1aaf1379b04b8a8f7da8a4d635d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1717,8 +1717,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1776,5 +1776,5 @@ SceneRoots:
   - {fileID: 483813909}
   - {fileID: 969777900}
   - {fileID: 1679803443}
-  - {fileID: 884901320}
   - {fileID: 264115631}
+  - {fileID: 884901320}
