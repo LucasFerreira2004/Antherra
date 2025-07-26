@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c203aef8de2cc41609555546fa8d4ef2, type: 3}
+  m_Name: FIreRate-Satiro
+  m_EditorClassIdentifier: 
+  powerUpName: Satiro's Tooth
+  powerUpDescription: FireRate (+10%)
+  icon: {fileID: 4027088242758944487, guid: 6f55f97ca8f543c72a96ec6b14ffab2c, type: 3}
+  speedMultiplier: 1
+  bulletDamageIncrease: 0
+  fireRateMultiplier: 1.1
+  bulletSpeedMultiplier: 1
+  bulletRangeIncrease: 0
+  MaxHealthIncrese: 0
+  HealthIncrese: 0

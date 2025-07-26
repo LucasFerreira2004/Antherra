@@ -5,7 +5,7 @@ public class PlayerModifiedStatus : IBaseStatus
 {
     [SerializeField] private float speed = 1; //multiply
     [SerializeField] private int bulletDamage = 0; //sum
-    [SerializeField] private float bulletFireRate = 0; //sum
+    [SerializeField] private float bulletFireRate = 1; //multiply
     [SerializeField] private float bulletSpeed = 1; //multiply
     [SerializeField] private float bulletRange = 0; //sum
 
@@ -13,7 +13,7 @@ public class PlayerModifiedStatus : IBaseStatus
     {
         speed = 1;
         bulletDamage = 0;
-        bulletFireRate = 0;
+        bulletFireRate = 1;
         bulletSpeed = 1;
         bulletRange = 0;
     }

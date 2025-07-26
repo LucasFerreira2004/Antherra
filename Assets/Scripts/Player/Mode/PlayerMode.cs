@@ -1,6 +1,6 @@
 public enum PlayerMode
 {
     standart,
-    sniper, 
-    closeRange
+    shotgun,
+    sniper
 }

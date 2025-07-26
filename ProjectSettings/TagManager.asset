@@ -8,6 +8,8 @@ TagManager:
   - Slime
   - Enemy
   - PlayerSpawnPoint
+  - Wall
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - Water
   - UI
   - UI
-  - 
+  - Wall
   - 
   - 
   - 
