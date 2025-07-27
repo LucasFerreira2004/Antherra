@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c203aef8de2cc41609555546fa8d4ef2, type: 3}
-  m_Name: Damage-Hearts-Agamemnon
+  m_Name: RangeFireRate-Tetis
   m_EditorClassIdentifier: 
-  powerUpName: Agamemnon's Belt
-  powerUpDescription: Damage(+1) Hearts(+1) LIfe(+2)
-  icon: {fileID: -215664898694585508, guid: a35d2c46f7ec0d3d1bcc5dcd4f3ba6e1, type: 3}
+  powerUpName: Tetis' Will
+  powerUpDescription: Range(+1) FireRate(+20%)
+  icon: {fileID: 3091584776675602801, guid: 29b7d79802422e80cb044564672a3f52, type: 3}
   speedMultiplier: 1
-  bulletDamageIncrease: 2
-  fireRateMultiplier: 1
+  bulletDamageIncrease: 0
+  fireRateMultiplier: 1.2
   bulletSpeedMultiplier: 1
-  bulletRangeIncrease: 0
-  MaxHealthIncrese: 2
-  HealthIncrese: 2
+  bulletRangeIncrease: 1
+  MaxHealthIncrese: 0
+  HealthIncrese: 0

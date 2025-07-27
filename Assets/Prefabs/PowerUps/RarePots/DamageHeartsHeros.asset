@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c203aef8de2cc41609555546fa8d4ef2, type: 3}
-  m_Name: Damage-Hearts-Agamemnon
+  m_Name: DamageHeartsHeros
   m_EditorClassIdentifier: 
-  powerUpName: Agamemnon's Belt
-  powerUpDescription: Damage(+1) Hearts(+1) LIfe(+2)
-  icon: {fileID: -215664898694585508, guid: a35d2c46f7ec0d3d1bcc5dcd4f3ba6e1, type: 3}
+  powerUpName: Eros's Plug
+  powerUpDescription: Damage (+2) Hearts(+1)
+  icon: {fileID: 4841216214093879422, guid: 98c2a5b00bc8bf7a68d7b3bb470e1249, type: 3}
   speedMultiplier: 1
   bulletDamageIncrease: 2
   fireRateMultiplier: 1
   bulletSpeedMultiplier: 1
   bulletRangeIncrease: 0
   MaxHealthIncrese: 2
-  HealthIncrese: 2
+  HealthIncrese: 0

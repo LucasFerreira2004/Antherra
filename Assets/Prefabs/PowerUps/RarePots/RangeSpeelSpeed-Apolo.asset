@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c203aef8de2cc41609555546fa8d4ef2, type: 3}
-  m_Name: Damage-Hearts-Agamemnon
+  m_Name: RangeSpeelSpeed-Apolo
   m_EditorClassIdentifier: 
-  powerUpName: Agamemnon's Belt
-  powerUpDescription: Damage(+1) Hearts(+1) LIfe(+2)
-  icon: {fileID: -215664898694585508, guid: a35d2c46f7ec0d3d1bcc5dcd4f3ba6e1, type: 3}
+  powerUpName: Apolo's Will
+  powerUpDescription: Range(+2) SpeelSpeed(+40%)
+  icon: {fileID: 2005674868671660012, guid: 9d46f9c8b7ff14a96b4a2a4cade67ab0, type: 3}
   speedMultiplier: 1
-  bulletDamageIncrease: 2
+  bulletDamageIncrease: 0
   fireRateMultiplier: 1
-  bulletSpeedMultiplier: 1
-  bulletRangeIncrease: 0
-  MaxHealthIncrese: 2
-  HealthIncrese: 2
+  bulletSpeedMultiplier: 1.4
+  bulletRangeIncrease: 2
+  MaxHealthIncrese: 0
+  HealthIncrese: 0
