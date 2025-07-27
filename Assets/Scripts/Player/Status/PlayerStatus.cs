@@ -6,7 +6,14 @@ public sealed class PlayerStatus : MonoBehaviour
 {
     private static int playModeIndex = 0;
     public static Transform PlayerTransform { get; set; }
+
     private IBaseStatusStrategy baseStatusStrategy;
+    private SpriteRenderer spriteRenderer;
+
+    private enum PlayerState { Normal, Invincible }
+    private PlayerState currentState = PlayerState.Normal;
+    private float invincibleTimer = 0f;
+    public const float invincibleDuration = 2f;
 
     [Header("Player Mode")]
     [SerializeField] private List<PlayerMode> playerModes;
@@ -26,15 +33,31 @@ public sealed class PlayerStatus : MonoBehaviour
     private void Awake()
     {
         PlayerTransform = transform;
+        spriteRenderer = GetComponent<SpriteRenderer>();
         baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[0]);
-        GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
+        spriteRenderer.color = baseStatusStrategy.CharacterSpriteColor;
     }
 
-    public void OnChangeMode()
+    private void Update()
     {
-        playModeIndex = (playModeIndex + 1) % playerModes.Count;
-        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[playModeIndex]);
-        GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
+        if (currentState == PlayerState.Invincible)
+        {
+            invincibleTimer -= Time.deltaTime;
+
+            // Pulsa a opacidade com um efeito senoidal
+            float alpha = 0.5f + Mathf.Sin(Time.time * 20f) * 0.25f; // entre 0.25 e 0.75
+            Color c = spriteRenderer.color;
+            c.a = alpha;
+            spriteRenderer.color = c;
+
+            if (invincibleTimer <= 0f)
+            {
+                currentState = PlayerState.Normal;
+                Color resetColor = spriteRenderer.color;
+                resetColor.a = 1f;
+                spriteRenderer.color = resetColor;
+            }
+        }
     }
 
     // Delegações de status base
@@ -80,6 +103,8 @@ public sealed class PlayerStatus : MonoBehaviour
     // tirar atributos de vida de playerStatus e deixar apenas em PlayerHealthData
     public void TakeDamage(int amount)
     {
+        if (currentState == PlayerState.Invincible) return;
+
         healthData.CurrentHealth -= amount;
         OnPlayerDamaged?.Invoke();
 
@@ -87,7 +112,11 @@ public sealed class PlayerStatus : MonoBehaviour
         {
             healthData.CurrentHealth = 0;
             Die();
+            return;
         }
+
+        currentState = PlayerState.Invincible;
+        invincibleTimer = invincibleDuration;
     }
 
     public void Heal(int amount)
@@ -99,7 +128,7 @@ public sealed class PlayerStatus : MonoBehaviour
 
     public void IncreaseMaxHealth(int amount)
     {
-        if (amount == 0) return; 
+        if (amount == 0) return;
         healthData.CurrentMaxHealth += amount;
         OnPlayerHealthIncreased?.Invoke();
     }
@@ -120,6 +149,13 @@ public sealed class PlayerStatus : MonoBehaviour
     {
         get => healthData.CurrentHealth;
         set => healthData.CurrentHealth = Mathf.Clamp(value, 0, healthData.CurrentMaxHealth);
+    }
+
+    public void OnChangeMode()
+    {
+        playModeIndex = (playModeIndex + 1) % playerModes.Count;
+        baseStatusStrategy = baseStatusFactory.GetBaseStatus(playerModes[playModeIndex]);
+        GetComponent<SpriteRenderer>().color = baseStatusStrategy.CharacterSpriteColor;
     }
 
     public List<PlayerMode> PlayerMode => playerModes;

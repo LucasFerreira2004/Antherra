@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0b96239ee5dcf084be36a8c71a7f8a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthStatus: {fileID: 0}
+  healthStatus: {fileID: 571736130042948404, guid: cd36a56cee42091f2888f50a3ff46fa3, type: 3}
   heartPrefab: {fileID: 3803928884588761936, guid: f30bcf54915cf819c99c54c864626247, type: 3}
 --- !u!114 &5643817229815780429
 MonoBehaviour:

@@ -29,22 +29,22 @@ public class SlimeScript : MonoBehaviour, IEnemyTakeDamage
     public Transform FirePoint => firePoint;
 
     [Header("Attributes")]
-    [SerializeField] private float attackCooldown = 2f;
+    [SerializeField] protected float attackCooldown = 2f;
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float maxHealth = 10f;
     [SerializeField] private float currentHealth;
 
 
-    private float timer = 0f;
+    protected float timer = 0f;
 
-    private void Start()
+    protected virtual void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
         selfTransform = transform;
         currentHealth = maxHealth;
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         movementStrategy?.Move(this);
         attackStrategy?.Attack(this);
