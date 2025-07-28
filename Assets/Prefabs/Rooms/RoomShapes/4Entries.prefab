@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7627228869171783480}
   - component: {fileID: 2915093778952205892}
   - component: {fileID: 9150814689750679290}
-  m_Layer: 4
+  m_Layer: 7
   m_Name: UndedWalls-Room (1)
   m_TagString: Wall
   m_Icon: {fileID: 0}

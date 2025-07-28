@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 132955942157220705}
   - component: {fileID: 4389624543901429279}
   - component: {fileID: 4024581608495325135}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: UndedFloorDetais (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1183,7 +1183,7 @@ GameObject:
   - component: {fileID: 4247060666681995260}
   - component: {fileID: 4438823467744884148}
   - component: {fileID: 3597895188100211090}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: UndedBaseFloor-Room (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10696,9 +10696,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2756319565661120991}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 2Entries-TopLeft-Blocked
-  m_TagString: Wall
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
