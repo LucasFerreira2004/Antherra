@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 2371104465998315073}
   - component: {fileID: 88274118954238622}
   - component: {fileID: -2899470081311418419}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: FireSlime
   m_TagString: Enemy
   m_Icon: {fileID: 0}

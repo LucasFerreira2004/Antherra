@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1944346062730253995}
   - component: {fileID: 6838114638585827641}
   - component: {fileID: 6310016892365433284}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: MidOrc
   m_TagString: Enemy
   m_Icon: {fileID: 0}
