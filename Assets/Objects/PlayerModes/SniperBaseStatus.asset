@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42ffb781b7a60b465ae914ddd2024b10, type: 3}
   m_Name: SniperBaseStatus
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 6
   bulletDamage: 2
   bulletFireRate: 1
   bulletSpeed: 20
   bulletRange: 12
+  bulletNumber: 1
   characterSpriteColor: {r: 0, g: 0.41859254, b: 0.56557393, a: 1}
