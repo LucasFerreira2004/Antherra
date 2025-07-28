@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21fea266dc4db9fc98adad0da664f3a, type: 3}
+  m_Name: RarePotsList
+  m_EditorClassIdentifier: 
+  itemsPrefabs:
+  - {fileID: 1476446002168438390, guid: 6c17be89beed9820e8c2f28a2cf0312b, type: 3}
+  - {fileID: 1476446002168438390, guid: 8545157884eb96bef8f4af4f64daad33, type: 3}
+  - {fileID: 1476446002168438390, guid: 8dfd08f40cc510d90987cb7e702c8d0f, type: 3}
+  - {fileID: 1476446002168438390, guid: 5fe9d5684cd540ba7860d03fe8d71bcd, type: 3}
+  - {fileID: 1476446002168438390, guid: a2c04fc11d12eb07a884328cf1b3ba7c, type: 3}
+  - {fileID: 1476446002168438390, guid: e624c48767c5d2805820b3a75990b642, type: 3}
+  - {fileID: 1476446002168438390, guid: 2e296b5ebae62a09c8d2ced4139e63e1, type: 3}
+  - {fileID: 1476446002168438390, guid: 9d279e1d4865a4c73a65f63eb5f23c7e, type: 3}
+  otherLists: []
