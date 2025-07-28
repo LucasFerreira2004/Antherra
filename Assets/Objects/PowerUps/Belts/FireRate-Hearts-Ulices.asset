@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: FireRate-Hearts-Ulices
   m_EditorClassIdentifier: 
   powerUpName: Ulices' Belt
-  powerUpDescription: Speed (+10%) Hearts(+1)
+  powerUpDescription: Speel Speed (+20%) Hearts(+1) Life(+2)
   icon: {fileID: -2507418935330783864, guid: ee1ca5a87827a01c5863ad2fed78b35f, type: 3}
-  speedMultiplier: 1.1
+  speedMultiplier: 1
   bulletDamageIncrease: 0
   fireRateMultiplier: 1
-  bulletSpeedMultiplier: 1
+  bulletSpeedMultiplier: 1.2
   bulletRangeIncrease: 0
-  MaxHealthIncrese: 1
-  HealthIncrese: 0
+  MaxHealthIncrese: 2
+  HealthIncrese: 2

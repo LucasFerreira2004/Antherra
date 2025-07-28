@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c203aef8de2cc41609555546fa8d4ef2, type: 3}
+  m_Name: DamageFireRateHearts-Ares
+  m_EditorClassIdentifier: 
+  powerUpName: Ares' Rage
+  powerUpDescription: Damage(+2) FIreRate(+50%) Hearts(-1)
+  icon: {fileID: -215664898694585508, guid: db9de06eb2c7d7717aa98d2f82b71a76, type: 3}
+  speedMultiplier: 1
+  bulletDamageIncrease: 2
+  fireRateMultiplier: 1.5
+  bulletSpeedMultiplier: 1
+  bulletRangeIncrease: 0
+  MaxHealthIncrese: -2
+  HealthIncrese: 0

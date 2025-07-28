@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c203aef8de2cc41609555546fa8d4ef2, type: 3}
-  m_Name: Damage-Leafs
+  m_Name: HeartsDamage-Aphrodite
   m_EditorClassIdentifier: 
-  powerUpName: Leafs From Mecenas
-  powerUpDescription: Damage (+1)
-  icon: {fileID: -1761832914240646678, guid: 97cc255648ee8bbbca0a806fdf705a49, type: 3}
+  powerUpName: Aphrodite's Mercy
+  powerUpDescription: Hearts(+2) Lifel(+2)
+  icon: {fileID: 6704952292392886021, guid: 03b8f5359bc7378139cafd95d7ca6868, type: 3}
   speedMultiplier: 1
-  bulletDamageIncrease: 1
+  bulletDamageIncrease: 0
   fireRateMultiplier: 1
   bulletSpeedMultiplier: 1
   bulletRangeIncrease: 0
-  MaxHealthIncrese: 0
-  HealthIncrese: 0
+  MaxHealthIncrese: 4
+  HealthIncrese: 4
