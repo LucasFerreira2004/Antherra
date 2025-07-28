@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a46fff1f723723cb8b8d969eeb835002, type: 3}
   m_Name: StandartBaseStatus
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 6
   bulletDamage: 2
   bulletFireRate: 3
   bulletSpeed: 10
   bulletRange: 5
+  bulletNumber: 1
   characterSpriteColor: {r: 0.95686275, g: 0.6666667, b: 0.21960784, a: 1}
