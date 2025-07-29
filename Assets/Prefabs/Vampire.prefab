@@ -244,7 +244,7 @@ MonoBehaviour:
   fireballPrefab: {fileID: 4185671821515940733, guid: c2dfeca713f2ea870b01e95358ba9da8, type: 3}
   firePoint: {fileID: 571955906551977650}
   rigidBody: {fileID: 7670137834636663097}
-  maxHealth: 10
+  maxHealth: 15
   attackCooldown: 2
   MoveDirection: {x: 0, y: 0}
   LastDirection: {x: 0, y: -1}
