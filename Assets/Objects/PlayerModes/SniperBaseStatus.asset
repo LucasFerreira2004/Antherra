@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SniperBaseStatus
   m_EditorClassIdentifier: 
   speed: 6
-  bulletDamage: 2
+  bulletDamage: 5
   bulletFireRate: 1
   bulletSpeed: 20
   bulletRange: 12
