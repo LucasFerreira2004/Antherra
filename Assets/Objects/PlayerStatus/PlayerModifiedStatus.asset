@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerModifiedStatus
   m_EditorClassIdentifier: 
   speed: 1
-  bulletDamage: 0
-  bulletFireRate: 0
+  bulletDamage: 2
+  bulletFireRate: 1
   bulletSpeed: 1
-  bulletRange: 0
+  bulletRange: 0.1
