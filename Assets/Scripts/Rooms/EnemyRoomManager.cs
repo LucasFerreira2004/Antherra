@@ -31,9 +31,6 @@ public class EnemyRoomManager : MonoBehaviour, IRoomManager
             genericEnemy.OnEnemyDeath += CheckRoomClear;
             activeEnemies.Add(enemy);
         }
-
-        // Inicia música de batalha
-        AudioController.Instance?.SetBattleSong();
     }
 
 
@@ -43,8 +40,6 @@ public class EnemyRoomManager : MonoBehaviour, IRoomManager
         if (activeEnemies.Count == 0)
         {
             EnableEntrances(true);
-            // Retorna à música normal
-            AudioController.Instance?.RemoveBattleSong();
         }
     }
 
