@@ -1,0 +1,4160 @@
+fileFormatVersion: 2
+guid: 67c4267b8ab99545a958196ec7fd728d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 91773173947404037
+    second: Ground_moss_no_shadow_0
+  - first:
+      213: 3595839572891944339
+    second: Ground_moss_no_shadow_1
+  - first:
+      213: 2125208590887036239
+    second: Ground_moss_no_shadow_2
+  - first:
+      213: 1731417949092057421
+    second: Ground_moss_no_shadow_3
+  - first:
+      213: 7849184688566122975
+    second: Ground_moss_no_shadow_4
+  - first:
+      213: -715200160666903837
+    second: Ground_moss_no_shadow_5
+  - first:
+      213: -256401480484037987
+    second: Ground_moss_no_shadow_6
+  - first:
+      213: 7528001547376297375
+    second: Ground_moss_no_shadow_7
+  - first:
+      213: -8132453364762600159
+    second: Ground_moss_no_shadow_8
+  - first:
+      213: 8480832455663006033
+    second: Ground_moss_no_shadow_9
+  - first:
+      213: -6140328682192530585
+    second: Ground_moss_no_shadow_10
+  - first:
+      213: 2040142680125327766
+    second: Ground_moss_no_shadow_11
+  - first:
+      213: 1852924843123468865
+    second: Ground_moss_no_shadow_12
+  - first:
+      213: 2994999251363341733
+    second: Ground_moss_no_shadow_13
+  - first:
+      213: -3886814762534575520
+    second: Ground_moss_no_shadow_14
+  - first:
+      213: 7757681434571460123
+    second: Ground_moss_no_shadow_15
+  - first:
+      213: -6785438583121914721
+    second: Ground_moss_no_shadow_16
+  - first:
+      213: -1618010947277792103
+    second: Ground_moss_no_shadow_17
+  - first:
+      213: 6545725266015948913
+    second: Ground_moss_no_shadow_18
+  - first:
+      213: -6311784846635393718
+    second: Ground_moss_no_shadow_19
+  - first:
+      213: -3638232292544503649
+    second: Ground_moss_no_shadow_20
+  - first:
+      213: -896533884390825797
+    second: Ground_moss_no_shadow_21
+  - first:
+      213: -4245486056069871972
+    second: Ground_moss_no_shadow_22
+  - first:
+      213: 7934439586365694586
+    second: Ground_moss_no_shadow_23
+  - first:
+      213: 362322215789657504
+    second: Ground_moss_no_shadow_24
+  - first:
+      213: 3854815394917499349
+    second: Ground_moss_no_shadow_25
+  - first:
+      213: -8211436227509122209
+    second: Ground_moss_no_shadow_26
+  - first:
+      213: -6187100257669757711
+    second: Ground_moss_no_shadow_27
+  - first:
+      213: 6497256538576710044
+    second: Ground_moss_no_shadow_28
+  - first:
+      213: -3472532076314432484
+    second: Ground_moss_no_shadow_29
+  - first:
+      213: 5669243716082738746
+    second: Ground_moss_no_shadow_30
+  - first:
+      213: -6099048937083909663
+    second: Ground_moss_no_shadow_31
+  - first:
+      213: 8597202303269710506
+    second: Ground_moss_no_shadow_32
+  - first:
+      213: 530185228756718322
+    second: Ground_moss_no_shadow_33
+  - first:
+      213: -6969415159364440450
+    second: Ground_moss_no_shadow_34
+  - first:
+      213: -1890361817228844019
+    second: Ground_moss_no_shadow_35
+  - first:
+      213: 5947087063645007503
+    second: Ground_moss_no_shadow_36
+  - first:
+      213: -7373233177980164950
+    second: Ground_moss_no_shadow_37
+  - first:
+      213: 2093835313322267945
+    second: Ground_moss_no_shadow_38
+  - first:
+      213: -5088787428882307809
+    second: Ground_moss_no_shadow_39
+  - first:
+      213: 7939020726264579481
+    second: Ground_moss_no_shadow_40
+  - first:
+      213: 1638374594060114202
+    second: Ground_moss_no_shadow_41
+  - first:
+      213: -1016813696865319909
+    second: Ground_moss_no_shadow_42
+  - first:
+      213: 7167122478585920994
+    second: Ground_moss_no_shadow_43
+  - first:
+      213: -6963794498008528353
+    second: Ground_moss_no_shadow_44
+  - first:
+      213: -8318110803147341430
+    second: Ground_moss_no_shadow_45
+  - first:
+      213: -7724386927553294006
+    second: Ground_moss_no_shadow_46
+  - first:
+      213: -2399663058867166197
+    second: Ground_moss_no_shadow_47
+  - first:
+      213: 963727000348834922
+    second: Ground_moss_no_shadow_48
+  - first:
+      213: 6300873988193936966
+    second: Ground_moss_no_shadow_49
+  - first:
+      213: -5071565819860217454
+    second: Ground_moss_no_shadow_50
+  - first:
+      213: 5663267646579574500
+    second: Ground_moss_no_shadow_51
+  - first:
+      213: 8855101548496908221
+    second: Ground_moss_no_shadow_52
+  - first:
+      213: 3376740340586988447
+    second: Ground_moss_no_shadow_53
+  - first:
+      213: 9093863121307173739
+    second: Ground_moss_no_shadow_54
+  - first:
+      213: 2925747688823222651
+    second: Ground_moss_no_shadow_55
+  - first:
+      213: 1178736015863865979
+    second: Ground_moss_no_shadow_56
+  - first:
+      213: -1888626233192903369
+    second: Ground_moss_no_shadow_57
+  - first:
+      213: -6904213915760753878
+    second: Ground_moss_no_shadow_58
+  - first:
+      213: -2894725058792970146
+    second: Ground_moss_no_shadow_59
+  - first:
+      213: -7303235377858114146
+    second: Ground_moss_no_shadow_60
+  - first:
+      213: -2672257846899904765
+    second: Ground_moss_no_shadow_61
+  - first:
+      213: 9070560318583871232
+    second: Ground_moss_no_shadow_62
+  - first:
+      213: 323932294170423501
+    second: Ground_moss_no_shadow_63
+  - first:
+      213: -1466792754949050965
+    second: Ground_moss_no_shadow_64
+  - first:
+      213: 5141958809919967776
+    second: Ground_moss_no_shadow_65
+  - first:
+      213: -5113505031861491228
+    second: Ground_moss_no_shadow_66
+  - first:
+      213: 1750767515650128750
+    second: Ground_moss_no_shadow_67
+  - first:
+      213: -3016986318394118591
+    second: Ground_moss_no_shadow_68
+  - first:
+      213: -4529923929309605565
+    second: Ground_moss_no_shadow_69
+  - first:
+      213: 6357168610763290772
+    second: Ground_moss_no_shadow_70
+  - first:
+      213: 1594276941025621118
+    second: Ground_moss_no_shadow_71
+  - first:
+      213: 1414885791094301159
+    second: Ground_moss_no_shadow_72
+  - first:
+      213: 1526229803237905296
+    second: Ground_moss_no_shadow_73
+  - first:
+      213: 7665188940082076085
+    second: Ground_moss_no_shadow_74
+  - first:
+      213: 5816849624885574999
+    second: Ground_moss_no_shadow_75
+  - first:
+      213: 3218091789463460281
+    second: Ground_moss_no_shadow_76
+  - first:
+      213: 1531463346524857064
+    second: Ground_moss_no_shadow_77
+  - first:
+      213: -1522415008856474831
+    second: Ground_moss_no_shadow_78
+  - first:
+      213: 4883368616851763593
+    second: Ground_moss_no_shadow_79
+  - first:
+      213: 4232807624354900020
+    second: Ground_moss_no_shadow_80
+  - first:
+      213: -711527859173744152
+    second: Ground_moss_no_shadow_81
+  - first:
+      213: -4271783855212583044
+    second: Ground_moss_no_shadow_82
+  - first:
+      213: 5067934439974468917
+    second: Ground_moss_no_shadow_83
+  - first:
+      213: -8428435248708093233
+    second: Ground_moss_no_shadow_84
+  - first:
+      213: -4827243522584447485
+    second: Ground_moss_no_shadow_85
+  - first:
+      213: 4294301026179144147
+    second: Ground_moss_no_shadow_86
+  - first:
+      213: 8444966668257558920
+    second: Ground_moss_no_shadow_87
+  - first:
+      213: -4203812276499137281
+    second: Ground_moss_no_shadow_88
+  - first:
+      213: -1433314627795656192
+    second: Ground_moss_no_shadow_89
+  - first:
+      213: 5492241821674363301
+    second: Ground_moss_no_shadow_90
+  - first:
+      213: -7267294715347297111
+    second: Ground_moss_no_shadow_91
+  - first:
+      213: 2279291216927824804
+    second: Ground_moss_no_shadow_92
+  - first:
+      213: 8655731783650733634
+    second: Ground_moss_no_shadow_93
+  - first:
+      213: 992547978948307769
+    second: Ground_moss_no_shadow_94
+  - first:
+      213: 229646852166230482
+    second: Ground_moss_no_shadow_95
+  - first:
+      213: 1461954317964489676
+    second: Ground_moss_no_shadow_96
+  - first:
+      213: -6980572252693582954
+    second: Ground_moss_no_shadow_97
+  - first:
+      213: 8409369225121249757
+    second: Ground_moss_no_shadow_98
+  - first:
+      213: 5675554946725095347
+    second: Ground_moss_no_shadow_99
+  - first:
+      213: -4040793713218837952
+    second: Ground_moss_no_shadow_100
+  - first:
+      213: -4778836896698949037
+    second: Ground_moss_no_shadow_101
+  - first:
+      213: -1440137820863998344
+    second: Ground_moss_no_shadow_102
+  - first:
+      213: -519793149612488103
+    second: Ground_moss_no_shadow_103
+  - first:
+      213: 48722788260774172
+    second: Ground_moss_no_shadow_104
+  - first:
+      213: -76234555119021174
+    second: Ground_moss_no_shadow_105
+  - first:
+      213: -3847685225775141754
+    second: Ground_moss_no_shadow_106
+  - first:
+      213: 7348591447616734350
+    second: Ground_moss_no_shadow_107
+  - first:
+      213: -7509861052686045486
+    second: Ground_moss_no_shadow_108
+  - first:
+      213: 7918932548665678500
+    second: Ground_moss_no_shadow_109
+  - first:
+      213: 8951618126129454565
+    second: Ground_moss_no_shadow_110
+  - first:
+      213: -4683438719747802507
+    second: Ground_moss_no_shadow_111
+  - first:
+      213: 4057252736344562146
+    second: Ground_moss_no_shadow_112
+  - first:
+      213: -3796170298666857016
+    second: Ground_moss_no_shadow_113
+  - first:
+      213: 6405234795165846239
+    second: Ground_moss_no_shadow_114
+  - first:
+      213: -8934085473910201469
+    second: Ground_moss_no_shadow_115
+  - first:
+      213: 6491131642305404455
+    second: Ground_moss_no_shadow_116
+  - first:
+      213: 265492513247326779
+    second: Ground_moss_no_shadow_117
+  - first:
+      213: -8924765914913875719
+    second: Ground_moss_no_shadow_118
+  - first:
+      213: 1935502649016827860
+    second: Ground_moss_no_shadow_119
+  - first:
+      213: 7288485368100265509
+    second: Ground_moss_no_shadow_120
+  - first:
+      213: 6190884791246370776
+    second: Ground_moss_no_shadow_121
+  - first:
+      213: -4678858513583015049
+    second: Ground_moss_no_shadow_122
+  - first:
+      213: 1571799505083610837
+    second: Ground_moss_no_shadow_123
+  - first:
+      213: -2680201750963695060
+    second: Ground_moss_no_shadow_124
+  - first:
+      213: 4220989467968449533
+    second: Ground_moss_no_shadow_125
+  - first:
+      213: -3909235639646122820
+    second: Ground_moss_no_shadow_126
+  - first:
+      213: 9131533110610915608
+    second: Ground_moss_no_shadow_127
+  - first:
+      213: -4616438143781060796
+    second: Ground_moss_no_shadow_128
+  - first:
+      213: -5232489938677864071
+    second: Ground_moss_no_shadow_129
+  - first:
+      213: -6467529342156524840
+    second: Ground_moss_no_shadow_130
+  - first:
+      213: 2531778286308450948
+    second: Ground_moss_no_shadow_131
+  - first:
+      213: 6017336220136772016
+    second: Ground_moss_no_shadow_132
+  - first:
+      213: -1311763468907391003
+    second: Ground_moss_no_shadow_133
+  - first:
+      213: 3585042730601433668
+    second: Ground_moss_no_shadow_134
+  - first:
+      213: -1326494775379234626
+    second: Ground_moss_no_shadow_135
+  - first:
+      213: -8113357486495058065
+    second: Ground_moss_no_shadow_136
+  - first:
+      213: -158266831574681870
+    second: Ground_moss_no_shadow_137
+  - first:
+      213: 6833722990666965331
+    second: Ground_moss_no_shadow_138
+  - first:
+      213: 5404341795406620636
+    second: Ground_moss_no_shadow_139
+  - first:
+      213: 1399559475029317081
+    second: Ground_moss_no_shadow_140
+  - first:
+      213: -7477834263517635048
+    second: Ground_moss_no_shadow_141
+  - first:
+      213: -8889359644487308977
+    second: Ground_moss_no_shadow_142
+  - first:
+      213: 7321591312534014656
+    second: Ground_moss_no_shadow_143
+  - first:
+      213: 2673206433689406632
+    second: Ground_moss_no_shadow_144
+  - first:
+      213: -9155633667059677464
+    second: Ground_moss_no_shadow_145
+  - first:
+      213: 641186208182444760
+    second: Ground_moss_no_shadow_146
+  - first:
+      213: 4529464169251992168
+    second: Ground_moss_no_shadow_147
+  - first:
+      213: -7608752045690070771
+    second: Ground_moss_no_shadow_148
+  - first:
+      213: -3006908581686134281
+    second: Ground_moss_no_shadow_149
+  - first:
+      213: -4169500451351056323
+    second: Ground_moss_no_shadow_150
+  - first:
+      213: 2888350609796866723
+    second: Ground_moss_no_shadow_151
+  - first:
+      213: -1590219284507760732
+    second: Ground_moss_no_shadow_152
+  - first:
+      213: -4077535232722618826
+    second: Ground_moss_no_shadow_153
+  - first:
+      213: -6460584299016104630
+    second: Ground_moss_no_shadow_154
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1295
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f8b09273b064100800000000000000
+      internalID: 91773173947404037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1308
+        width: 34
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395448b3a0df6e130800000000000000
+      internalID: 3595839572891944339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1311
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f452e6d14f14e7d10800000000000000
+      internalID: 2125208590887036239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1311
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d411e55837b370810800000000000000
+      internalID: 1731417949092057421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1311
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd93b6233e7edec60800000000000000
+      internalID: 7849184688566122975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1311
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea95204e391316f0800000000000000
+      internalID: -715200160666903837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1231
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a5dd34634117cf0800000000000000
+      internalID: -256401480484037987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1231
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9584f3b585d87860800000000000000
+      internalID: 7528001547376297375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1231
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d15e890c8b32f80800000000000000
+      internalID: -8132453364762600159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1231
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151b56f5f28f1b570800000000000000
+      internalID: 8480832455663006033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1231
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76395cda89b29caa0800000000000000
+      internalID: -6140328682192530585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1167
+        width: 146
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699cbfb55fa005c10800000000000000
+      internalID: 2040142680125327766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1167
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14aeeddd359e6b910800000000000000
+      internalID: 1852924843123468865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1183
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5a21073ff509920800000000000000
+      internalID: 2994999251363341733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1167
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062e16311924f0ac0800000000000000
+      internalID: -3886814762534575520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1180
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e464ca922d8ab60800000000000000
+      internalID: 7757681434571460123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1103
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94d9c73f8745d1a0800000000000000
+      internalID: -6785438583121914721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1087
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c50d4bd9bab89e0800000000000000
+      internalID: -1618010947277792103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1087
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1701e2ed27617da50800000000000000
+      internalID: 6545725266015948913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1097
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d9a9d8f190868a0800000000000000
+      internalID: -6311784846635393718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1111
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90a7809107628dc0800000000000000
+      internalID: -3638232292544503649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1115
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0a8c3ae2fde83f0800000000000000
+      internalID: -896533884390825797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1083
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96c411fce00515c0800000000000000
+      internalID: -4245486056069871972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1071
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72ef1de3cacc1e60800000000000000
+      internalID: 7934439586365694586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1071
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adff56b22a370500800000000000000
+      internalID: 362322215789657504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1055
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1c3c09d2e0f7530800000000000000
+      internalID: 3854815394917499349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1055
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b8b83d14e1b0e80800000000000000
+      internalID: -8211436227509122209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1055
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4cdd7a811032aa0800000000000000
+      internalID: -6187100257669757711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1055
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99e27cd564ea2a50800000000000000
+      internalID: 6497256538576710044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1055
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ce02099761fcfc0800000000000000
+      internalID: -3472532076314432484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1055
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a362a327f133dae40800000000000000
+      internalID: 5669243716082738746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 959
+        width: 60
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9c36d4e43db5ba0800000000000000
+      internalID: -6099048937083909663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 972
+        width: 34
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaaaf84e1f56f4770800000000000000
+      internalID: 8597202303269710506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 975
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2143118a89b5700800000000000000
+      internalID: 530185228756718322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 975
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e2cdd86d9a74f90800000000000000
+      internalID: -6969415159364440450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 975
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04ec1b51f514c5e0800000000000000
+      internalID: -1890361817228844019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 975
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ea1e4ec2c488250800000000000000
+      internalID: 5947087063645007503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 895
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa42e5c5d730da990800000000000000
+      internalID: -7373233177980164950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 895
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9251eb4bf1cce0d10800000000000000
+      internalID: 2093835313322267945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 895
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f152ff38bcef069b0800000000000000
+      internalID: -5088787428882307809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_40
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 895
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995c67da9411d2e60800000000000000
+      internalID: 7939020726264579481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_41
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 895
+        width: 98
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a195af7430dacb610800000000000000
+      internalID: 1638374594060114202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 831
+        width: 146
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14479b745d83e1f0800000000000000
+      internalID: -1016813696865319909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 831
+        width: 66
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edb4d5dbebb67360800000000000000
+      internalID: 7167122478585920994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_44
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 847
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ac161ccc1ab5f90800000000000000
+      internalID: -6963794498008528353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_45
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 831
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a814018bb42209c80800000000000000
+      internalID: -8318110803147341430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_46
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 844
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41d383d3077dc490800000000000000
+      internalID: -7724386927553294006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_47
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 767
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b046893792fa2bed0800000000000000
+      internalID: -2399663058867166197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_48
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 751
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cbe3cc998df5d00800000000000000
+      internalID: 963727000348834922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_49
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 751
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6466cc04283317750800000000000000
+      internalID: 6300873988193936966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_50
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 770
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2911834d1cd2e99b0800000000000000
+      internalID: -5071565819860217454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_51
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 784
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e686565be7f79e40800000000000000
+      internalID: 5663267646579574500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_52
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 805
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf6b2821f3a3ea70800000000000000
+      internalID: 8855101548496908221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_53
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 755
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f934b63f2779cde20800000000000000
+      internalID: 3376740340586988447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_54
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 751
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b630a85d354e33e70800000000000000
+      internalID: 9093863121307173739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_55
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 751
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b717abe85085a9820800000000000000
+      internalID: 2925747688823222651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_56
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 687
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7266854926bb5010800000000000000
+      internalID: 1178736015863865979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_57
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 703
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d8d0182704ac5e0800000000000000
+      internalID: -1888626233192903369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_58
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 703
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2385c1160e4f20a0800000000000000
+      internalID: -6904213915760753878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_59
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 703
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58293c55eed3d7d0800000000000000
+      internalID: -2894725058792970146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_60
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 719
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d83b73e12b5aa90800000000000000
+      internalID: -7303235377858114146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_61
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 655
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fe74f75ab3aead0800000000000000
+      internalID: -2672257846899904765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_62
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 652
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00712f64d8a11ed70800000000000000
+      internalID: 9070560318583871232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_63
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 655
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc03e4d84b6de7400800000000000000
+      internalID: 323932294170423501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 655
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad2522c2c7e4abe0800000000000000
+      internalID: -1466792754949050965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_65
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 652
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02258fa5b48eb5740800000000000000
+      internalID: 5141958809919967776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_66
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 639
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e929ba144e2909b0800000000000000
+      internalID: -5113505031861491228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_67
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 639
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b7e9e87c9fb4810800000000000000
+      internalID: 1750767515650128750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_68
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 639
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ea7e79de28126d0800000000000000
+      internalID: -3016986318394118591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_69
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 607
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34195f5df2a7221c0800000000000000
+      internalID: -4529923929309605565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_70
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 607
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4983fc57b23393850800000000000000
+      internalID: 6357168610763290772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_71
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 607
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74bd675e62002610800000000000000
+      internalID: 1594276941025621118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_72
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 607
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e16cef612fa2a310800000000000000
+      internalID: 1414885791094301159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_73
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 607
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0931c937be14e2510800000000000000
+      internalID: 1526229803237905296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_74
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 604
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b958d5aab8306a60800000000000000
+      internalID: 7665188940082076085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_75
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 591
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d3b233ae999b050800000000000000
+      internalID: 5816849624885574999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_76
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 591
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9129dae65f8ac20800000000000000
+      internalID: 3218091789463460281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_77
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 604
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e22524bcc9d04510800000000000000
+      internalID: 1531463346524857064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_78
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 543
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bf2649d9b4fdae0800000000000000
+      internalID: -1522415008856474831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_79
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 559
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9817db242e535c340800000000000000
+      internalID: 4883368616851763593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_80
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 559
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4382d34ab14fdba30800000000000000
+      internalID: 4232807624354900020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_81
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 559
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1a7229e252026f0800000000000000
+      internalID: -711527859173744152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_82
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 575
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c772ec0773397b4c0800000000000000
+      internalID: -4271783855212583044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_83
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 511
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d75a7a58be45640800000000000000
+      internalID: 5067934439974468917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_84
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 508
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca7f5c0cce280b80800000000000000
+      internalID: -8428435248708093233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_85
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 511
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3067c00979f220db0800000000000000
+      internalID: -4827243522584447485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_86
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 511
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9d008f70c689b30800000000000000
+      internalID: 4294301026179144147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_87
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 508
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8818181017c823570800000000000000
+      internalID: 8444966668257558920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_88
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 495
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcb7dcd10f09a5c0800000000000000
+      internalID: -4203812276499137281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_89
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 495
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0026ed6a0f7db1ce0800000000000000
+      internalID: -1433314627795656192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_90
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 495
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9d17176dc583c40800000000000000
+      internalID: 5492241821674363301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_91
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 463
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac96adc5f1652b90800000000000000
+      internalID: -7267294715347297111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_92
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 463
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab96ac194ba1af10800000000000000
+      internalID: 2279291216927824804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_93
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 463
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e6f8b72365f1870800000000000000
+      internalID: 8655731783650733634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_94
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 463
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93beebbc02d36cd00800000000000000
+      internalID: 992547978948307769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_95
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 463
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1a727689edf2300800000000000000
+      internalID: 229646852166230482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_96
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 447
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc33f18d4b7e94410800000000000000
+      internalID: 1461954317964489676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_97
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 447
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b20455586002f90800000000000000
+      internalID: -6980572252693582954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_98
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 447
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9347861c414b470800000000000000
+      internalID: 8409369225121249757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_99
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 451
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7a2c6572f93ce40800000000000000
+      internalID: 5675554946725095347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_100
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 447
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042a5f0e6873ce7c0800000000000000
+      internalID: -4040793713218837952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_101
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 383
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352aabc69292eadb0800000000000000
+      internalID: -4778836896698949037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_102
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 399
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876dbc7384a930ce0800000000000000
+      internalID: -1440137820863998344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_103
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 399
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a8aa862e259c8f0800000000000000
+      internalID: -519793149612488103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_104
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 399
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1100c62e191da000800000000000000
+      internalID: 48722788260774172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_105
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 415
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a835586731921fef0800000000000000
+      internalID: -76234555119021174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_106
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 351
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c672e4ca64a9ac0800000000000000
+      internalID: -3847685225775141754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_107
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 348
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e844ba2bcf07bf560800000000000000
+      internalID: 7348591447616734350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_108
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 351
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de6b1a592d97c790800000000000000
+      internalID: -7509861052686045486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_109
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 351
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa1f7b5233b5ed60800000000000000
+      internalID: 7918932548665678500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_110
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 348
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edd4ec02498a3c70800000000000000
+      internalID: 8951618126129454565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_111
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 335
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a3f1e5c45110fb0800000000000000
+      internalID: -4683438719747802507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_112
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 335
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e99cc11ed14e4830800000000000000
+      internalID: 4057252736344562146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_113
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 335
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdc211f93b415bc0800000000000000
+      internalID: -3796170298666857016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_114
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 303
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda05dc1c17f3e850800000000000000
+      internalID: 6405234795165846239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_115
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 303
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383ea96a890c30480800000000000000
+      internalID: -8934085473910201469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_116
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 303
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e59e156d1251a50800000000000000
+      internalID: 6491131642305404455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_117
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 303
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32f1aeb8083fa300800000000000000
+      internalID: 265492513247326779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_118
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 303
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f85b029facd42480800000000000000
+      internalID: -8924765914913875719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_119
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 239
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfb97097694cda10800000000000000
+      internalID: 1935502649016827860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_120
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 255
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e9f3483d6e52560800000000000000
+      internalID: 7288485368100265509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_121
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 255
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7bb9bbae07ae550800000000000000
+      internalID: 6190884791246370776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_122
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b7297b8fa511fb0800000000000000
+      internalID: -4678858513583015049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_123
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 271
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6b4a6725720d510800000000000000
+      internalID: 1571799505083610837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_124
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 207
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22dd6335b20ecad0800000000000000
+      internalID: -2680201750963695060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_125
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 204
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbaceeae87f39a30800000000000000
+      internalID: 4220989467968449533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_126
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 207
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc8893d5ea9fb9c0800000000000000
+      internalID: -3909235639646122820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_127
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 207
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8117ea0bbf8b9be70800000000000000
+      internalID: 9131533110610915608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_128
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 204
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fbd5897fd1fefb0800000000000000
+      internalID: -4616438143781060796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_129
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 191
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979ec4aaf167267b0800000000000000
+      internalID: -5232489938677864071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_130
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 191
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2385a6458be36a0800000000000000
+      internalID: -6467529342156524840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_131
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 191
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482667dffeea22320800000000000000
+      internalID: 2531778286308450948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_132
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 159
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b11857396fd18350800000000000000
+      internalID: 6017336220136772016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_133
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 159
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7d076331eabcde0800000000000000
+      internalID: -1311763468907391003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_134
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 159
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a481e7e51a0c130800000000000000
+      internalID: 3585042730601433668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_135
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 159
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0fb15a708579de0800000000000000
+      internalID: -1326494775379234626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_136
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 159
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67b4b93a50976f80800000000000000
+      internalID: -8113357486495058065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_137
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6b34cb729bdcdf0800000000000000
+      internalID: -158266831574681870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_138
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 111
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351ef187ad246de50800000000000000
+      internalID: 6833722990666965331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_139
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 111
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd72200ca34100b40800000000000000
+      internalID: 5404341795406620636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_140
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 111
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d597276deb3c6310800000000000000
+      internalID: 1399559475029317081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_141
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 127
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e59c94b55693890800000000000000
+      internalID: -7477834263517635048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_142
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 63
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4924ad4086a2a480800000000000000
+      internalID: -8889359644487308977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_143
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 60
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca0d2ed1848b9560800000000000000
+      internalID: 7321591312534014656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_144
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 63
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac88539613291520800000000000000
+      internalID: 2673206433689406632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_145
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 63
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e60d4d30b7a0f080800000000000000
+      internalID: -9155633667059677464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_146
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 60
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2289d8573f5e800800000000000000
+      internalID: 641186208182444760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_147
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 47
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862ff1fe9a3ebde30800000000000000
+      internalID: 4529464169251992168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_148
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 47
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09dd9cc358486690800000000000000
+      internalID: -7608752045690070771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_149
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 47
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9368483905546d0800000000000000
+      internalID: -3006908581686134281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_150
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30b3623e65f226c0800000000000000
+      internalID: -4169500451351056323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_151
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 15
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2a9b3939b751820800000000000000
+      internalID: 2888350609796866723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_152
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a760ff6cf76ee9e0800000000000000
+      internalID: -1590219284507760732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_153
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 15
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636bd6e3f4fa967c0800000000000000
+      internalID: -4077535232722618826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground_moss_no_shadow_154
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 15
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45dda74fc46756a0800000000000000
+      internalID: -6460584299016104630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ground_moss_no_shadow_0: 91773173947404037
+      Ground_moss_no_shadow_1: 3595839572891944339
+      Ground_moss_no_shadow_10: -6140328682192530585
+      Ground_moss_no_shadow_100: -4040793713218837952
+      Ground_moss_no_shadow_101: -4778836896698949037
+      Ground_moss_no_shadow_102: -1440137820863998344
+      Ground_moss_no_shadow_103: -519793149612488103
+      Ground_moss_no_shadow_104: 48722788260774172
+      Ground_moss_no_shadow_105: -76234555119021174
+      Ground_moss_no_shadow_106: -3847685225775141754
+      Ground_moss_no_shadow_107: 7348591447616734350
+      Ground_moss_no_shadow_108: -7509861052686045486
+      Ground_moss_no_shadow_109: 7918932548665678500
+      Ground_moss_no_shadow_11: 2040142680125327766
+      Ground_moss_no_shadow_110: 8951618126129454565
+      Ground_moss_no_shadow_111: -4683438719747802507
+      Ground_moss_no_shadow_112: 4057252736344562146
+      Ground_moss_no_shadow_113: -3796170298666857016
+      Ground_moss_no_shadow_114: 6405234795165846239
+      Ground_moss_no_shadow_115: -8934085473910201469
+      Ground_moss_no_shadow_116: 6491131642305404455
+      Ground_moss_no_shadow_117: 265492513247326779
+      Ground_moss_no_shadow_118: -8924765914913875719
+      Ground_moss_no_shadow_119: 1935502649016827860
+      Ground_moss_no_shadow_12: 1852924843123468865
+      Ground_moss_no_shadow_120: 7288485368100265509
+      Ground_moss_no_shadow_121: 6190884791246370776
+      Ground_moss_no_shadow_122: -4678858513583015049
+      Ground_moss_no_shadow_123: 1571799505083610837
+      Ground_moss_no_shadow_124: -2680201750963695060
+      Ground_moss_no_shadow_125: 4220989467968449533
+      Ground_moss_no_shadow_126: -3909235639646122820
+      Ground_moss_no_shadow_127: 9131533110610915608
+      Ground_moss_no_shadow_128: -4616438143781060796
+      Ground_moss_no_shadow_129: -5232489938677864071
+      Ground_moss_no_shadow_13: 2994999251363341733
+      Ground_moss_no_shadow_130: -6467529342156524840
+      Ground_moss_no_shadow_131: 2531778286308450948
+      Ground_moss_no_shadow_132: 6017336220136772016
+      Ground_moss_no_shadow_133: -1311763468907391003
+      Ground_moss_no_shadow_134: 3585042730601433668
+      Ground_moss_no_shadow_135: -1326494775379234626
+      Ground_moss_no_shadow_136: -8113357486495058065
+      Ground_moss_no_shadow_137: -158266831574681870
+      Ground_moss_no_shadow_138: 6833722990666965331
+      Ground_moss_no_shadow_139: 5404341795406620636
+      Ground_moss_no_shadow_14: -3886814762534575520
+      Ground_moss_no_shadow_140: 1399559475029317081
+      Ground_moss_no_shadow_141: -7477834263517635048
+      Ground_moss_no_shadow_142: -8889359644487308977
+      Ground_moss_no_shadow_143: 7321591312534014656
+      Ground_moss_no_shadow_144: 2673206433689406632
+      Ground_moss_no_shadow_145: -9155633667059677464
+      Ground_moss_no_shadow_146: 641186208182444760
+      Ground_moss_no_shadow_147: 4529464169251992168
+      Ground_moss_no_shadow_148: -7608752045690070771
+      Ground_moss_no_shadow_149: -3006908581686134281
+      Ground_moss_no_shadow_15: 7757681434571460123
+      Ground_moss_no_shadow_150: -4169500451351056323
+      Ground_moss_no_shadow_151: 2888350609796866723
+      Ground_moss_no_shadow_152: -1590219284507760732
+      Ground_moss_no_shadow_153: -4077535232722618826
+      Ground_moss_no_shadow_154: -6460584299016104630
+      Ground_moss_no_shadow_16: -6785438583121914721
+      Ground_moss_no_shadow_17: -1618010947277792103
+      Ground_moss_no_shadow_18: 6545725266015948913
+      Ground_moss_no_shadow_19: -6311784846635393718
+      Ground_moss_no_shadow_2: 2125208590887036239
+      Ground_moss_no_shadow_20: -3638232292544503649
+      Ground_moss_no_shadow_21: -896533884390825797
+      Ground_moss_no_shadow_22: -4245486056069871972
+      Ground_moss_no_shadow_23: 7934439586365694586
+      Ground_moss_no_shadow_24: 362322215789657504
+      Ground_moss_no_shadow_25: 3854815394917499349
+      Ground_moss_no_shadow_26: -8211436227509122209
+      Ground_moss_no_shadow_27: -6187100257669757711
+      Ground_moss_no_shadow_28: 6497256538576710044
+      Ground_moss_no_shadow_29: -3472532076314432484
+      Ground_moss_no_shadow_3: 1731417949092057421
+      Ground_moss_no_shadow_30: 5669243716082738746
+      Ground_moss_no_shadow_31: -6099048937083909663
+      Ground_moss_no_shadow_32: 8597202303269710506
+      Ground_moss_no_shadow_33: 530185228756718322
+      Ground_moss_no_shadow_34: -6969415159364440450
+      Ground_moss_no_shadow_35: -1890361817228844019
+      Ground_moss_no_shadow_36: 5947087063645007503
+      Ground_moss_no_shadow_37: -7373233177980164950
+      Ground_moss_no_shadow_38: 2093835313322267945
+      Ground_moss_no_shadow_39: -5088787428882307809
+      Ground_moss_no_shadow_4: 7849184688566122975
+      Ground_moss_no_shadow_40: 7939020726264579481
+      Ground_moss_no_shadow_41: 1638374594060114202
+      Ground_moss_no_shadow_42: -1016813696865319909
+      Ground_moss_no_shadow_43: 7167122478585920994
+      Ground_moss_no_shadow_44: -6963794498008528353
+      Ground_moss_no_shadow_45: -8318110803147341430
+      Ground_moss_no_shadow_46: -7724386927553294006
+      Ground_moss_no_shadow_47: -2399663058867166197
+      Ground_moss_no_shadow_48: 963727000348834922
+      Ground_moss_no_shadow_49: 6300873988193936966
+      Ground_moss_no_shadow_5: -715200160666903837
+      Ground_moss_no_shadow_50: -5071565819860217454
+      Ground_moss_no_shadow_51: 5663267646579574500
+      Ground_moss_no_shadow_52: 8855101548496908221
+      Ground_moss_no_shadow_53: 3376740340586988447
+      Ground_moss_no_shadow_54: 9093863121307173739
+      Ground_moss_no_shadow_55: 2925747688823222651
+      Ground_moss_no_shadow_56: 1178736015863865979
+      Ground_moss_no_shadow_57: -1888626233192903369
+      Ground_moss_no_shadow_58: -6904213915760753878
+      Ground_moss_no_shadow_59: -2894725058792970146
+      Ground_moss_no_shadow_6: -256401480484037987
+      Ground_moss_no_shadow_60: -7303235377858114146
+      Ground_moss_no_shadow_61: -2672257846899904765
+      Ground_moss_no_shadow_62: 9070560318583871232
+      Ground_moss_no_shadow_63: 323932294170423501
+      Ground_moss_no_shadow_64: -1466792754949050965
+      Ground_moss_no_shadow_65: 5141958809919967776
+      Ground_moss_no_shadow_66: -5113505031861491228
+      Ground_moss_no_shadow_67: 1750767515650128750
+      Ground_moss_no_shadow_68: -3016986318394118591
+      Ground_moss_no_shadow_69: -4529923929309605565
+      Ground_moss_no_shadow_7: 7528001547376297375
+      Ground_moss_no_shadow_70: 6357168610763290772
+      Ground_moss_no_shadow_71: 1594276941025621118
+      Ground_moss_no_shadow_72: 1414885791094301159
+      Ground_moss_no_shadow_73: 1526229803237905296
+      Ground_moss_no_shadow_74: 7665188940082076085
+      Ground_moss_no_shadow_75: 5816849624885574999
+      Ground_moss_no_shadow_76: 3218091789463460281
+      Ground_moss_no_shadow_77: 1531463346524857064
+      Ground_moss_no_shadow_78: -1522415008856474831
+      Ground_moss_no_shadow_79: 4883368616851763593
+      Ground_moss_no_shadow_8: -8132453364762600159
+      Ground_moss_no_shadow_80: 4232807624354900020
+      Ground_moss_no_shadow_81: -711527859173744152
+      Ground_moss_no_shadow_82: -4271783855212583044
+      Ground_moss_no_shadow_83: 5067934439974468917
+      Ground_moss_no_shadow_84: -8428435248708093233
+      Ground_moss_no_shadow_85: -4827243522584447485
+      Ground_moss_no_shadow_86: 4294301026179144147
+      Ground_moss_no_shadow_87: 8444966668257558920
+      Ground_moss_no_shadow_88: -4203812276499137281
+      Ground_moss_no_shadow_89: -1433314627795656192
+      Ground_moss_no_shadow_9: 8480832455663006033
+      Ground_moss_no_shadow_90: 5492241821674363301
+      Ground_moss_no_shadow_91: -7267294715347297111
+      Ground_moss_no_shadow_92: 2279291216927824804
+      Ground_moss_no_shadow_93: 8655731783650733634
+      Ground_moss_no_shadow_94: 992547978948307769
+      Ground_moss_no_shadow_95: 229646852166230482
+      Ground_moss_no_shadow_96: 1461954317964489676
+      Ground_moss_no_shadow_97: -6980572252693582954
+      Ground_moss_no_shadow_98: 8409369225121249757
+      Ground_moss_no_shadow_99: 5675554946725095347
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

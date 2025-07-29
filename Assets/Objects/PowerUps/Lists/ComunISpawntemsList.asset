@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21fea266dc4db9fc98adad0da664f3a, type: 3}
+  m_Name: ComunISpawntemsList
+  m_EditorClassIdentifier: 
+  itemsPrefabs:
+  - {fileID: 1476446002168438390, guid: fab87b0f8137b74b684ebd89381cdea4, type: 3}
+  - {fileID: 1476446002168438390, guid: 82412ef2c73fcc1c0a72a5076f494c05, type: 3}
+  - {fileID: 1476446002168438390, guid: 14e7a5c110192d98ab5cf3f8de9cbc90, type: 3}
+  - {fileID: 1476446002168438390, guid: a65d58bea0447ea1f85a797d19e061b0, type: 3}
+  - {fileID: 1476446002168438390, guid: 4bcaa04c4750dcd08baddb0711b55cf6, type: 3}
+  - {fileID: 1476446002168438390, guid: 9b18e8429ec29e9de835844a52912ae3, type: 3}
+  - {fileID: 1476446002168438390, guid: 249e5279a5a5d077a98a9b3dc5b43525, type: 3}
+  - {fileID: 1476446002168438390, guid: ba764fd412d0892d1a4a70fc046d4d57, type: 3}
+  - {fileID: 1476446002168438390, guid: 8f3e2c7cb6baad544beeb80f5721b9de, type: 3}
+  otherLists: []
