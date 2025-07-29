@@ -12,3 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 216d3f5dd9460754e8d7d2285ccc9e91, type: 3}
   m_Name: CommonOrcMovement
   m_EditorClassIdentifier: 
+  moveSpeed: 3
+  detectionRadius: 15
+  smoothTime: 0.1
+  smoothVelocity: {x: 0, y: 0}
+  smoothedDirection: {x: 0, y: 0}
+  obstacleCheckDistance: 0.5

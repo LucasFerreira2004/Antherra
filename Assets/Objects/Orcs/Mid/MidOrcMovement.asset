@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: MidOrcMovement
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  detectionRadius: 5
+  detectionRadius: 15
   smoothTime: 0.1
   smoothVelocity: {x: 0, y: 0}
   smoothedDirection: {x: 0, y: 0}
+  obstacleCheckDistance: 0.5
