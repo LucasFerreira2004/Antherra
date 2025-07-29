@@ -345,6 +345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelName: Level2
+  useSpecialTransition: 0
 --- !u!4 &1135132928
 Transform:
   m_ObjectHideFlags: 0
@@ -661,7 +662,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aperte o SHIFT esquerdo para poder usar
+  m_text: Aperte o LSHIFT para ALTERNAR entre modos
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4d9ee54ebcbd76b40b5fbabdb894707d, type: 2}
   m_sharedMaterial: {fileID: -5831164370454972340, guid: 4d9ee54ebcbd76b40b5fbabdb894707d, type: 2}
