@@ -2012,7 +2012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3969249197021957661, guid: e90dba7a2e62d3afaae23e4756330d21, type: 3}
       propertyPath: nextLevelName
-      value: Win
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6176870072314963778, guid: e90dba7a2e62d3afaae23e4756330d21, type: 3}
       propertyPath: m_Name

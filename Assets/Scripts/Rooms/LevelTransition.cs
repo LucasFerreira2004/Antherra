@@ -1,8 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelTransition : MonoBehaviour
 {
     [SerializeField] private string nextLevelName;
+    public bool useSpecialTransition;
 
     void OnValidate()
     {
@@ -15,10 +17,16 @@ public class LevelTransition : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Player"))
-            return;
+        if (!collision.CompareTag("Player")) return;
 
-        Debug.Log($"Iniciando transição para {nextLevelName}");
+        // Verifica automaticamente se é o Level3
+        if (SceneManager.GetActiveScene().name == "Level3")
+        {
+            SceneManager.LoadScene("Win");
+            return;
+        }
+
+        // Comportamento normal para outros níveis
         TransitionManager.Instance.GoToTransition(nextLevelName);
     }
 }
