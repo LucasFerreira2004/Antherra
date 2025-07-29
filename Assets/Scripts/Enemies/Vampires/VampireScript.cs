@@ -122,12 +122,13 @@ public class VampireScript : MonoBehaviour, IEnemyTakeDamage
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
-        animator?.SetTrigger("Hurt");
 
         if (currentHealth <= 0f)
         {
             animator?.SetTrigger("Death");
+            return;
         }
+        animator?.SetTrigger("Hurt");
     }
 
     public void Die()

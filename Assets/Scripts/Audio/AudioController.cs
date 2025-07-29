@@ -27,6 +27,7 @@ public class AudioController : MonoBehaviour
 
     void Start()
     {
+        currentSongIndex = Random.Range(0, songs.Length);
         PlaySong(currentSongIndex);
     }
 
