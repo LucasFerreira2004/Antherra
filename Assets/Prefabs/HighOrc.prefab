@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1152523973546934821}
   - component: {fileID: 1944346062730253995}
   - component: {fileID: 206836164831160094}
-  - component: {fileID: -3296224998580601482}
+  - component: {fileID: 2414220289159100576}
   m_Layer: 8
   m_Name: HighOrc
   m_TagString: Enemy
@@ -208,7 +208,7 @@ MonoBehaviour:
   currentHealth: 0
   MoveDirection: {x: 0, y: 0}
   LastDirection: {x: 0, y: -1}
---- !u!58 &-3296224998580601482
+--- !u!58 &2414220289159100576
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -242,5 +242,5 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.25, y: -0.2}
   m_Radius: 0.3
