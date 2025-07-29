@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CutsceneEvents : MonoBehaviour
 {
+    public string nextLevelName;
     public void LoadNextLevel()
     {
         Debug.Log("Cutscene terminada - Carregando próximo nível");
@@ -15,7 +16,7 @@ public class CutsceneEvents : MonoBehaviour
         {
             // Debug.LogError("TransitionManager.Instance está nulo!");
             // Fallback: carrega direto se o TransitionManager falhar
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Level2");
+            UnityEngine.SceneManagement.SceneManager.LoadScene(nextLevelName);
         }
     }
 }

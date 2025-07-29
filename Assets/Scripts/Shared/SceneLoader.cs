@@ -10,7 +10,7 @@ public static class SceneLoader {
 
     public static void LoadNewGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Level1");
     }
     public static void LoadNextLevel()
     {

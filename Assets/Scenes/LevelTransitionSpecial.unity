@@ -131,8 +131,9 @@ GameObject:
   - component: {fileID: 469125976}
   - component: {fileID: 469125975}
   - component: {fileID: 469125977}
+  - component: {fileID: 469125978}
   m_Layer: 5
-  m_Name: CharacterGreen
+  m_Name: CharacterBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -177,7 +178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6261695712044422165, guid: f203364b14bf6e84ba760f0a70b8799c, type: 3}
+  m_Sprite: {fileID: 4523164548371138484, guid: 14e10be95c6338f4dad08f46dcf4d110, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -217,6 +218,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!320 &469125978
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469125973}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: d6b7f3cfbec33014c82dcab0ce0562f2, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &617971653
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335b387fe29459240afe0feec5a272c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelName: Level2
+  nextLevelName: Level3
 --- !u!4 &1135132928
 Transform:
   m_ObjectHideFlags: 0
