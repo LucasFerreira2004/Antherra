@@ -9,7 +9,7 @@ public class CutsceneManager : MonoBehaviour
     public string nextSceneName = "MainMenu";
     public Button skipButton;
     
-    private bool hasEnded = false; // Flag para controle
+    private bool hasEnded = false;
 
     void Start()
     {
