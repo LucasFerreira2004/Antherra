@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pelAdo-blue_0: 4523164548371138484
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
