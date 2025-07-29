@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1944346062730253995}
   - component: {fileID: 206836164831160094}
   - component: {fileID: -3296224998580601482}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: HighOrc
   m_TagString: Enemy
   m_Icon: {fileID: 0}

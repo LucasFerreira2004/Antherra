@@ -27,6 +27,7 @@ public class SlimeScript : MonoBehaviour, IEnemyTakeDamage
     public float MoveSpeed => moveSpeed;
     public GameObject FireballPrefab => fireballPrefab;
     public Transform FirePoint => firePoint;
+    public bool IsBlocked = false;
 
     [Header("Attributes")]
     [SerializeField] protected float attackCooldown = 2f;
@@ -75,6 +76,16 @@ public class SlimeScript : MonoBehaviour, IEnemyTakeDamage
         }
 
         animator?.SetTrigger("Hurt");
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        IsBlocked = true;
+    }
+
+    private void OnOnCollisionExit2D(Collision2D collision)
+    {
+        IsBlocked = false;
     }
 
     public void Die()

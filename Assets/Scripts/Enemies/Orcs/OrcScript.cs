@@ -80,6 +80,7 @@ public class OrcScript : MonoBehaviour, IEnemyTakeDamage
 
         SetState(OrcState.Waiting);
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

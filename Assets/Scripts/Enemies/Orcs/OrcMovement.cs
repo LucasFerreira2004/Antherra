@@ -9,6 +9,7 @@ public class OrcMovement : ScriptableObject, IOrcMovement
     [SerializeField] private float smoothTime = 0.1f;
     [SerializeField] private Vector2 smoothVelocity;
     [SerializeField] private Vector2 smoothedDirection;
+    [SerializeField] private float obstacleCheckDistance = 0.5f;
 
     public float GetDistanceRadius()
     {
@@ -19,8 +20,15 @@ public class OrcMovement : ScriptableObject, IOrcMovement
     {
         if (context.State != OrcState.Moving) return;
 
-        context.MoveDirection = (context.Player.position - context.transform.position).normalized;
-        context.LastDirection = context.MoveDirection;
+        Vector2 desiredDirection = (context.Player.position - context.transform.position).normalized;
+
+        if (IsPathBlocked(context, desiredDirection))
+        {
+            desiredDirection = Vector2.zero; // para completamente
+        }
+
+        context.MoveDirection = desiredDirection;
+        context.LastDirection = desiredDirection;
 
         ApplyMovement(context);
         Animate(context);
@@ -30,6 +38,24 @@ public class OrcMovement : ScriptableObject, IOrcMovement
     {
         Vector2 newPos = context.Rigidbody.position + context.MoveDirection * moveSpeed * Time.deltaTime;
         context.Rigidbody.MovePosition(newPos);
+    }
+
+    private bool IsPathBlocked(OrcScript context, Vector2 direction)
+    {
+        Vector2 origin = (Vector2)context.transform.position;
+        float radius = 0.3f;
+
+        RaycastHit2D hit = Physics2D.CircleCast(
+            origin,
+            radius,
+            direction,
+            obstacleCheckDistance,
+            LayerMask.GetMask("Wall") // <- Filtro aplicado aqui!
+        );
+
+        Debug.DrawRay(origin, direction * obstacleCheckDistance, Color.yellow);
+
+        return hit.collider != null;
     }
 
     private void Animate(OrcScript context)

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1277788305908874133}
   - component: {fileID: -3729534174336365091}
   - component: {fileID: -7073244757436354886}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: WaterSlime
   m_TagString: Enemy
   m_Icon: {fileID: 0}
