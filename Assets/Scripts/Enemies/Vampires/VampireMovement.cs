@@ -33,12 +33,10 @@ public class NewMonoBehaviourScript : ScriptableObject, IVampireMovement
 
                 if (hit.collider != null)
                 {
-                    // Parede bloqueando, calcula direção alternativa
-
+                    // Parede bloqueando, tenta direção alternativa
                     Vector2 around = (Vector2)context.Player.position + toPlayer.normalized * 2f;
                     Vector2 altDir = (around - (Vector2)context.transform.position).normalized;
 
-                    // Testa se direção alternativa está livre
                     hit = Physics2D.Raycast(context.transform.position, altDir, 0.5f, LayerMask.GetMask("Wall"));
                     if (hit.collider == null)
                     {
@@ -47,8 +45,8 @@ public class NewMonoBehaviourScript : ScriptableObject, IVampireMovement
                     }
                     else
                     {
-                        // Se as duas direções bloqueadas, apenas tenta fugir direto (vai bater na parede)
-                        direction = fleeDir;
+                        // Todas as direções bloqueadas, vai para o player
+                        direction = toPlayer.normalized;
                     }
                 }
                 else
@@ -67,15 +65,15 @@ public class NewMonoBehaviourScript : ScriptableObject, IVampireMovement
                 }
                 else
                 {
-                    // Direção alternativa bloqueada, resetar para recalcular
+                    // Direção alternativa bloqueada, volta a atacar
                     alternateFleeDirection = null;
-                    direction = -toPlayer.normalized;
+                    direction = toPlayer.normalized;
                 }
             }
         }
         else
         {
-            // Não está perto demais, zera direção alternativa e vai em direção ao player
+            // Distância segura, persegue o player
             alternateFleeDirection = null;
             direction = toPlayer.normalized;
         }
@@ -88,7 +86,6 @@ public class NewMonoBehaviourScript : ScriptableObject, IVampireMovement
 
         Animate(context);
     }
-
     private void Animate(VampireScript context)
     {
         context.Animator.SetFloat("MoveX", context.LastDirection.x);
