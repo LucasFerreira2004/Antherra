@@ -2,15 +2,34 @@ using UnityEngine;
 
 public class TransitionManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static TransitionManager Instance;
+
+    public string nextLevelName;
+
+    void Awake()
     {
-        
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Permite persistir entre cenas
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GoToTransition(string nextLevel)
     {
-        
+        nextLevelName = nextLevel;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("LevelTransition");
+    }
+
+    public void LoadNextLevel()
+    {
+        if (!string.IsNullOrEmpty(nextLevelName))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(nextLevelName);
+        }
     }
 }
