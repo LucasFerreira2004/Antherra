@@ -125,12 +125,12 @@ TextureImporter:
       name: wasd_0
       rect:
         serializedVersion: 2
-        x: 36
+        x: 138
         y: 253
-        width: 464
-        height: 247
+        width: 153
+        height: 145
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: wasd_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 55
-        width: 168
-        height: 193
+        x: 14
+        y: 104
+        width: 154
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,11 +170,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 173
-        y: 31
+        y: 101
         width: 155
-        height: 216
+        height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: wasd_3
       rect:
         serializedVersion: 2
-        x: 323
-        y: 2
-        width: 171
-        height: 246
+        x: 334
+        y: 103
+        width: 152
+        height: 145
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bd3e5cf868a5b404fad267a056a27fbf
     internalID: 0
     vertices: []
     indices: 
@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wasd_0: -2262122895464096801
+      wasd_1: -7122173533431488337
+      wasd_2: 1471743797466021535
+      wasd_3: 7459822484115615111
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
