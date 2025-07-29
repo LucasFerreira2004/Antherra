@@ -164,9 +164,10 @@ MonoBehaviour:
   fireballPrefab: {fileID: 4185671821515940733, guid: fbac448e6b6d8042ca1b2fd1a60a2fbe, type: 3}
   firePoint: {fileID: 6909180868173048794}
   selfTransform: {fileID: 0}
+  IsBlocked: 0
   attackCooldown: 2
   moveSpeed: 2
-  maxHealth: 4
+  maxHealth: 10
   currentHealth: 0
 --- !u!58 &88274118954238622
 CircleCollider2D:
