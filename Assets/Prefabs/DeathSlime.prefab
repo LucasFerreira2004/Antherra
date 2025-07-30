@@ -206,7 +206,7 @@ MonoBehaviour:
   firePoint: {fileID: 5962924926477251970}
   selfTransform: {fileID: 0}
   IsBlocked: 0
-  attackCooldown: 1
+  attackCooldown: 2
   moveSpeed: 2
   maxHealth: 100
   currentHealth: 0

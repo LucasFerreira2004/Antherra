@@ -16,6 +16,6 @@ MonoBehaviour:
   bulletDamage: 1
   bulletFireRate: 1
   bulletSpeed: 8
-  bulletRange: 2
+  bulletRange: 3
   bulletNumber: 3
   characterSpriteColor: {r: 0.4530157, g: 1, b: 0.30920696, a: 1}

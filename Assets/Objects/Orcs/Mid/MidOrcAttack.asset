@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfa228d72526e0d8f853238e09a23863, type: 3}
   m_Name: MidOrcAttack
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 3
